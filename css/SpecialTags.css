@@ -1,4 +1,4 @@
-.message-group:not(.compact) .avatar-large[style*="312782599439515650"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="312782599439515650"] ~ .member-inner .member-username .member-username-inner::after{content:"Holy Knights Leader";background:none;color:var(--main-color);border-radius:11px;border: 2px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;-webkit-filter: hue-rotate(360deg) invert();animation: hue-rotate 1.5s linear infinite;}
+.message-group:not(.compact) .avatar-large[style*="312782599439515650"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="312782599439515650"] ~ .member-inner .member-username .member-username-inner::after{content:"The Clever One";background:none;color:var(--main-color);border-radius:11px;border: 2px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;-webkit-filter: hue-rotate(360deg) invert();animation: hue-rotate 1.5s linear infinite;}
 
 .message-group:not(.compact) .avatar-large[style*="236701839888744449"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="236701839888744449"] ~ .member-inner .member-username .member-username-inner::after{content:"Big Daddy";background:none;color:var(--main-color);border-radius:11px;border: 2px solid #672382;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;-webkit-filter: hue-rotate(360deg) invert();animation: hue-rotate 1.5s linear infinite;}
 
@@ -10,9 +10,28 @@
 
 .message-group:not(.compact) .avatar-large[style*="220643828963606534"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="220643828963606534"] ~ .member-inner .member-username .member-username-inner::after{content:"Lil Sis";background:#FF00FF;color:#fff;border-radius:3px;border: 1px solid transparent;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
+.message-group:not(.compact) .avatar-large[style*="218048901167579137"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="218048901167579137"] ~ .member-inner .member-username .member-username-inner::after{content:"Organization XIII";background:#000000;color:#fff;border-radius:3px;border: 1px solid transparent;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
+
 .message-group:not(.compact) .avatar-large[style*="312782599439515650"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://i.imgur.com/PF3ZVW2.gif);
+    background-size: 25px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 0px;
+    left: -3px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px !important;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: -28px;
+    
+    .message-group:not(.compact) .avatar-large[style*="218048901167579137"] ~ .comment .message h2 span.username-wrapper::before{
+    content: "`";
+    background-image: url(https://i.imgur.com/5vzMzlw.gif);
     background-size: 25px;
     background-position: 0px 0px;
     background-repeat: no-repeat;
