@@ -31,6 +31,7 @@
     position: relative;
     margin-left: -28px;
 }
+
 /* Sonicsora's Pinkamena */    
 
 .message-group:not(.compact) .avatar-large[style*="218048901167579137"] ~ .comment .message h2 span.username-wrapper::before{
