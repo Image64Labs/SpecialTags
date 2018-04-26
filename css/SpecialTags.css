@@ -12,6 +12,8 @@
 
 .message-group:not(.compact) .avatar-large[style*="218048901167579137"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="218048901167579137"] ~ .member-inner .member-username .member-username-inner::after{content:"Organization XIII";background:#000000;color:#fff;border-radius:3px;border: 1px solid transparent;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
 
+.message-group:not(.compact) .avatar-large[style*="133978858457268224"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="133978858457268224"] ~ .member-inner .member-username .member-username-inner::after{content:"Shal Dynasty";background:#0026FF;color:#fff;border-radius:3px;border: 1px solid transparent;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 3px #000;}
+
 /* Image64Labs Triforce */
 
 .message-group:not(.compact) .avatar-large[style*="312782599439515650"] ~ .comment .message h2 span.username-wrapper::before{
