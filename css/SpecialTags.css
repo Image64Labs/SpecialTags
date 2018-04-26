@@ -15,7 +15,7 @@
 /* Image64Labs Triforce */
 
 .message-group:not(.compact) .avatar-large[style*="312782599439515650"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "  ";
+    content: "`";
     background-image: url(https://i.imgur.com/PF3ZVW2.gif);
     background-size: 25px;
     background-position: 0px 0px;
@@ -35,7 +35,7 @@
 /* Sonicsora's Pinkamena */    
 
 .message-group:not(.compact) .avatar-large[style*="218048901167579137"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "  ";
+    content: "`";
     background-image: url(https://i.imgur.com/5vzMzlw.gif);
     background-size: 25px;
     background-position: 0px 0px;
@@ -55,7 +55,7 @@
 /* FATFATTY2BY4's Mini Me */    
 
 .message-group:not(.compact) .avatar-large[style*="236701839888744449"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "  ";
+    content: "`";
     background-image: url(https://i.imgur.com/HCGXYNr.gif);
     background-size: 25px;
     background-position: 0px 0px;
