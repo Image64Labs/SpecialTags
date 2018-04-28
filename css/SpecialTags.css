@@ -74,3 +74,23 @@
     margin-left: -28px;
 }
 
+/* Persona Vabel's Gohan GIF */    
+
+.message-group:not(.compact) .avatar-large[style*="266406986235510786"] ~ .comment .message h2 span.username-wrapper::before{
+    content: "`";
+    background-image: url(https://i.imgur.com/LpYfFbf.gif);
+    background-size: 25px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 0px;
+    left: -3px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 16px !important;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: -28px;
+}
+
