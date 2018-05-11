@@ -53,7 +53,7 @@
 
 /* Image64Labs Triforce */
 
-.message-group:not(.compact) .avatar-large[style*="312782599439515650"] ~ .comment .message h2 span.username-wrapper::before{
+[style*="avatars/312782599439515650"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://i.imgur.com/PF3ZVW2.gif);
     background-size: 25px;
@@ -73,7 +73,7 @@
 
 /* Sonicsora's Pinkamena */    
 
-.message-group:not(.compact) .avatar-large[style*="218048901167579137"] ~ .comment .message h2 span.username-wrapper::before{
+[style*="avatars/218048901167579137"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://i.imgur.com/5vzMzlw.gif);
     background-size: 25px;
@@ -93,7 +93,7 @@
 
 /* FATFATTY2BY4's Mini Me */    
 
-.message-group:not(.compact) .avatar-large[style*="236701839888744449"] ~ .comment .message h2 span.username-wrapper::before{
+[style*="avatars/236701839888744449"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://i.imgur.com/HCGXYNr.gif);
     background-size: 25px;
@@ -113,7 +113,7 @@
 
 /* Image64Labs Girlfriend's Gohan GIF */    
 
-.message-group:not(.compact) .avatar-large[style*="266406986235510786"] ~ .comment .message h2 span.username-wrapper::before{
+[style*="avatars/266406986235510786"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://i.imgur.com/aaYwcZl.gif);
     background-size: 25px;
@@ -133,7 +133,7 @@
 
 /* UncleShal's Logo */    
 
-.message-group:not(.compact) .avatar-large[style*="133978858457268224"] ~ .comment .message h2 span.username-wrapper::before{
+[style*="avatars/133978858457268224"] ~ .comment .message h2 span.username-wrapper::before{
     content: "`";
     background-image: url(https://i.imgur.com/iyTxLhW.gif);
     background-size: 25px;
