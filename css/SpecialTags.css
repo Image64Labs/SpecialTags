@@ -1,11 +1,7 @@
 [data-user-id="312782599439515650"] .username-MwOsla::after,
 [style*="avatars/312782599439515650"] ~ .comment .username-wrapper::after {
-  content: "The Clever One";
-  color: var(--mc, #fff);
-  border: 2px solid #672382;
-  border-radius: 11px;
-  animation: hue-rotate 1.5s linear infinite;
-  filter: hue-rotate(360deg) invert(1); }
+  content: "Holy Knight";
+  background-image: url("https://i.imgur.com/ss30Iac.gif"); }
 
 [data-user-id="236701839888744449"] .username-MwOsla::after,
 [style*="avatars/236701839888744449"] ~ .comment .username-wrapper::after {
