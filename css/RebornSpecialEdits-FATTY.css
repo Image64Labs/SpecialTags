@@ -1,0 +1,122 @@
+.bpm-emote-search-button {
+    width: 210px;
+    height: 25px;
+ }
+
+#memberCount{background:0 0!important;padding:0 0 .9vh!important}
+
+ .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+	  color: rgb(255, 255, 255);
+	  background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+	  background-size: cover !important;
+	  font-weight: 500;
+ }
+
+ .private-channels .channel.selected a {
+    background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+    color: #fff;
+    background-size: cover;
+ }
+
+.private-channels .channel:hover a {
+    background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+    color: #fff;
+	background-size: cover;
+ }
+
+.guilds-wrapper .guilds .friends-icon:after {
+	display:block;
+	width:40px;
+	height:40px;
+	content:'';
+	background-image: url(https://i.imgur.com/233d55Y.gif) !important;
+	background-size:110%;
+	background-repeat:no-repeat;
+	background-position:top center;
+ }
+
+ .message-group h2 {
+     margin: 0;
+     padding: 0;
+     background-color: rgba(33, 33, 33, 0.15);
+     border-radius: 5px;
+ }
+
+ .guilds .guild.unread:not(.selected) .guild-inner {
+     animation: pulseUnread 1.5s infinite linear;
+     transition: all linear .2s;
+     animation-iteration-count: infinite;
+ }
+
+ .guilds-wrapper .guilds .guild:before {
+     display: none;
+ }
+
+ .guilds-wrapper .guilds .guild.selected .guild-inner {
+     box-shadow: 0px 0px 2px 2px var(--mc);
+ }
+
+ .guilds-wrapper .guilds .guild .guild-inner {
+     transition: all linear .2s;
+     box-shadow: 0 0 0 10px 0 #000;
+ }
+
+ .guilds-wrapper .guilds .guild .guild-inner:hover {
+     box-shadow: 0px 0px 10px 1px var(--mc);
+     animation: none;
+ }
+
+ @keyframes pulseUnread{
+			50%{
+			border: 3px solid rgb(6, 76, 239);
+			width: 40px;
+			height: 40px;
+			background-color: #2780e6;}
+			100%{
+			Border: 3px solid rgb(161, 20, 194);
+			width: 40px;
+			height: 40px;
+			background-color: #5914d0;}
+			0%{ Border: 3px solid rgb(161, 20, 194);
+			width: 40px;
+			height: 40px;
+			background-color: #5914d0;
+	 }
+ }
+
+ .message-group .mentioned .message-text:after {
+      background: rgba(84, 6, 232, 0.2);
+      border-left: 4px solid #781afa;
+      border-radius: 2px 0 0 2px;
+      bottom: 0;
+      content: " ";
+      left: -6px;
+      position: absolute;
+      top: 0;
+      width: 2px;
+ }
+
+ #memberCount{background:0 0!important;padding:0 0 .9vh!important}
+
+ .bda-slist .bda-header {
+ overflow:visible !important;
+ border-bottom: none !important;
+ padding-bottom: 0;}
+
+ .ra-serveritem-inner {
+     padding: 10px;
+     align-items: center;
+     display: flex;
+     background: var(--mc);
+     border-radius: 5px;
+     min-width: 400px;
+ }
+
+ .videoBackgroundWrapper-2dCt49 {
+     -ms-flex-item-align: stretch;
+     align-self: stretch;
+     background-color: transparent;
+     padding: 60px 0;
+ }
+
+ .message-group-blocked {display: none;}
