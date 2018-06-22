@@ -55,3 +55,14 @@ padding-bottom: 0;}
     background-color: transparent;
     padding: 60px 0;
 }
+
+.guilds .home-icon {
+  background-image: url('https://intrnl.github.io/BMTRedux/assets/icons/home.svg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
+}
