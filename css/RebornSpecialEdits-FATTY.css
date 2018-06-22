@@ -24,16 +24,16 @@
 	background-size: cover;
  }
 
-.guilds-wrapper .guilds .friends-icon:after {
-	display:block;
-	width:40px;
-	height:40px;
-	content:'';
-	background-image: url(https://i.imgur.com/233d55Y.gif) !important;
-	background-size:110%;
-	background-repeat:no-repeat;
-	background-position:top center;
- }
+.guilds .home-icon {
+  background-image: url('https://i.imgur.com/233d55Y.gif');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
+}
 
  .message-group h2 {
      margin: 0;
