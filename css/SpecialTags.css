@@ -23,7 +23,7 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
   display: inline-block !important;
   content: "Image64Labs Waifu" !important;
-  background-color: #ff84ee; !important;
+  background-color: #ff84ee; !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
   display: inline-block !important;
@@ -32,7 +32,7 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
   display: inline-block !important;
   content: "AHHHHHHHHHHHHHHHHHHHHHHH" !important;
-  background-color: #7f0000; !important;
+  background-color: #7f0000; !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
   display: inline-block !important;
@@ -41,7 +41,7 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]:hover::before {
   display: inline-block !important;
   content: "Modpack King" !important;
-  background-color: #000000; !important;
+  background-color: #000000; !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
   display: inline-block !important;
@@ -50,7 +50,7 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
   display: inline-block !important;
   content: "The Queen of Plants" !important;
-  background-color: #ff00ff; !important;
+  background-color: #ff00ff; !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
   display: inline-block !important;
@@ -59,7 +59,7 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
   display: inline-block !important;
   content: "Organization XIII" !important;
-  background-color: #000000; !important;
+  background-color: #000000; !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
   display: inline-block !important;
@@ -68,4 +68,4 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
   display: inline-block !important;
   content: "Shal Dynasty" !important;
-  background-color: #0026ff; !important;
+  background-color: #0026ff; !important; }
