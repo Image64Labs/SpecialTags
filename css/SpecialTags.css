@@ -1,169 +1,71 @@
-[data-user-id="312782599439515650"] .username-MwOsla::after,
-[style*="avatars/312782599439515650"] ~ .comment .username-wrapper::after {
-  content: "Holy Knight";
-  background-image: url("https://i.imgur.com/ss30Iac.gif"); }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-[data-user-id="236701839888744449"] .username-MwOsla::after,
-[style*="avatars/236701839888744449"] ~ .comment .username-wrapper::after {
-  content: "Big Daddy";
-  color: var(--mc, #fff);
-  border: 2px solid #672382;
-  border-radius: 11px;
-  animation: hue-rotate 1.5s linear infinite;
-  filter: hue-rotate(360deg) invert(1); }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
+  display: inline-block !important;
+  content: "Holy Knight" !important;
+  background-color: #1f75fe !important; }
 
-[data-user-id="266406986235510786"] .username-MwOsla::after,
-[style*="avatars/266406986235510786"] ~ .comment .username-wrapper::after {
-  content: "Image64Labs Waifu";
-  background-color: #ff84ee;
-  color: #fff; }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-[data-user-id="277988285513596928"] .username-MwOsla::after,
-[style*="avatars/277988285513596928"] ~ .comment .username-wrapper::after {
-  content: "AHHHHHHHHHHHHHHHHHHHHHHH";
-  background-color: #7f0000;
-  color: #fff; }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]:hover::before {
+ display: inline-block !important;
+ content: "Big Daddy" !important; 
+ background-color: #0EBFE9 !important; }
 
-[data-user-id="236421510108020736"] .username-MwOsla::after,
-[style*="avatars/236421510108020736"] ~ .comment .username-wrapper::after {
-  content: "Modpack King";
-  background-image: url("https://i.imgur.com/wagxOJt.gif"); }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-[data-user-id="220643828963606534"] .username-MwOsla::after,
-[style*="avatars/220643828963606534"] ~ .comment .username-wrapper::after {
-  content: "The Queen of Plants";
-  background-color: #ff00ff;
-  color: #fff; }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
+  display: inline-block !important;
+  content: "Image64Labs Waifu" !important;
+  background-color: #ff84ee; !important;
+  
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-[data-user-id="218048901167579137"] .username-MwOsla::after,
-[style*="avatars/218048901167579137"] ~ .comment .username-wrapper::after {
-  content: "Organization XIII";
-  background-color: #000000;
-  color: #fff; }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
+  display: inline-block !important;
+  content: "AHHHHHHHHHHHHHHHHHHHHHHH" !important;
+  background-color: #7f0000; !important;
+  
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-[data-user-id="133978858457268224"] .username-MwOsla::after,
-[style*="avatars/133978858457268224"] ~ .comment .username-wrapper::after {
-  content: "Shal Dynasty";
-  background-color: #0026ff;
-  color: #fff; }
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]:hover::before {
+  display: inline-block !important;
+  content: "Modpack King" !important;
+  background-color: #000000; !important;
+  
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-/* Image64Labs Triforce */
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
+  display: inline-block !important;
+  content: "The Queen of Plants" !important;
+  background-color: #ff00ff; !important;
+  
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-[style*="avatars/312782599439515650"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
-    background-image: url(https://i.imgur.com/PF3ZVW2.gif);
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 0px;
-    left: 3px;
-    padding: 1px 10px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 16px !important;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    position: relative;
-    margin-left: -28px;
-}
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
+  display: inline-block !important;
+  content: "Organization XIII" !important;
+  background-color: #000000; !important;
+  
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
-/* Sonicsora's Pinkamena */    
-
-[style*="avatars/218048901167579137"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
-    background-image: url(https://i.imgur.com/5vzMzlw.gif);
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 0px;
-    left: 3px;
-    padding: 1px 10px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 16px !important;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    position: relative;
-    margin-left: -28px;
-}
-
-/* FATFATTY2BY4's Mini Me */    
-
-[style*="avatars/236701839888744449"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
-    background-image: url(https://i.imgur.com/HCGXYNr.gif);
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 0px;
-    left: 3px;
-    padding: 1px 10px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 16px !important;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    position: relative;
-    margin-left: -28px;
-}
-
-/* Image64Labs Girlfriend's Gohan GIF */    
-
-[style*="avatars/266406986235510786"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
-    background-image: url(https://i.imgur.com/aaYwcZl.gif);
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 0px;
-    left: 3px;
-    padding: 1px 10px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 16px !important;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    position: relative;
-    margin-left: -28px;
-}
-
-/* UncleShal's Logo */    
-
-[style*="avatars/133978858457268224"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
-    background-image: url(https://i.imgur.com/iyTxLhW.gif);
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 0px;
-    left: 3px;
-    padding: 1px 10px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 16px !important;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    position: relative;
-    margin-left: -28px;
-}
-
-/* Rosealena's Fluttershy Gif */    
-
-[style*="avatars/220643828963606534"] ~ .comment .message h2 span.username-wrapper::before{
-    content: "`";
-    background-image: url(https://i.imgur.com/4jNpxWo.gif);
-    background-size: 25px;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-    width: 0px;
-    left: 3px;
-    padding: 1px 10px;
-    text-transform: uppercase;
-    vertical-align: bottom;
-    line-height: 16px !important;
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    position: relative;
-    margin-left: -28px;
-}
-
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
+  display: inline-block !important;
+  content: "Shal Dynasty" !important;
+  background-color: #0026ff; !important;
