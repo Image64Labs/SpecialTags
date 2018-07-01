@@ -1,12 +1,3 @@
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
-
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
-  display: inline-block !important;
-  content: "The Loliphile" !important;
-  background-color: #1f75fe !important; }
-
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]::before {
   display: inline-block !important;
   content: "}" !important; }
@@ -15,15 +6,6 @@
  display: inline-block !important;
  content: "Big Daddy" !important; 
  background-color: #0EBFE9 !important; }
-
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
-
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
-  display: inline-block !important;
-  content: "Image64Labs Waifu" !important;
-  background-color: #ff84ee !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
   display: inline-block !important;
