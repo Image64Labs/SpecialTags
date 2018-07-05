@@ -120,3 +120,10 @@
  }
 
  .message-group-blocked {display: none;}
+
+.assetsSmallImage-3_3Bzj {
+    border-radius: 50%;
+    bottom: -4px;
+    position: absolute;
+    right: -4px;
+}
