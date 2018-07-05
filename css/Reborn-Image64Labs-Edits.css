@@ -64,7 +64,7 @@ padding-bottom: 0;}
 }
 
 .home-icon {
-  background-color: var(--hc);
+  background-color: var(--mc);
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
   -webkit-mask-size: 100%;
   -webkit-mask-repeat: no-repeat;
