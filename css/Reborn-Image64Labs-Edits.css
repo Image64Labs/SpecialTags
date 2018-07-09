@@ -1,10 +1,13 @@
+/* BetterPonyMotes Button Fix (Top Right Only!) */
 .bpm-emote-search-button {
     width: 210px;
     height: 25px;
 }
 
+/* Completely Removes Blocked Users Messages */
 .message-group-blocked {display: none;}
 
+/* Flashing Notifications / New Guild Animations */
 .guilds .guild.unread:not(.selected) .guild-inner {
     animation: pulseUnread 1.5s infinite linear;
     transition: all linear .2s;
@@ -35,20 +38,7 @@
     }
 }
 
-.bda-slist .bda-header {
-overflow:visible !important;
-border-bottom: none !important;
-padding-bottom: 0;}
-
-.ra-serveritem-inner {
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    background: var(--mc);
-    border-radius: 5px;
-    min-width: 400px;
-}
-
+/* Video Call Background Transparency */
 .videoBackgroundWrapper-2dCt49 {
     -ms-flex-item-align: stretch;
     align-self: stretch;
@@ -56,6 +46,7 @@ padding-bottom: 0;}
     padding: 60px 0;
 }
 
+/* Rich Presence Small Icon Fix */ 
 .assetsSmallImage-3_3Bzj {
     border-radius: 50%;
     bottom: -4px;
@@ -63,6 +54,7 @@ padding-bottom: 0;}
     right: -4px;
 }
 
+/* Chat Bubbles */
 .message-group .comment {
   background-color: var(--quaternary-color);
   padding: 13px;
@@ -82,6 +74,37 @@ padding-bottom: 0;}
   margin-left: 105%;
 }
 
+/* Home Icon */
 .home-icon {
   background-color: var(--mc) !important;
+}
+
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color:var(--white10);
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 0px 10px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 20px 15px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 25px 16px rgba(89, 54, 149, 0), 0 0 3px 8px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color:#593695;
+}
+
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: var(--rs-streaming-color) !important;
 }
