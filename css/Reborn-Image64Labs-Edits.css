@@ -108,3 +108,17 @@
     animation: streaming-flash 1.5s linear infinite !important;
     border-color: var(--rs-streaming-color) !important;
 }
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+    background: var(--mc) !important;
+}
+
+.ra-serveritem-inner {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    background: var(--mc) !important;
+    border-radius: 5px;
+    min-width: 400px;
+}
