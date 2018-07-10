@@ -40,10 +40,7 @@
 
 /* Video Call Background Transparency */
 .videoBackgroundWrapper-2dCt49 {
-    -ms-flex-item-align: stretch;
-    align-self: stretch;
     background-color: transparent;
-    padding: 60px 0;
 }
 
 /* Rich Presence Small Icon Fix */ 
