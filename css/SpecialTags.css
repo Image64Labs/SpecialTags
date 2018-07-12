@@ -14,16 +14,55 @@
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
+  display: inline-block !important;
+  content: "Image64Labs Waifu" !important;
+  background: url(https://i.imgur.com/8YJ40kx.gif);
+  border: 2px solid #ff84ee;
+  color: #fff;
+  font-size:14px;
+  font-weight: 700;
+  padding: 4px 4px;
+  left: calc(100% - 22px);
+  bottom: -30px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
+  display: inline-block !important;
+  content: "The Queen of Plants" !important;
+  background-color: #ff00ff !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
+  display: inline-block !important;
+  content: "Organization XIII" !important;
+  background-color: #000000 !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
+  display: inline-block !important;
+  content: "Shal Dynasty" !important;
+  background-color: #0026ff !important; }
   
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
   display: inline-block !important;
   content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
-  display: inline-block !important;
-  content: "AHHHHHHHHHHHHHHHHHHHHHHH" !important;
-  background-color: #7f0000 !important; }
-  
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
   display: inline-block !important;
   content: "}" !important; }
@@ -40,33 +79,11 @@
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
-  
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
   display: inline-block !important;
-  content: "The Queen of Plants" !important;
-  background-color: #ff00ff !important; }
-  
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
-
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
-  display: inline-block !important;
-  content: "Organization XIII" !important;
-  background-color: #000000 !important; }
-  
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
-
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
-  display: inline-block !important;
-  content: "Shal Dynasty" !important;
-  background-color: #0026ff !important; }
+  content: "AHHHHHHHHHHHHHHHHHHHHHHH" !important;
+  background-color: #7f0000 !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/231827402102276096"]::before {
   display: inline-block !important;
