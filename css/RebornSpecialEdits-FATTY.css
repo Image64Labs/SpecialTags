@@ -1,8 +1,10 @@
+/* BetterPonyMotes Button Fix (Top Right Only!) */
 .bpm-emote-search-button {
     width: 210px;
     height: 25px;
  }
 
+/* MemberCount Transparency */
 #memberCount{background:0 0!important;padding:0 0 .9vh!important}
 
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
@@ -12,6 +14,7 @@
 	  font-weight: 500;
  }
 
+/* DM Selected Friend Background */
 .private-channels .channel.selected a {
     background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
     color: #fff;
@@ -24,6 +27,7 @@
 	background-size: cover;
  }
 
+/* Home Icon */
 .guilds .home-icon {
   background-image: url('https://i.imgur.com/233d55Y.gif');
   background-size: 100%;
@@ -67,21 +71,21 @@
  }
 
  @keyframes pulseUnread{
-			50%{
-			border: 3px solid rgb(6, 76, 239);
-			width: 40px;
-			height: 40px;
-			background-color: #2780e6;}
-			100%{
-			Border: 3px solid rgb(161, 20, 194);
-			width: 40px;
-			height: 40px;
-			background-color: #5914d0;}
-			0%{ Border: 3px solid rgb(161, 20, 194);
-			width: 40px;
-			height: 40px;
-			background-color: #5914d0;
-	 }
+    50%{
+    border: 3px solid rgb(6, 76, 239);
+    width: 40px;
+    height: 40px;
+    background-color: #2780e6;}
+    100%{
+    Border: 3px solid rgb(161, 20, 194);
+    width: 40px;
+    height: 40px;
+    background-color: #5914d0;}
+    0%{ Border: 3px solid rgb(161, 20, 194);
+    width: 40px;
+    height: 40px;
+    background-color: #5914d0;
+  }
 }
 
 .message-group .mentioned .message-text:after {
@@ -95,8 +99,6 @@
       top: 0;
       width: 2px;
 }
-
-#memberCount{background:0 0!important;padding:0 0 .9vh!important}
 
 .bda-slist .bda-header {
  overflow:visible !important;
