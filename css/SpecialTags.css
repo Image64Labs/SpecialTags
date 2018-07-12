@@ -39,7 +39,15 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
   display: inline-block !important;
   content: "The Queen of Plants" !important;
-  background-color: #ff00ff !important; }
+  background: url(https://i.imgur.com/UxV6iIg.gif);
+  border: 2px solid #ff00ff;
+  color: #fff;
+  font-size:14px;
+  font-weight: 700;
+  padding: 4px 4px;
+  left: calc(100% - 22px);
+  bottom: -30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
   display: inline-block !important;
