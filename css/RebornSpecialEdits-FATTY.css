@@ -5,13 +5,16 @@
  }
 
 /* MemberCount Transparency */
-#memberCount{background:0 0!important;padding:0 0 .9vh!important}
+#memberCount {
+   background:0 0!important;
+   padding:0 0 .9vh!important
+ }
 
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
-	  color: rgb(255, 255, 255);
-	  background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
-	  background-size: cover !important;
-	  font-weight: 500;
+   color: rgb(255, 255, 255);
+   background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+   background-size: cover !important;
+   font-weight: 500;
  }
 
 /* DM Selected Friend Background */
@@ -39,6 +42,7 @@
   display: none;
 }
 
+/* Guild Rainbow Unread */
  .message-group h2 {
      margin: 0;
      padding: 0;
@@ -100,26 +104,15 @@
       width: 2px;
 }
 
-.bda-slist .bda-header {
- overflow:visible !important;
- border-bottom: none !important;
- padding-bottom: 0;}
-
-.ra-serveritem-inner {
-     padding: 10px;
-     align-items: center;
-     display: flex;
-     background: var(--mc);
-     border-radius: 5px;
-     min-width: 400px;
-}
-
+/* Video Call Background Transparency */
 .videoBackgroundWrapper-2dCt49 {
      background-color: transparent;
 }
 
+/* Completely Removes Blocked Users Messages */
 .message-group-blocked {display: none;}
 
+/* Rich Presence Small Icon Fix */
 .assetsSmallImage-3_3Bzj {
     border-radius: 50%;
     bottom: -4px;
@@ -127,21 +120,79 @@
     right: -4px;
 }
 
-.message-group .comment {
-  background-color: var(--quaternary-color);
-  padding: 13px;
-  border-radius: 10px;
-  margin-top: -5px;
-  margin-bottom: 5px;
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color: #593695;
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color: #593695;
 }
 
-.chat .avatar-large:not(.wrapper-2F3Zv8):after {
-  content: ' ';
-  height: 0;
-  width: 0;
-  border: 9px solid transparent;
-  border-right-color: var(--quaternary-color);
-  position: absolute;
-  margin-top: 25%;
-  margin-left: 105%;
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: #593695 !important;
+}
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+    background: var(--mc) !important;
+}
+
+.ra-serveritem-inner {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    background: var(--mc) !important;
+    border-radius: 5px;
+    min-width: 400px;
+}
+
+/* Fancy Text For Sever Name/Category Name/ Role List/ Group DM Name */
+.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-size: 90%;
+}
+
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 12px 0 16px;
+
+}
+
+.membersGroup-v9BXpm {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 90%;
+}
+
+.title-3qD0b- .input-autosize-input, .titleCall-_b9o8P .input-autosize-input {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
 }
