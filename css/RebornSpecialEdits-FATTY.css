@@ -1,0 +1,147 @@
+/* BetterPonyMotes Button Fix (Top Right Only!) */
+.bpm-emote-search-button {
+    width: 210px;
+    height: 25px;
+ }
+
+/* MemberCount Transparency */
+#memberCount{background:0 0!important;padding:0 0 .9vh!important}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+	  color: rgb(255, 255, 255);
+	  background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+	  background-size: cover !important;
+	  font-weight: 500;
+ }
+
+/* DM Selected Friend Background */
+.private-channels .channel.selected a {
+    background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+    color: #fff;
+    background-size: cover;
+ }
+
+.private-channels .channel:hover a {
+    background-image: url(https://i.imgur.com/GWDKxza.jpg) !important;
+    color: #fff;
+	background-size: cover;
+ }
+
+/* Home Icon */
+.guilds .home-icon {
+  background-image: url('https://i.imgur.com/233d55Y.gif');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
+}
+
+ .message-group h2 {
+     margin: 0;
+     padding: 0;
+     background-color: rgba(33, 33, 33, 0.15);
+     border-radius: 5px;
+ }
+
+ .guilds .guild.unread:not(.selected) .guild-inner {
+     animation: pulseUnread 1.5s infinite linear;
+     transition: all linear .2s;
+     animation-iteration-count: infinite;
+ }
+
+ .guilds-wrapper .guilds .guild:before {
+     display: none;
+ }
+
+ .guilds-wrapper .guilds .guild.selected .guild-inner {
+     box-shadow: 0px 0px 2px 2px var(--mc);
+ }
+
+ .guilds-wrapper .guilds .guild .guild-inner {
+     transition: all linear .2s;
+     box-shadow: 0 0 0 10px 0 #000;
+ }
+
+ .guilds-wrapper .guilds .guild .guild-inner:hover {
+     box-shadow: 0px 0px 10px 1px var(--mc);
+     animation: none;
+ }
+
+ @keyframes pulseUnread{
+    50%{
+    border: 3px solid rgb(6, 76, 239);
+    width: 40px;
+    height: 40px;
+    background-color: #2780e6;}
+    100%{
+    Border: 3px solid rgb(161, 20, 194);
+    width: 40px;
+    height: 40px;
+    background-color: #5914d0;}
+    0%{ Border: 3px solid rgb(161, 20, 194);
+    width: 40px;
+    height: 40px;
+    background-color: #5914d0;
+  }
+}
+
+.message-group .mentioned .message-text:after {
+      background: rgba(84, 6, 232, 0.2);
+      border-left: 4px solid #781afa;
+      border-radius: 2px 0 0 2px;
+      bottom: 0;
+      content: " ";
+      left: -6px;
+      position: absolute;
+      top: 0;
+      width: 2px;
+}
+
+.bda-slist .bda-header {
+ overflow:visible !important;
+ border-bottom: none !important;
+ padding-bottom: 0;}
+
+.ra-serveritem-inner {
+     padding: 10px;
+     align-items: center;
+     display: flex;
+     background: var(--mc);
+     border-radius: 5px;
+     min-width: 400px;
+}
+
+.videoBackgroundWrapper-2dCt49 {
+     background-color: transparent;
+}
+
+.message-group-blocked {display: none;}
+
+.assetsSmallImage-3_3Bzj {
+    border-radius: 50%;
+    bottom: -4px;
+    position: absolute;
+    right: -4px;
+}
+
+.message-group .comment {
+  background-color: var(--quaternary-color);
+  padding: 13px;
+  border-radius: 10px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.chat .avatar-large:not(.wrapper-2F3Zv8):after {
+  content: ' ';
+  height: 0;
+  width: 0;
+  border: 9px solid transparent;
+  border-right-color: var(--quaternary-color);
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 105%;
+}
