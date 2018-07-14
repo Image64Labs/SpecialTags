@@ -1,6 +1,13 @@
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
   display: inline-block !important;
-  content: "}" !important; }
+  content: "," !important;
+	background-image: url(https://i.imgur.com/PF3ZVW2.gif);
+	background-size: 22px;
+	background-repeat: no-repeat;
+  left: 22px;
+  padding: 1px 14px;
+  vertical-align: bottom;
+  line-height: 19px !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
   display: inline-block !important;
@@ -17,7 +24,14 @@
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
   display: inline-block !important;
-  content: "}" !important; }
+	content: "," !important;
+	background-image: url(https://i.imgur.com/aaYwcZl.gif);
+	background-size: 22px;
+	background-repeat: no-repeat;
+  left: 22px;
+  padding: 1px 14px;
+  vertical-align: bottom;
+  line-height: 19px !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
   display: inline-block !important;
@@ -33,8 +47,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
+	display: inline-block !important;
+	content: "," !important;
+	background-image: url(https://i.imgur.com/4jNpxWo.gif);
+	background-size: 22px;
+	background-repeat: no-repeat;
+  left: 22px;
+  padding: 1px 14px;
+  vertical-align: bottom;
+  line-height: 19px !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
   display: inline-block !important;
@@ -50,8 +71,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
+	display: inline-block !important;
+	content: "," !important;
+	background-image: url(https://i.imgur.com/5vzMzlw.gif);
+	background-size: 22px;
+	background-repeat: no-repeat;
+  left: 22px;
+  padding: 1px 14px;
+  vertical-align: bottom;
+  line-height: 19px !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
   display: inline-block !important;
@@ -59,17 +87,20 @@
   background-color: #000000 !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
+	display: inline-block !important;
+	content: "," !important;
+	background-image: url(https://i.imgur.com/iyTxLhW.gif);
+	background-size: 22px;
+	background-repeat: no-repeat;
+  left: 22px;
+  padding: 1px 14px;
+  vertical-align: bottom;
+  line-height: 19px !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
   display: inline-block !important;
   content: "Shal Dynasty" !important;
   background-color: #0026ff !important; }
-  
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
   display: inline-block !important;
@@ -87,6 +118,10 @@
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
+
+.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
+  display: inline-block !important;
+  content: "}" !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
   display: inline-block !important;
@@ -149,8 +184,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]::before {
-  display: inline-block !important;
-  content: "}" !important; }
+	display: inline-block !important;
+	content: "," !important;
+	background-image: url(https://i.imgur.com/HCGXYNr.gif);
+	background-size: 22px;
+	background-repeat: no-repeat;
+  left: 22px;
+  padding: 1px 14px;
+  vertical-align: bottom;
+  line-height: 19px !important; }
 
 .avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]:hover::before {
   display: inline-block !important;
