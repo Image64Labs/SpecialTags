@@ -73,8 +73,16 @@
 
 /* Home Icon */
 .home-icon {
-  background-color: var(--mc) !important;
+  background-color: var(--mc);
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
 }
+
+.guilds .home-icon defs,
+.guilds .home-icon g {
+  display: none;
 
 /* Animated Guild List Streaming Border */
 .status-streaming{
