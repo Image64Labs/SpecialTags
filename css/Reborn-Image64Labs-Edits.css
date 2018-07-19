@@ -31,6 +31,36 @@
   font-style: italic;
 }
 
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color: #593695;
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color: #593695;
+}
+
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: #593695 !important;
+}
+
 /* BetterPonyMotes Button Fix (Top Right Only!) */
 .bpm-emote-search-button {
     width: 35px;
@@ -116,36 +146,6 @@
 .guilds .home-icon defs,
 .guilds .home-icon g {
   display: none;
-
-/* Animated Guild List Streaming Border */
-.status-streaming{
-    animation:streaming-flash 1.5s linear infinite;
-}
-.user-popout .header.streaming .username-wrapper .activity strong{
-    color: #593695;
-}
-@keyframes streaming-flash {
-    0% {
-        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
-    }
-    50% {
-        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
-    }
-    100% {
-        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
-    }
-}
-.user-popout .header.streaming~.body,
-.user-popout .header.streaming~.footer{
-    --accent-color: #593695;
-}
-
-[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
-[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
-.root-2sNHUF [class*="streaming"]{
-    animation: streaming-flash 1.5s linear infinite !important;
-    border-color: #593695 !important;
-}
 
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
