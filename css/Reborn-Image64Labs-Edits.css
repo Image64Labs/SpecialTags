@@ -160,3 +160,8 @@
     border-radius: 5px;
     min-width: 400px;
 }
+  
+  /* User Birthday's */
+  .ub-item-inner {
+    background: var(--mc) !important;
+}
