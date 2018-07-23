@@ -172,6 +172,18 @@
 }
 
  /* User Birthday's */
-  .ub-item-inner {
-    background: var(--mc) !important;
+.ub-item-inner {
+  background: var(--mc) !important;
+}
+  
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
 }
