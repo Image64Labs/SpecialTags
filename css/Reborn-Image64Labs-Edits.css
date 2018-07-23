@@ -151,15 +151,6 @@
 .ra-serveritem-inner {
     background: var(--mc) !important;
 }
-
-.ra-serveritem-inner {
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    background: var(--mc) !important;
-    border-radius: 5px;
-    min-width: 400px;
-}
   
   /* User Birthday's */
   .ub-item-inner {
