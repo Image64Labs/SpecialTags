@@ -170,3 +170,8 @@
   font-weight: bold;
   font-style: italic;
 }
+
+ /* User Birthday's */
+  .ub-item-inner {
+    background: var(--mc) !important;
+}
