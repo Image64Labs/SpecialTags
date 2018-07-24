@@ -86,14 +86,6 @@
 /* Completely Removes Blocked Users Messages */
 .message-group-blocked {display: none;}
 
-/* Rich Presence Small Icon Fix */
-.assetsSmallImage-3_3Bzj {
-    border-radius: 50%;
-    bottom: -4px;
-    position: absolute;
-    right: -4px;
-}
-
 /* Animated Guild List Streaming Border */
 .status-streaming{
     animation:streaming-flash 1.5s linear infinite;
