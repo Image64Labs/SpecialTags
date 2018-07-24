@@ -67,6 +67,18 @@
     height: 25px;
 }
 
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
+
 /* Completely Removes Blocked Users Messages */
 .message-group-blocked {display: none;}
 
@@ -147,16 +159,4 @@
 /* User Birthday's */
 .ub-item-inner {
   background: var(--mc) !important;
-}
-  
-/* Bigger Emoji */
-.emoji.jumboable {
-  height: auto;
-  width: 80px;
-  max-height: 100px;
-}
-
-.emoji {
-  min-height: 25px;
-  min-width: 25px;
 }
