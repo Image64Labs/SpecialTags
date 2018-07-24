@@ -150,6 +150,7 @@
 .guilds .home-icon defs,
 .guilds .home-icon g {
   display: none;
+}
 
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
