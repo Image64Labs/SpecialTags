@@ -106,14 +106,6 @@
     background-color: transparent;
 }
 
-/* Rich Presence Small Icon Fix */ 
-.assetsSmallImage-3_3Bzj {
-    border-radius: 50%;
-    bottom: -4px;
-    position: absolute;
-    right: -4px;
-}
-
 /* Chat Bubbles */
 .message-group .comment {
   background-color: var(--quaternary-color);
