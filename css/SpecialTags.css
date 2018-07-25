@@ -1,15 +1,60 @@
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
+@charset "UTF-8";
+.chat .large-3ChYtB:hover {
+  opacity: 1;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: BMTicons;
+  pointer-events: none;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
+  color: #fff;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
+  font-family: Whitney;
+  background-color: #000 !important;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2) !important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  z-index: 3000000;
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  width: auto;
+  opacity: 1;
+  box-sizing: border-box;
+  white-space: nowrap;
+  right: unset;
+  left: calc(100% - 13px);
+  bottom: -6px;
+}
+
+
+
+ /* USER TAGS */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/PF3ZVW2.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
   display: inline-block !important;
   content: "The Loliphile" !important;
   background: url(https://i.imgur.com/z7FebcA.gif);
@@ -22,18 +67,18 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/aaYwcZl.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]:hover::before {
   display: inline-block !important;
   content: "Image64Labs Waifu" !important;
   background: url(https://i.imgur.com/8YJ40kx.gif);
@@ -46,18 +91,18 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/4jNpxWo.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]:hover::before {
   display: inline-block !important;
   content: "The Queen of Plants" !important;
   background: url(https://i.imgur.com/UxV6iIg.gif);
@@ -70,43 +115,43 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/5vzMzlw.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
   display: inline-block !important;
   content: "Organization XIII" !important;
   background-color: #000000 !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/iyTxLhW.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
   display: inline-block !important;
   content: "Shal Dynasty" !important;
   background-color: #0026ff !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
   display: inline-block !important;
   content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]:hover::before {
   display: inline-block !important;
   content: "Modpack King" !important;
   background: url(https://i.imgur.com/ZcZChVB.gif);
@@ -119,20 +164,20 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]::before {
   display: inline-block !important;
   content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/277988285513596928"]:hover::before {
   display: inline-block !important;
   content: "AHHHHHHHHHHHHHHHHHHHHHHH" !important;
   background-color: #7f0000 !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/231827402102276096"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/231827402102276096"]::before {
   display: inline-block !important;
   content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/231827402102276096"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/231827402102276096"]:hover::before {
   display: inline-block !important;
   content: "King of Hell" !important;
   background: url(https://i.imgur.com/wkEHrc0.gif);
@@ -145,11 +190,11 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]::before {
   display: inline-block !important;
   content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
   display: inline-block !important;
   content: "GREEN?" !important;
   background: url(https://i.imgur.com/sZJzzNW.gif);
@@ -164,11 +209,11 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/168274283414421504"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/168274283414421504"]::before {
   display: inline-block !important;
   content: "}" !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/168274283414421504"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/168274283414421504"]:hover::before {
   display: inline-block !important;
   content: "PREMIUM!" !important;
   background: url(https://i.imgur.com/sZJzzNW.gif);
@@ -183,18 +228,18 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/HCGXYNr.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/236701839888744449"]:hover::before {
   display: inline-block !important;
   content: "Big Fox" !important;
   background: url(https://i.imgur.com/sZJzzNW.gif);
@@ -209,18 +254,18 @@
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/334025021645127682"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/334025021645127682"]::before {
   display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/lV9dLWu.gif);
   background-size: 22px;
   background-repeat: no-repeat;
-  left: 22px;
-  padding: 1px 14px;
+  left: 25px;
+  padding: 0px 14px;
   vertical-align: bottom;
   line-height: 19px !important; }
 
-.avatar-large:not(.wrapper-2F3Zv8)[style*="avatars/334025021645127682"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/334025021645127682"]:hover::before {
   display: inline-block !important;
   content: "Little Fox" !important;
   background: url(https://i.imgur.com/sZJzzNW.gif);
