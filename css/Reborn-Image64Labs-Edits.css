@@ -1,3 +1,5 @@
+@import url(https://rawgit.com/squee666/Discord-Themes/master/css/chatbubble.css);
+
 /* Fancy Text For Server Name/Category Name/ Role List/ Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
   font-family: 'Satisfy', cursive;
@@ -116,26 +118,6 @@
 /* Video Call Background Transparency */
 .videoBackgroundWrapper-2dCt49 {
     background-color: transparent;
-}
-
-/* Chat Bubbles */
-.message-group .comment {
-  background-color: var(--quaternary-color);
-  padding: 13px;
-  border-radius: 10px;
-  margin-top: -5px;
-  margin-bottom: 5px;
-}
-
-.chat .avatar-large:not(.wrapper-2F3Zv8):after {
-  content: ' ';
-  height: 0;
-  width: 0;
-  border: 9px solid transparent;
-  border-right-color: var(--quaternary-color);
-  position: absolute;
-  margin-top: 25%;
-  margin-left: 105%;
 }
 
 /* Home Icon */
