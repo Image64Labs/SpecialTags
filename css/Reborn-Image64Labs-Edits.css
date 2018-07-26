@@ -141,3 +141,28 @@
 .ub-item-inner {
   background: var(--mc) !important;
 }
+
+/* Chat Bubbles */
+.messageCozy-2JPAPA:nth-child(1):before {
+    content: ''!important;
+    background: var(--RB);
+    border-radius: 4px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    width: calc(100% - 62px);
+    height: 100%;
+    min-height:10px;
+    z-index: -1;
+    top: 0px;
+    left: 80;
+}
+
+.headerCozyMeta-rdohGq {
+    padding: 0px 5px;
+}
+
+.containerCozy-jafyvG .markup-2BOw-j,
+.containerCozy-B4noqO:not(:empty){
+  padding: 0px 13px;
+}
