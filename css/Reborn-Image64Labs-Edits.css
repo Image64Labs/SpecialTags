@@ -119,18 +119,15 @@
 }
 
 /* Home Icon */
-.home-icon {
-  background-color: var(--mc);
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
-  -webkit-mask-size: 100%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
+.homeIcon-1FoKUJ { 
+    background-color: var(--mc); 
+    -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
+    -webkit-mask-size: 80%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center; 
 }
 
-.guilds .home-icon defs,
-.guilds .home-icon g {
-  display: none;
-}
+.guilds-1q_RqH .homeIcon-1FoKUJ defs,.guilds-1q_RqH .homeIcon-1FoKUJ g {display: none;}
 
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
