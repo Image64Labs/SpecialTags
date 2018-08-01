@@ -83,34 +83,23 @@
 .message-group-blocked {display: none;}
 
 /* Flashing Notifications / New Guild Animations */
-.guilds .guild.unread:not(.selected) .guild-inner {
+.guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:not(.selected) .guildInner-3DSoA4 {
     animation: pulseUnread 1.5s infinite linear;
+    transition: all linear .2s;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:before {
+    display: none;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 {
+    box-shadow: 0px 0px 2px 2px var(--mc);}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
     transition: all linear .2s;
-}
-.guilds-wrapper .guilds .guild:before {
-    display: none;
-}
-.guilds-wrapper .guilds .guild.selected .guild-inner {
-    box-shadow: 0px 0px 2px 2px var(--mc);
-}
-.guilds-wrapper .guilds .guild .guild-inner {
-    transition: all linear .2s;
-    box-shadow: 0 0 0 10px 0 #000;
-}
-.guilds-wrapper .guilds .guild .guild-inner:hover {
+    box-shadow: 0 0 0 10px 0 #000;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:hover {
     box-shadow: 0px 0px 10px 1px var(--mc);
-    animation: none;
-}
+    animation: none;}
 @keyframes pulseUnread{
-    0% {
-         box-shadow: 0 0 1px 1px var(--hc);
-    }
-    50%  {
-        box-shadow: 0 0 2px 3px var(--mc);
-    }
-    100% {
-         box-shadow: 0 0 1px 1px var(--hc);
-    }
+    0% { box-shadow: 0 0 1px 1px var(--hc); }
+    50%  {  box-shadow: 0 0 2px 3px var(--mc);}
+    100% {  box-shadow: 0 0 1px 1px var(--hc); }
 }
 
 /* Video Call Background Transparency */
