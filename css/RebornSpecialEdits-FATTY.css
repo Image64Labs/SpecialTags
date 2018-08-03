@@ -59,9 +59,9 @@
     box-shadow: 0px 0px 10px 1px var(--mc);
     animation: none;}
 @keyframes pulseUnread{
-    0% { box-shadow: 0 0 1px 1px var(--hc); }
-    50%  {  box-shadow: 0 0 2px 3px var(--mc);}
-    100% {  box-shadow: 0 0 1px 1px var(--hc); }
+    0% { box-shadow: 0 0 1px 1px #5914d0; }
+    50%  {  box-shadow: 0 0 2px 3px #2780e6;}
+    100% {  box-shadow: 0 0 1px 1px #5914d0; }
 }
 
 /* Video Call Background Transparency */
