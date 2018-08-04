@@ -80,7 +80,9 @@
 }
 
 /* Completely Removes Blocked Users Messages */
-.message-group-blocked {display: none;}
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX,.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
+    display: none;
+}
 
 /* Flashing Notifications / New Guild Animations */
 .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:not(.selected) .guildInner-3DSoA4 {
