@@ -128,3 +128,14 @@
 .ub-item-inner {
   background: var(--mc) !important;
 }
+
+/* BPM Fix */
+#bpm-sb-container {  border: thin solid var(--mc) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var(--QT) !important;}
+#bpm-sb-close {filter: invert(1) !important;}
+#bpm-sb-tabframe { background-color: transparent !important;}
+#bpm-sb-dragbox { filter: invert(1) !important;}
+#bpm-sb-input { font: 13.3333px Arial !important;color: black !important;}
+.bpm-search-result { border: solid var(--mc) thin !important;}
+#bpm-sb-help { color: white !important;}
+#bpm-sb-options {color: white !important;}
+#bpm-sb-flagtab { color: white !important;}
