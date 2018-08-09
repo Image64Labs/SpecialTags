@@ -40,6 +40,8 @@
   bottom: -6px;
 }
 
+.containerCozyBounded-1rKFAn { overflow: visible; }
+
 
 
  /* USER TAGS */
@@ -62,9 +64,9 @@
   color: #fff;
   font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
+  padding: 2px 2px;
   left: calc(100% - 22px);
-  bottom: -30px;
+  bottom: -32px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
@@ -86,9 +88,9 @@
   color: #fff;
   font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
+  padding: 2px 2px;
   left: calc(100% - 22px);
-  bottom: -30px;
+  bottom: -32px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/220643828963606534"]::before {
@@ -110,7 +112,7 @@
   color: #fff;
   font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
+  padding: 2px 2px;
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
@@ -129,6 +131,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]:hover::before {
   display: inline-block !important;
   content: "Organization XIII" !important;
+  background-image: url(https://i.imgur.com/MS4J6cz.png);
   background-color: #000000 !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]::before {
@@ -145,6 +148,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/133978858457268224"]:hover::before {
   display: inline-block !important;
   content: "Shal Dynasty" !important;
+  background-image: url(https://i.imgur.com/4FPioBl.png);
   background-color: #0026ff !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/236421510108020736"]::before {
@@ -191,7 +195,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]::before {
-	display: inline-block !important;
+  display: inline-block !important;
   content: "," !important;
   background-image: url(https://i.imgur.com/tsr97cA.gif);
   background-size: 21px;
@@ -209,7 +213,7 @@
   color: #fff;
   font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
+  padding: 2px 2px;
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
@@ -254,7 +258,7 @@
   color:var(--mc);
   font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
+  padding: 2px 2px;
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
@@ -280,7 +284,7 @@
   color:var(--mc);
   font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
+  padding: 2px 2px;
   left: calc(100% - 22px);
   bottom: -30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
