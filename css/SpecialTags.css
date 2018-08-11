@@ -211,26 +211,26 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]::before {
   display: inline-block !important;
   content: "," !important;
-  background-image: url(https://i.imgur.com/tsr97cA.gif);
-  background-size: 21px;
-  background-repeat: no-repeat;
-  left: 26px;
-  padding: 0px 14px;
-  vertical-align: bottom;
+  background-image: url(https://i.imgur.com/tsr97cA.gif) !important;
+  background-size: 21px !important;
+  background-repeat: no-repeat !important;
+  left: 26px !important;
+  padding: 0px 14px !important;
+  vertical-align: bottom !important;
   line-height: 20px !important; 
-  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) }
+  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/214318588331294720"]:hover::before {
   display: inline-block !important;
   content: "GREEN?" !important;
-  background: url(https://i.imgur.com/sZJzzNW.gif);
-  border: none;
-  color: #fff;
-  font-size:14px;
-  font-weight: 700;
-  padding: 2px 2px;
-  left: calc(100% - 22px);
-  bottom: -30px;
+  background: url(https://i.imgur.com/sZJzzNW.gif) !important;
+  border: none !important;
+  color: #fff !important;
+  font-size:14px !important;
+  font-weight: 700 !important;
+  padding: 2px 2px !important;
+  left: calc(100% - 22px) !important;
+  bottom: -30px !important;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/168274283414421504"]::before {
@@ -312,27 +312,27 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/402272736665272320"]::before {
   display: inline-block !important;
-  content: "," !important;
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/elleCrown.svg);
-  background-size: 18px;
-  background-repeat: no-repeat;
-  left: 26px;
-  padding: 0px 14px;
-  vertical-align: bottom;
+  content: "," !important !important;
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/elleCrown.svg) !important;
+  background-size: 18px !important;
+  background-repeat: no-repeat !important;
+  left: 26px !important;
+  padding: 0px 14px !important;
+  vertical-align: bottom !important;
   line-height: 16px !important;
-  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) }
+  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/402272736665272320"]:hover::before {
   display: inline-block !important;
   content: "Monster Dev 👑" !important;
-  background: url(https://i.imgur.com/gCEX4r9.gif);
-  border: 2px solid #9D1A20;
-  color: #fff;
-  font-size:14px;
-  font-weight: 700;
-  padding: 2px 2px;
-  left: calc(100% - 22px);
-  bottom: -28px;
+  background: url(https://i.imgur.com/gCEX4r9.gif) !important;
+  border: 2px solid #9D1A20 !important;
+  color: #fff !important;
+  font-size:14px !important;
+  font-weight: 700 !important;
+  padding: 2px 2px !important;
+  left: calc(100% - 22px) !important;
+  bottom: -28px !important;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 @font-face {
