@@ -33,14 +33,12 @@
  }
 
 /* Home Icon */
-.guilds .home-icon {
-  background-image: url('https://i.imgur.com/233d55Y.gif');
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+.homeIcon-1FoKUJ {
+    background: url(https://i.imgur.com/DjzmZAL.gif) no-repeat center/80%!important;
+    -webkit-mask: none !important;
+    mask: none !important;
 }
-.guilds .home-icon defs,
-.guilds .home-icon g {
+.homeIcon-1FoKUJ g {
   display: none;
 }
 
