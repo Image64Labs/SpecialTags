@@ -158,8 +158,8 @@
 /* Bigger Emoji */
 .emoji.jumboable {
   height: auto;
-  width: 80px;
-  max-height: 100px;
+  width: 250px;
+  max-height: 300px;
 }
 
 .emoji {
