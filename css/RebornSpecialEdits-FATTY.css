@@ -63,11 +63,6 @@
     100% {  box-shadow: 0 0 1px 1px #5914d0; }
 }
 
-/* Video Call Background Transparency */
-.videoBackgroundWrapper-2dCt49 {
-     background-color: transparent;
-}
-
 /* Completely Removes Blocked Users Messages */
 .theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX,.theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
     display: none;
