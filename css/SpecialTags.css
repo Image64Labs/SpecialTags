@@ -3,8 +3,16 @@
   opacity: 1;
 }
 
+.chat .large-3ChYtB:hover {
+  opacity: 1;
+}
+
 .avatar-17mtNa:hover {
   opacity: 1 !important;
+}
+
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+  overflow: visible;
 }
 
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
@@ -24,8 +32,18 @@
   display: inline-block !important;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
-  color: #fff;
+.large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: BMTicons;
+  pointer-events: none;
+  display: inline-block !important;
+  z-index: 1;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
@@ -48,8 +66,6 @@
   left: calc(100% - 13px);
   bottom: -6px;
 }
-
-.containerCozyBounded-1rKFAn { overflow: visible; }
 
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
