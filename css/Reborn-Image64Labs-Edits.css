@@ -138,8 +138,8 @@
 }
 .ace-monokai {
     background: transparent !important;
-		border: solid 2px var(--mc) !important;
-		border-bottom: none !important;
+    border: solid 2px var(--mc) !important;
+    border-bottom: none !important;
 }
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: var(--quaternary-color) !important;
