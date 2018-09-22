@@ -124,3 +124,10 @@
 .inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
   display: none !important;
 }
+
+/* Custom NSFW Warning Image */
+.theme-dark .image-2LqJex {
+    background-image: url(https://i.imgur.com/fmlYM1Z.png);
+		height: 423px;
+    width: 300px;
+}
