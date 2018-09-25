@@ -96,7 +96,7 @@
 }
 
 /* BPM Fix */
-#bpm-sb-container {  border: thin solid var(--main-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: rgba(0,0,0,0.6) !important;}
+#bpm-sb-container {  border: thin solid var(--main-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var (--BPM) !important;}
 #bpm-sb-close {filter: invert(1) !important;}
 #bpm-sb-tabframe { background-color: transparent !important;}
 #bpm-sb-dragbox { filter: invert(1) !important;}
