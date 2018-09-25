@@ -107,18 +107,6 @@
   left: 26px;
   padding: 0px 14px;
   vertical-align: bottom;
-  line-height: 19px !important; 
-  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) }
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
-  display: inline-block !important;
-  content: "," !important;
-  background-image: url(https://i.imgur.com/aaYwcZl.gif);
-  background-size: 21px;
-  background-repeat: no-repeat;
-  left: 26px;
-  padding: 0px 14px;
-  vertical-align: bottom;
   line-height: 19px !important;
   filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) }
 
@@ -127,7 +115,7 @@
   content: "Image64Labs Waifu" !important;
   background: url(https://i.imgur.com/8YJ40kx.gif);
   border: none !important;
-	background-size: cover !important;
+  background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   border: none !important;
