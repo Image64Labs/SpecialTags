@@ -71,16 +71,19 @@
 
  /* USER TAGS */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
-  display: inline-block !important;
+  display: block !important;
   content: "," !important;
-  background-image: url(https://i.imgur.com/wZf4Vnt.gif);
-  background-size: 21px;
+  color: transparent;
+  height: 35px;
+  width: 15px;
+  background-image: url(https://i.imgur.com/rUACPxI.gif);
+  background-size: 70%;
+  background-position: center;
   background-repeat: no-repeat;
-  left: 24px;
-  padding: 0px 10px;
-  vertical-align: bottom;
-  line-height: 24px !important;
-  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) }
+  bottom: -13px;
+  right: -8px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
   display: block !important;
