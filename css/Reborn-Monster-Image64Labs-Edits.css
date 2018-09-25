@@ -2,24 +2,25 @@
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
   font-family: 'Satisfy', cursive;
   text-transform: capitalize;
-  line-height: 160%;
+  line-height: 220% !important;
   font-size: 90%;
 }
 
 .header-2o-2hj .name-3YKhmS {
   font-family: 'Satisfy', cursive;
   text-transform: capitalize;
+  font-size: 100%;
   font-weight: bold;
   font-style: italic;
   font-weight: 500;
-  height: 48px;
+  line-height: 40px;
   padding: 0 12px 0 16px;
 }
 
 .membersGroup-v9BXpm {
   font-family: 'Satisfy', cursive;
   text-transform: capitalize;
-  padding-top: 6px;
+  padding-top: 12px;
   padding-bottom: 6px;
   font-size: 90%;
 }
