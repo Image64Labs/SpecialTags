@@ -1,0 +1,151 @@
+/* Fancy Text For Server Name/Category Name/ Role List/ Group DM Name */
+.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  line-height: 160%;
+  font-size: 90%;
+}
+
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 12px 0 16px;
+}
+
+.membersGroup-v9BXpm {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 90%;
+}
+
+.title-3qD0b- .input-autosize-input, .titleCall-_b9o8P .input-autosize-input {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color: #593695;
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color: #593695;
+}
+
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: #593695 !important;
+}
+
+/* BetterPonyMotes Button Fix (Top Right Only!) */
+.bpm-emote-search-button {
+    width: 35px;
+    height: 25px;
+}
+
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
+
+/* Completely Removes Blocked Users Messages */
+.messageGroupBlocked-3wrQQX {
+    display: none;
+}
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+    background: var(--mc) !important;
+}
+  
+/* User Birthday's */
+.ub-item-inner {
+  background: var(--mc) !important;
+}
+
+/* BPM Fix */
+#bpm-sb-container {  border: thin solid var(--mc) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var(--QT) !important;}
+#bpm-sb-close {filter: invert(1) !important;}
+#bpm-sb-tabframe { background-color: transparent !important;}
+#bpm-sb-dragbox { filter: invert(1) !important;}
+#bpm-sb-input { font: 13.3333px Arial !important;color: black !important;}
+.bpm-search-result { border: solid var(--mc) thin !important;}
+.bpm-sb-help { color: white !important;}
+#bpm-sb-options {color: white !important;}
+#bpm-sb-flagtab { color: white !important;}
+
+/* Tag Fixes */
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+  display: none !important;
+}
+
+/* Custom NSFW Warning Image */
+.theme-dark .image-2LqJex {
+    background-image: url(https://i.imgur.com/fmlYM1Z.png);
+    height: 423px;
+    width: 300px;
+}
+
+/* Custom CSS */
+.ace_content, .ace_gutter-layer {
+    background :var(--quaternary-color) !important;
+}
+.ace-monokai {
+    background: transparent !important;
+    border: solid 2px var(--mc) !important;
+    border-bottom: none !important;
+}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: var(--quaternary-color) !important;
+    box-shadow: transparent !important;
+}
+.ace-monokai .ace_gutter {
+    background:transparent !important;
+    color: var(--mc) !important
+}
+ #bd-customcss-attach-controls button, .bd-detached-css-editor {
+    background: var(--mc) !important;
+    border-right: 1px solid var(--mc) !important;
+}
+ #bd-customcss-attach-controls:hover button:hover, .bd-detached-css-editor:hover {
+    background: var(--mc) !important;
+    border-right: 1px solid var(--hover-color) !important;
+}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    box-shadow: 0 1px 0 0 transparent inset !important;
+}
