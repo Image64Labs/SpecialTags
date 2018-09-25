@@ -87,12 +87,12 @@
 
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
-    background: var(--mc) !important;
+    background: var(--main-color) !important;
 }
   
 /* User Birthday's */
 .ub-item-inner {
-  background: var(--mc) !important;
+  background: var(--main-color) !important;
 }
 
 /* BPM Fix */
