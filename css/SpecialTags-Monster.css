@@ -30,51 +30,71 @@
 
 /* ======= SPECIAL TAGS ========= */
 
-/* Green's Zelda Triangle */
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]::before {
-  content: '';
-  background-image: url(https://i.imgur.com/tsr97cA.gif);
-  background-size: 21px;
-  background-repeat: no-repeat;
-}
-
-
-
-
 /* badges */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before {
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -8px;
+  right: -8px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
 
 
 
 /* icons */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before {
+  background-image: url(https://i.imgur.com/WDQ4Iki.gif);
+  transform: scale(1.2) !important;
+  bottom: -5px;
+  right: -5px;
+}
 
 
 /* on hover */
-  /* green */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="214318588331294720"]:hover::before {
-  content: "GREEN?";
-  background: url(https://i.imgur.com/sZJzzNW.gif);
-  color: #fff;
-  left: -2px;
-  bottom: -20px;
-  background-size: cover;
-  background-position: center;
-  width: calc(100% + 4px);
-  font-size:11px;
-  font-weight: 700;
-  padding: 2px 2px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+
 
 
 
 
 
 /* badges on hover */
-
- 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before {
+  transform: none;
+  background-size: 15px;
+  background-position: center;
+  padding: 6px 10px;
+  height: 20px;
+  width: 20px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  right: unset;
+  left: calc(100% - 13px);
+  bottom: -8px;
+  font-weight: 700;
 }
 
 
 
 /* content */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before {
+  content: 'Image64Labs Waifu';
+  background-image: url(https://i.imgur.com/8YJ40kx.gif);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before {
+  display: block;
+  background-color: transparent;
+  box-shadow: none;
+}
