@@ -148,7 +148,7 @@
   font-weight: 700 !important;
   padding: 2px 2px !important;
   left: calc(100% - 22px) !important;
-  bottom: -30px !important;
+  bottom: 0px !important;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/218048901167579137"]::before {
