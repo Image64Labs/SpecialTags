@@ -71,29 +71,31 @@
 
  /* USER TAGS */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]::before {
-  display: inline-block !important;
-  content: "," !important;
-  background-image: url(https://i.imgur.com/PF3ZVW2.gif);
-  background-size: 21px;
-  background-repeat: no-repeat;
-  left: 26px;
-  padding: 0px 14px;
-  vertical-align: bottom;
-  line-height: 20px !important;
-  filter: drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) drop-shadow(0 0 2px var(--RB)) }
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
-  display: inline-block !important;
-  content: "The Loliphile" !important;
-  background: url(https://i.imgur.com/EbzlPNX.gif);
-  border: 2px solid #1f75fe;
-  color: #fff;
-  font-size:14px;
-  font-weight: 700;
-  padding: 2px 2px;
-  left: calc(100% - 22px);
-  bottom: 0px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
+	display: inline-block !important;
+	content: "," !important;
+	background-image: url(https://i.imgur.com/vrHoR5d.png) !important;
+	background-size: 21px !important;
+	background-repeat: no-repeat !important;
+	left: 26px !important;
+	bottom: -4px !important;
+	padding: 0px 14px !important;
+	vertical-align: bottom !important;
+	line-height: 20px !important;
+ }
+  
+ .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/312782599439515650"]:hover::before {
+	display: inline-block !important;
+	content: "👑 Bowsette 👑" !important;
+	background: url(https://i.imgur.com/utDZZEC.gif) !important;
+	border: 2px solid #B224BD !important;
+	color: #fff !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	padding: 2px 2px !important;
+	left: calc(100% - 22px) !important;
+	bottom: 0px !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; 
+}
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/266406986235510786"]::before {
   display: inline-block !important;
