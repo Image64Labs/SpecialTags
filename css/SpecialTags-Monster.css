@@ -7,21 +7,16 @@
 
 
   /* on hover */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="avatars/107511169366888448"]:hover::before {
-  content: 'His Code Works';
-  background: url(https://i.imgur.com/sZJzzNW.gif);
-  -webkit-filter: hue-rotate(360deg) invert();
-  animation: hue-rotate 1.5s linear infinite;
-  border: 2px solid var(--mc);
-  color: var(--mc);
-  font-size: 14px;
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
+  display: inline-block !important;
+  content: "Modpack King" !important;
+  background: url(https://i.imgur.com/ZcZChVB.gif);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size:14px;
   font-weight: 700;
-  padding: 4px 4px;
-  left: calc(100% - 20px);
-  bottom: -20px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
-  text-align: center;
-}
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; }
 
 
 
