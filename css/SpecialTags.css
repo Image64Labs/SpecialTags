@@ -88,12 +88,15 @@
    content: "👑 Bowsette 👑" !important;
    background: url(https://i.imgur.com/utDZZEC.gif) !important;
    border: 2px solid #B224BD !important;
+   background-size: cover !important;
+   background-position: center !important;
+   background-repeat: no-repeat !important;
    color: #fff !important;
    font-size: 14px !important;
    font-weight: 700 !important;
-   padding: 2px 2px !important;
-   left: calc(100% - 22px) !important;
-   bottom: 0px !important;
+   padding: 3px 10px !important;
+   left: calc(100% - 13px) !important;
+   bottom: -5px !important;
    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; 
 }
 
