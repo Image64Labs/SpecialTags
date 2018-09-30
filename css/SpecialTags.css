@@ -207,6 +207,9 @@
   display: inline-block !important;
   content: "Modpack King" !important;
   background: url(https://i.imgur.com/ZcZChVB.gif) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
   border: 2px solid #C52CFB !important;
   color: #fff !important;
   font-size: 14px !important;
