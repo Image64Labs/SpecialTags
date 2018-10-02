@@ -168,3 +168,11 @@
     background-image: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/bg.svg) !important;
     background-size: 9em !important;
 }
+
+/* Username bottom left */
+.accountDetails-3k9g4n .username {
+  font-size: auto;
+  font-family: "Satisfy";
+  text-align: center;
+  padding-bottom: 1px;
+}
