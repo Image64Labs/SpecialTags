@@ -76,7 +76,8 @@
   background-image: url(https://i.imgur.com/vrHoR5d.png) !important;
   background-size: 21px !important;
   background-repeat: no-repeat !important;
-  transform: none !important;
+  height: 15px !important;
+  width: 15px !important;
   right: 0px !important;
   left: 26px !important;
   bottom: -4px !important;
