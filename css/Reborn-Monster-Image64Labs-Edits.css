@@ -172,15 +172,16 @@
 
 /* Peeking Bowsette on Server Create Button */
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
-  background-image: url(https://i.imgur.com/HvzenSo.png);
+  background-image: url(https://i.imgur.com/Wc61NgQ.png);
   background-size: 25px;
-  background-repeat:no-repeat;
-  margin-bottom:-126px;
-  margin-left:24px;
+  background-repeat: no-repeat;
+  margin-bottom: -59px;
+  margin-left: 24px;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
   background-size: 25px;
-  background-repeat:no-repeat;
-  margin-bottom:-126px;
-  margin-left:24px;
+  background-repeat: no-repeat;
+  margin-bottom: -126px;
+  margin-left: 24px;
 }
