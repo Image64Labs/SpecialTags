@@ -169,3 +169,18 @@
     background-image: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/bg.svg) !important;
     background-size: 9em !important;
 }
+
+/* Peeking Bowsette on Server Create Button */
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
+  background-image: url(https://i.imgur.com/HvzenSo.png);
+  background-size: 25px;
+  background-repeat:no-repeat;
+  margin-bottom:-126px;
+  margin-left:24px;
+}
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
+  background-size: 25px;
+  background-repeat:no-repeat;
+  margin-bottom:-126px;
+  margin-left:24px;
+}
