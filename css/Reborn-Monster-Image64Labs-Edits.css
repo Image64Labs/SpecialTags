@@ -1,6 +1,5 @@
 @import url('https://ellexidecodes.github.io/Discord-Themes/addons/chatBubbles.css');
 @import url('https://ellexidecodes.github.io/Discord-Themes/addons/categoryNameFlair.css'); 
-@import url("https://tropix126.github.io/RebornAddons/nameincorner.css");
 
 /* Text For Server Name / Category Name / Role List / Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
@@ -184,4 +183,43 @@
   background-repeat: no-repeat;
   margin-bottom: -126px;
   margin-left: 24px;
+}
+
+/* Fancy New User Details by Tropix */
+.accountDetails-3k9g4n .username {
+  display: inline-block;
+  font-family: "Satisfy";
+  font-weight: 700;
+  font-size: 250%;
+  height: 90px;
+  line-height: 60px;
+  color: var(--main-color) !important;
+  margin-bottom: -18px;
+  min-width: 111%;
+  max-width: 111%;
+  text-align: center;
+  margin-top:8px;
+  margin-left:-15px
+}
+.accountDetails-3k9g4n {
+  position: fixed;
+  right: 0px;
+  height: 75px;
+  max-width: 242px !important;
+  min-width: 242px !important;
+}
+.accountDetails-3k9g4n .discriminator {
+  right: 5px;
+  position: fixed;
+  display: initial;
+  padding-top: 53px;
+}
+.theme-dark .members-1998pB {
+  margin-bottom:60px;
+}
+.theme-dark .button-2b6hmh {
+  margin-right:15px;
+}
+.privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {
+  display: none;
 }
