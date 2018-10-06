@@ -1,6 +1,9 @@
 @import url('https://ellexidecodes.github.io/Discord-Themes/addons/chatBubbles.css');
 @import url('https://ellexidecodes.github.io/Discord-Themes/addons/categoryNameFlair.css'); 
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Details%20In%20Margin.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css");
+@import url("https://raw.githubusercontent.com/Tropix126/BetterDiscordStuff/master/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 
 /* Text For Server Name / Category Name / Role List / Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
@@ -135,39 +138,6 @@
 /* Read All Notifications */
 #RANbutton {
   text-transform: capitalize !important;
-}
-
-/* CSS Editor */
-.ace_content, .ace_gutter-layer {
-    background :var(--quaternary-color) !important;
-} 
-.ace-monokai {
-    background: transparent !important;
-}
-.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-    background: var(--quaternary-color) !important;
-    box-shadow: transparent !important;
-}
-.ace-monokai .ace_gutter {
-    background:transparent !important;
-    color: var(--main-color) !important
-}
- #bd-customcss-attach-controls button, .bd-detached-css-editor {
-    background: var(--main-color) !important;
-    border-right: 1px solid var(--main-color) !important;
-}
- #bd-customcss-attach-controls:hover button:hover, .bd-detached-css-editor:hover {
-    background: var(--main-color) !important;
-    border-right: 1px solid var(--hover-color) !important;
-}
-.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-    box-shadow: 0 1px 0 0 transparent inset !important;
-}
-
-/* Popout Patern */
-.headerTop-3C2Zn0 {
-    background-image: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/bg.svg) !important;
-    background-size: 9em !important;
 }
 
 /* Peeking Bowsette on Server Create Button */
