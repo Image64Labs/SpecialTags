@@ -4,6 +4,7 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
+@import url('https://ellexidecodes.github.io/Discord-Themes/addons/slideDownStatus.css');
 
 /* Text For Server Name / Category Name / Role List / Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
@@ -154,4 +155,10 @@
   background-repeat: no-repeat;
   margin-bottom: -126px;
   margin-left: 24px;
+}
+
+
+/* Status Picker Adjustment */
+.menu-Sp6bN1.alt-3btY0e {
+    background: black !important;
 }
