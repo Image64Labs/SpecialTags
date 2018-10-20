@@ -84,17 +84,6 @@
     display: none;
 }
 
-/* Home Icon */
-.homeIcon-1FoKUJ { 
-    background-color: var(--mc); 
-    -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
-    -webkit-mask-size: 80%;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center; 
-}
-
-.guilds-1q_RqH .homeIcon-1FoKUJ defs,.guilds-1q_RqH .homeIcon-1FoKUJ g {display: none;}
-
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
     background: var(--mc) !important;
@@ -123,13 +112,6 @@
 .ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
 .inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
   display: none !important;
-}
-
-/* Custom NSFW Warning Image */
-.theme-dark .image-2LqJex {
-    background-image: url(https://i.imgur.com/fmlYM1Z.png);
-    height: 423px;
-    width: 300px;
 }
 
 /* Custom CSS */
