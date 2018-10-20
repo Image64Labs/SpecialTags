@@ -133,6 +133,20 @@
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -8px;
+  right: -8px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
 
 
 /* icons */
@@ -174,6 +188,13 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]::before {
   background-image: url(https://i.imgur.com/lV9dLWu.gif);
   transform: scale(1.2) !important;
+  bottom: -5px;
+  right: -5px;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
+  background-image: url(https://i.imgur.com/vrHoR5d.png);
+  transform: scale(1.5);
   bottom: -5px;
   right: -5px;
 }
@@ -273,6 +294,23 @@
   font-weight: 700;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 6px 10px;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  white-space: nowrap;
+  right: unset;
+  left: calc(100% - 13px);
+  bottom: -6px;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 
 
 /* content */
@@ -368,12 +406,20 @@
   text-align: center;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+  content: '♛ Boosette ♛';
+  color: white;
+  background-image: url(https://i.imgur.com/utDZZEC.gif);
+  bottom: -15px;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
