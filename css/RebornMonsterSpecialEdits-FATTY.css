@@ -166,6 +166,8 @@
 /* Home Icon */
 .homeIcon-1FoKUJ {
     background: url(https://i.imgur.com/DjzmZAL.gif) no-repeat center/80%!important;
+    -webkit-mask: none !important;
+    mask: none !important;
     -webkit-mask-size: var(--home-size) !important;
     -webkit-mask-repeat: no-repeat !important;
     -webkit-mask-position: center !important;
