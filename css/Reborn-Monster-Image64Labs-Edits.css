@@ -143,10 +143,10 @@
 
 /* Peeking Boosette on Server Create Button */
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
-  background-image: url(https://image64labs.github.io/assets/peaking_boosette.svg);
+  background-image: url(https://image64labs.github.io/assets/peaking_boosette.png);
   background-size: 25px;
   background-repeat: no-repeat;
-  margin-bottom: -59px;
+  margin-bottom: -56px;
   margin-left: 24px;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
