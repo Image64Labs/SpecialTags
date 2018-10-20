@@ -175,24 +175,3 @@
 .homeIcon-1FoKUJ g {
   display: none;
 }
-
-/* Flashing Notifications / New Guild Animations */
-.guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:not(.selected) .guildInner-3DSoA4 {
-    animation: pulseUnread 1.5s infinite linear;
-    transition: all linear .2s;
-    border: var(--roundness)}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:before {
-    display: none;}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 {
-    box-shadow: 0px 0px 2px 2px var(--main-color);}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
-    transition: all linear .2s;
-    box-shadow: 0 0 0 10px 0 #000;}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:hover {
-    box-shadow: 0px 0px 10px 1px var(--main-color);
-    animation: none;}
-@keyframes pulseUnread{
-    0% { box-shadow: 0 0 1px 1px #5914d0; }
-    50%  {  box-shadow: 0 0 2px 3px #2780e6;}
-    100% {  box-shadow: 0 0 1px 1px #5914d0; }
-}
