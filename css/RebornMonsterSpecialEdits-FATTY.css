@@ -177,7 +177,8 @@
 /* Flashing Notifications / New Guild Animations */
 .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:not(.selected) .guildInner-3DSoA4 {
     animation: pulseUnread 1.5s infinite linear;
-    transition: all linear .2s;}
+    transition: all linear .2s;
+    border: var(--roundness)}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:before {
     display: none;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 {
