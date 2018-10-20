@@ -1,0 +1,195 @@
+@import url('https://ellexidecodes.github.io/Discord-Themes/addons/chatBubbles.css');
+@import url('https://ellexidecodes.github.io/Discord-Themes/addons/categoryNameFlair.css'); 
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Details%20In%20Margin.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
+@import url('https://ellexidecodes.github.io/Discord-Themes/addons/slideDownStatus.css');
+
+/* Text For Server Name / Category Name / Role List / Group DM Name */
+.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-size: 90%;
+}
+
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 12px 0 16px;
+}
+
+.membersGroup-v9BXpm {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 90%;
+}
+
+.title-3qD0b- .input-autosize-input, .titleCall-_b9o8P .input-autosize-input {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+}
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Satisfy', cursive;
+  font-weight: 500;
+  height: 20px;
+  padding: 0 12px 0 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color: #593695;
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color: #593695;
+}
+
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: #593695 !important;
+}
+
+/* BetterPonyMotes Button Fix (Top Right Only!) */
+.bpm-emote-search-button {
+    width: 35px;
+    height: 24px;
+}
+
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
+
+/* Completely Removes Blocked Users Messages */
+.messageGroupBlocked-3wrQQX {
+    display: none;
+}
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+    background: var(--main-color) !important;
+}
+  
+/* User Birthday's */
+.ub-item-inner {
+  background: var(--main-color) !important;
+}
+
+/* BPM Fix */
+#bpm-sb-container {  border: thin solid var(--main-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var(--BPM) !important;}
+#bpm-sb-close {filter: invert(1) !important;}
+#bpm-sb-tabframe { background-color: transparent !important;}
+#bpm-sb-dragbox { filter: invert(1) !important;}
+#bpm-sb-input { font: 13.3333px Arial !important;color: black !important;}
+.bpm-search-result { border: solid var(--main-color) thin !important;}
+.bpm-sb-help { color: white !important;}
+#bpm-sb-options {color: white !important;}
+#bpm-sb-flagtab { color: white !important;}
+
+/* Tag Fixes */
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.ui-standard-sidebar-view .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
+.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+  display: none !important;
+}
+
+/* Custom NSFW Warning Image */
+.theme-dark .image-2LqJex {
+  background-image: url(https://i.imgur.com/oJK5a4k.png);
+  height: 512px;
+  width: 164px;
+}
+
+/* Read All Notifications */
+#RANbutton {
+  text-transform: capitalize !important;
+}
+
+/* Peeking Boosette on Server Create Button */
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
+  background-image: url(https://image64labs.github.io/assets/peaking_boosette.png);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  margin-bottom: -56px;
+  margin-left: 24px;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
+  background-size: 25px;
+  background-repeat: no-repeat;
+  margin-bottom: -126px;
+  margin-left: 24px;
+}
+
+
+/* Status Picker Adjustment */
+.menu-Sp6bN1.alt-3btY0e {
+    background: black !important;
+}
+
+/* Home Icon */
+.homeIcon-1FoKUJ {
+    background: url(https://i.imgur.com/DjzmZAL.gif) no-repeat center/80%!important;
+    -webkit-mask: none !important;
+    mask: none !important;
+    height: 53px !important;
+}
+.homeIcon-1FoKUJ g {
+  display: none;
+}
+
+/* Flashing Notifications / New Guild Animations */
+.guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:not(.selected) .guildInner-3DSoA4 {
+    animation: pulseUnread 1.5s infinite linear;
+    transition: all linear .2s;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:before {
+    display: none;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 {
+    box-shadow: 0px 0px 2px 2px var(--main-color);}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
+    transition: all linear .2s;
+    box-shadow: 0 0 0 10px 0 #000;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:hover {
+    box-shadow: 0px 0px 10px 1px var(--main-color);
+    animation: none;}
+@keyframes pulseUnread{
+    0% { box-shadow: 0 0 1px 1px #5914d0; }
+    50%  {  box-shadow: 0 0 2px 3px #2780e6;}
+    100% {  box-shadow: 0 0 1px 1px #5914d0; }
+}
