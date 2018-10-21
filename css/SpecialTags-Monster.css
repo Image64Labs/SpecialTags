@@ -34,9 +34,7 @@
   color: var(--main-color);
   font-size: 14px;
   font-weight: 700;
-  padding: 4px 4px;
-  left: calc(100% - 20px);
-  bottom: -20px;
+  bottom: -15px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-align: center;
 }
