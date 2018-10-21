@@ -180,18 +180,18 @@
   color: #fff;
 }
 
-/* Non-Light Theme Blocker - MasicoreLord */
-.app.theme-dark,
-.da-app.da-themeDark,
-.app.theme-dark .headerBar-UHpsPw,
-.da-app.da-themeDark .da-headerBar {
+/* Non-Dark Theme Blocker - MasicoreLord */
+.app.theme-light,
+.da-app.da-themeLight,
+.app.theme-light .headerBar-UHpsPw,
+.da-app.da-themeLight .da-headerBar {
     visibility: hidden;
 }
 
-.app.theme-dark::after,
-.da-app.da-themeDark::after {
+.app.theme-light::after,
+.da-app.da-themeLight::after {
     visibility: visible;
-    content: 'Light Mode is Required';
+    content: 'Dark Mode is Required';
     font-size: 20px;
     top: 50%;
     left: 50%;
@@ -203,7 +203,7 @@
     position: fixed;
 }
 
-.app.theme-dark .container-2Thooq .flex-1xMQg5 > button:last-of-type {
+.app.theme-light .container-2Thooq .flex-1xMQg5 > button:last-of-type {
     visibility: visible;
     position: fixed;
     color: #fff;
@@ -212,7 +212,7 @@
     transform: translate(-50%, -50%);
 }
 
-.app.theme-dark .container-2Thooq .flex-1xMQg5 > button:last-of-type::after {
+.app.theme-light .container-2Thooq .flex-1xMQg5 > button:last-of-type::after {
     visibility: visible;
     content: 'Go to Settings';
     color: #fff;
@@ -222,9 +222,9 @@
     transform: translate(-50%, 0);
 }
 
-.app.theme-dark .ui-standard-sidebar-view,
-.da-app.da-themeDark .da-uiStandardSidebarView,
-.contextMenu-HLZMGh.theme-dark {
+.app.theme-light .ui-standard-sidebar-view,
+.da-app.da-themeLight .da-uiStandardSidebarView,
+.contextMenu-HLZMGh.theme-light {
     visibility: visible;
 }
-/* /Non-Light Theme Blocker - MasicoreLord */
+/* /Non-Dark Theme Blocker - MasicoreLord */
