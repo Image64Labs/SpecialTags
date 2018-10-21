@@ -33,6 +33,8 @@
   border: 2px solid var(--main-color);
   color: var(--main-color);
   bottom: -15px;
+  font-size: 14px;
+  font-weight: 700;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -184,6 +186,8 @@
   animation: hue-rotate 1.5s linear infinite;
   border: 2px solid var(--main-color);
   color: var(--main-color);
+  font-size: 14px;
+  font-weight: 700;
   bottom: -15px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -195,6 +199,8 @@
   animation: hue-rotate 1.5s linear infinite;
   border: 2px solid var(--main-color);
   color: var(--main-color);
+  font-size: 14px;
+  font-weight: 700;
   bottom: -15px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
