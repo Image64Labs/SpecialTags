@@ -179,3 +179,52 @@
   background-image: linear-gradient(270deg,var(--hover-color),var(--main-color));
   color: #fff;
 }
+
+/* Non-Light Theme Blocker - MasicoreLord */
+.app.theme-dark,
+.da-app.da-themeDark,
+.app.theme-dark .headerBar-UHpsPw,
+.da-app.da-themeDark .da-headerBar {
+    visibility: hidden;
+}
+
+.app.theme-dark::after,
+.da-app.da-themeDark::after {
+    visibility: visible;
+    content: 'Light Mode is Required';
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #fff;
+    position: fixed;
+}
+
+.app.theme-dark .container-2Thooq .flex-1xMQg5 > button:last-of-type {
+    visibility: visible;
+    position: fixed;
+    color: #fff;
+    top: calc(50% + 25px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app.theme-dark .container-2Thooq .flex-1xMQg5 > button:last-of-type::after {
+    visibility: visible;
+    content: 'Go to Settings';
+    color: #fff;
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.app.theme-dark .ui-standard-sidebar-view,
+.da-app.da-themeDark .da-uiStandardSidebarView,
+.contextMenu-HLZMGh.theme-dark {
+    visibility: visible;
+}
+/* /Non-Light Theme Blocker - MasicoreLord */
