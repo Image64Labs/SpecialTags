@@ -184,7 +184,7 @@
 .app.theme-light::after,
 .da-app.da-themeLight::after {
     visibility: visible;
-    content: 'Dark Mode is Required! - Settings > Appearance > Theme:Dark';
+    content: 'Dark Mode is Required! - Settings > Appearance > Theme: Dark';
     font-size: 20px;
     top: 50%;
     left: 50%;
