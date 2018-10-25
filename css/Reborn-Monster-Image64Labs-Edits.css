@@ -158,12 +158,6 @@
   margin-left: 24px;
 }
 
-
-/* Status Picker Adjustment */
-.menu-Sp6bN1.alt-3btY0e {
-    background: black !important;
-}
-
 /* Nitro Settings */
 .layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8) {
   color: var(--mc) !important;
@@ -174,8 +168,8 @@
   background: var(--mc) !important;
 }
 
-.theme-dark .grandfatheredMessage-2QgLnw {
-  background-image: -webkit-gradient(linear,right top,left top,from(var(--hover-color)),to(var(--main-color)));
-  background-image: linear-gradient(270deg,var(--hover-color),var(--main-color));
+.theme-dark .grandfatheredMessage-1BnHtv {
+  background-image: -webkit-gradient(linear,right top,left top,from(var(--main-color)),to(var(--hover-color)));
+  background-image: linear-gradient(270deg,var(--main-color),var(--hover-color));
   color: #fff;
 }
