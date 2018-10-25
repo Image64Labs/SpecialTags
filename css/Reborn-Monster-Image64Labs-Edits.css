@@ -116,6 +116,7 @@
 #bpm-sb-tabframe { background-color: transparent !important;}
 #bpm-sb-dragbox { filter: invert(1) !important;}
 #bpm-sb-input { font: 13.3333px Arial !important;color: black !important;}
+.bpm-search-result { border: none !important;}
 .bpm-sb-help { color: white !important;}
 #bpm-sb-options {color: white !important;}
 #bpm-sb-flagtab { color: white !important;}
