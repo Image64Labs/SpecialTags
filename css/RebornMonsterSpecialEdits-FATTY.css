@@ -7,6 +7,7 @@
   background: url(https://i.imgur.com/DjzmZAL.gif) no-repeat center/var(--home-size)!important;
   -webkit-mask: none !important;
   mask: none !important;
+  height: 60px !important;
 }
 
 .homeIcon-1FoKUJ defs,
