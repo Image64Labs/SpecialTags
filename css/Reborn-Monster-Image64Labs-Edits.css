@@ -181,3 +181,8 @@
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;}
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {color: #fff;
 }
+
+/* Video Call Transparent Background */
+.video-1kutKI {
+  background-color: transparent;
+}
