@@ -70,6 +70,37 @@
 
 
  /* USER TAGS */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
+	display: inline-block !important;
+	content: "," !important;
+	background-image: url(https://image64labs.github.io/assets/peaking_boosette.png);
+	background-size: 21px;
+	background-repeat: no-repeat;
+	left: 26px;
+	bottom: -4px !important;
+	padding: 0px 14px;
+	vertical-align: bottom;
+	line-height: 20px !important;
+  }
+  
+ .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+	display: inline-block !important;
+	content: "♛ Boosette ♛" !important;
+	background: url(https://i.imgur.com/CBla7ai.gif);
+	border: none !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	border: none !important;
+	color: #fff !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	padding: 3px 10px !important;
+	left: calc(100% - 13px) !important;
+	bottom: -5px !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important; 
+ }
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before {
   display: inline-block !important;
   content: "," !important;
