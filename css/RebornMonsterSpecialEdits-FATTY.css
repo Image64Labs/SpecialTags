@@ -4,11 +4,8 @@
 
 /* Home Icon */
 .homeIcon-1FoKUJ {
-  background: url(https://i.imgur.com/DjzmZAL.gif);
+  background: url(https://i.imgur.com/DjzmZAL.gif) no-repeat center/var(--home-size)!important;
   -webkit-mask: none !important;
-  -webkit-mask-size: var(--home-size) !important;
-  -webkit-mask-repeat: no-repeat !important;
-  -webkit-mask-position: center !important;
   mask: none !important;
 }
 
