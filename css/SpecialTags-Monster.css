@@ -223,3 +223,11 @@
   background-color: transparent;
   box-shadow: none;
 }
+
+
+
+/* Tag Animations */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover:before {
+  animation-name: growIn;
+  animation-duration: .2s;
+}
