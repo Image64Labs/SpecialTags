@@ -229,3 +229,8 @@
   animation-duration: .2s;
   animation-iteration-count: 1;
 }
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]:hover:before {
+  animation-name: fallBounce;
+  animation-duration: 1s;
+}
