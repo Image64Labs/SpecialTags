@@ -176,7 +176,7 @@
   color: #fff;
 }
 
-/* Friends Tab thanks to Tropix */
+/* Friends Tab (Thanks Tropix) */
 .theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
 .theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white;}
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;}
