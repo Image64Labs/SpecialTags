@@ -81,8 +81,13 @@
 
 /* BetterPonyMotes Button Fix (Top Right Only!) */
 .bpm-emote-search-button {
-  width: 40px;
+  width: 30px;
   height: 24px;
+}
+
+/* New BetterPonyMotes Button */
+.bpm-emote-search-button {
+  background: url(https://image64labs.github.io/assets/bpm_icon.png) no-repeat center center;
 }
 
 /* Bigger Emoji */
