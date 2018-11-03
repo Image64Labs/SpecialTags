@@ -15,22 +15,6 @@
   display: none;
 }
 
-/* Peeking Boosette on Server Create Button */
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
-  background-image: url(https://image64labs.github.io/assets/peaking_boosette.png) !important;
-  background-size: 25px !important;
-  background-repeat: no-repeat !important;
-  margin-bottom: -56px !important;
-  margin-left: 24px !important;
-  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) !important;
-}
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
-  background-size: 25px !important;
-  background-repeat: no-repeat !important;
-  margin-bottom: -126px !important;
-  margin-left: 24px !important;
-}
-
 /* Flashing Notifications / New Guild Animations */
 .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:not(.selected) .guildInner-3DSoA4 {
     animation: pulseUnread 1.5s linear infinite;
