@@ -247,3 +247,8 @@
   animation-name: fallBounce;
   animation-duration: 1s;
 }
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover:before {
+  animation-name: scaleSpin;
+  animation-duration: .4s;
+}
