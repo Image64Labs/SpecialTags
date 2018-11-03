@@ -224,3 +224,8 @@
 #bd-pub-li {
   height: 50px !important;
 }
+
+/* Fix for Tropix's Details in Margin */
+.theme-dark .button-2b6hmh {
+  margin-right: 15px !important;
+}
