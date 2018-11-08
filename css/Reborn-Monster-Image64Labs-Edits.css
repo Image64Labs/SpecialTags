@@ -224,3 +224,16 @@
 #bd-pub-li {
   height: 50px !important;
 }
+
+/* Connecting Transparency (Thanks Dingus) */
+.platform-win .container-16j22k {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    background-color: var(--primary-color);
+}
