@@ -130,6 +130,19 @@
   background: var(--main-color) !important;
 }
 
+.ub-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
 /* BPM Fix */
 #bpm-sb-container {  border: 2px solid var(--main-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var(--BPM) !important;}
 #bpm-sb-close {filter: invert(1) !important;}
