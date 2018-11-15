@@ -243,3 +243,8 @@
   -webkit-filter: invert() hue-rotate(-180deg);
   opacity:0.7;
 }
+
+/* Server Folder Count Badge */
+.guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
+  background: var(--main-color) !important;
+}
