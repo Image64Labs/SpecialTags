@@ -248,3 +248,11 @@
 .guild-1EfMGQ.folder .badge-1GsMF2.folder.count {
   background: var(--main-color) !important;
 }
+
+/* Username in Margin fix */
+.accountDetails-3k9g4n {
+  position: absolute !important;
+}
+.accountDetails-3k9g4n .discriminator {
+  position: absolute !important;
+}
