@@ -243,11 +243,3 @@
   -webkit-filter: invert() hue-rotate(-180deg);
   opacity:0.7;
 }
-
-/* Username in Margin fix */
-.accountDetails-3k9g4n {
-  position: absolute !important;
-}
-.accountDetails-3k9g4n .discriminator {
-  position: absolute !important;
-}
