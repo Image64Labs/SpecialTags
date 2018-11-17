@@ -179,15 +179,16 @@
   background-image: url(https://image64labs.github.io/assets/peaking_boosette.png);
   background-size: 25px;
   background-repeat: no-repeat;
-  margin-bottom: -56px;
   margin-left: 24px;
+  margin-bottom:-55px !important;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
   background-size: 25px;
+  margin-bottom:-100px !important;
+  margin-left:24px !important;
   background-repeat: no-repeat;
-  margin-bottom: -126px;
-  margin-left: 24px;
+  transition:500ms linear;
 }
 
 /* Nitro Settings */
