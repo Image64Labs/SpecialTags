@@ -27,7 +27,7 @@
 
 .need-help-modal .form-inner.loading::after {
   line-height: 7px !important;
-  content: "\A Thanks for using this fork! \A\A\A\A Main Developer: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A Edits Developer: \A\A\A\A Image64Labs#6635 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/uwe2PMK" !important;
+  content: "\A Thanks for using this fork! \A\A\A\A Main Developer: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A Edits Developer: \A\A\A\A Image64Labs#6635 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/uwe2PMK \A\A\A\A\A\A Main Devlopers Server: \A\A\A\A https://discord.gg/g7nf298K" !important;
   text-align: center;
   padding: 58px;
   min-height: 100px;
