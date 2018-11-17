@@ -8,6 +8,52 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
 
+/* Theme Version */
+.need-help-modal.form.deprecated .header h1::after {
+  content: 'Discord Reborn: Image64Labs Edition' !important;
+  white-space: nowrap !important;
+  color: #fff;
+  font-weight: 700 !important;
+  font-size: 260% !important;
+  z-index: 11;
+  position: absolute;
+  width: 200%;
+  height: 150% !important;
+  margin-left: -70px;
+  top: 10px !important;
+  font-family: Satisfy;
+  text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.4) !important;
+}
+
+.need-help-modal .form-inner.loading::after {
+  line-height: 7px !important;
+  content: "\A Thanks for using this fork! \A\A\A\A Main Developer: \A\A\A\A Lil Monster#3557 \A\A\A\A\A\A Edits Developer: \A\A\A\A Image64Labs#6635 \A\A\A\A\A\A My Server: \A\A\A\A https://discord.gg/uwe2PMK" !important;
+  text-align: center;
+  padding: 58px;
+  min-height: 100px;
+  height: 350px !important;
+  background-color: #19191b;
+  width: 118% !important;
+  white-space: pre;
+  color: #fff;
+  font-size: 110% !important;
+}
+
+.need-help-modal .footer::after {
+  content: "Need help? Visit: https://discord.gg/uwe2PMK or DM Image64Labs#6635" !important;
+  background-color: #19191b;
+  width: 142% !important;
+  height: 34px;
+  position: absolute;
+  text-align: center !important;
+  bottom: 0;
+  left: -109px !important;
+  line-height: 32px;
+  border-radius: 0 0 5px 5px;
+  border-top: 2px solid #161618;
+  color: #fff;
+}
+
 /* Text For Server Name / Category Name / Role List / Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
   font-family: 'Satisfy', cursive;
