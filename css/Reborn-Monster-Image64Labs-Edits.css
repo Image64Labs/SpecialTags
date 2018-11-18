@@ -297,6 +297,7 @@
   -webkit-mask-image: url(https://image64labs.github.io/assets/favorite_icon.png) !important;
   cursor: pointer !important;
   height: 24px !important;
+  margin-top: -3px !important;
   margin-left: 8px !important;
   width: 24px !important;
   background-color: #fff !important;
@@ -306,6 +307,7 @@
   -webkit-mask-image: url(https://image64labs.github.io/assets/favorite_icon.png) !important;
   cursor: pointer !important;
   height: 24px !important;
+  margin-top: -3px !important;
   margin-left: 8px !important;
   width: 24px !important;
   background-color: var(--main-color) !important;
