@@ -291,3 +291,22 @@
   -webkit-filter: invert() hue-rotate(-180deg);
   opacity:0.7;
 }
+
+/* New VIP Icons */
+[class*="VIP"] {
+  -webkit-mask-image: url(https://image64labs.github.io/assets/favorite_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: #fff !important;
+}
+
+[class*="VIP selected"] {
+  -webkit-mask-image: url(https://image64labs.github.io/assets/favorite_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: var(--main-color) !important;
+}
