@@ -315,4 +315,23 @@
 
 
 
-/* ========= Reborn Fixes ============== */
+/* Colored Send Friend Request & Send Message */
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+}
