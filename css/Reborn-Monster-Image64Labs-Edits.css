@@ -312,3 +312,12 @@
   width: 24px !important;
   background-color: var(--main-color) !important;
 }
+
+
+
+/* ========= Reborn Fixes ============== */
+
+/* Create Server Text */
+.theme-dark .action-1lSjCi:hover .actionHeader-2CT5c7 {
+  color: var(--main-color);
+}
