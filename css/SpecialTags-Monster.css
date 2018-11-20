@@ -61,6 +61,28 @@
 
 /* ======= SPECIAL TAGS ========= */
 
+/* My border */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::after {
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness);
+  z-index: -1;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::after {
+  background-image: url(https://i.imgur.com/EbzlPNX.gif);
+}
+
+
+
 /* badges */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]::before,
