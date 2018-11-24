@@ -1,0 +1,76 @@
+/* Snow! */
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+.membersWrap-2h-GB4 {
+	background-image: url('https://i.imgur.com/hjMP93Z.png'), url('https://i.imgur.com/0XK3DBv.png'), url('https://i.imgur.com/OjHOtGH.png') !important;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+	filter: alpha(0.2);
+}
+.theme-dark .title-3qD0b- {
+	background-image: url('https://i.imgur.com/hjMP93Z.png'), url('https://i.imgur.com/0XK3DBv.png'), url('https://i.imgur.com/OjHOtGH.png') !important;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+}
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+	background-image: url('https://i.imgur.com/hjMP93Z.png'), url('https://i.imgur.com/0XK3DBv.png'), url('https://i.imgur.com/OjHOtGH.png') !important;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+}
+.guildsWrapper-5TJh6A {
+	background-image: url('https://i.imgur.com/hjMP93Z.png'), url('https://i.imgur.com/0XK3DBv.png'), url('https://i.imgur.com/OjHOtGH.png') !important;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+}
+
+.header-2o-2hj {
+	background-image: url('https://i.imgur.com/hjMP93Z.png'), url('https://i.imgur.com/0XK3DBv.png'), url('https://i.imgur.com/OjHOtGH.png') !important;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+	background-image: url('https://i.imgur.com/hjMP93Z.png'), url('https://i.imgur.com/0XK3DBv.png'), url('https://i.imgur.com/OjHOtGH.png') !important;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite !important;
+	-moz-animation: snow 10s linear infinite !important;
+	-ms-animation: snow 10s linear infinite !important;
+	animation: snow 10s linear infinite !important;
+}
+.messages-3amgkR {
+	background-image: url('https://vignette2.wikia.nocookie.net/animaljam/images/4/41/Large_Transparent_Christmas_Tree_with_Red_Ribbon_Clipart.png/revision/latest?cb=20141203001635');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
