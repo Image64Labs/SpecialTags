@@ -34,3 +34,31 @@
     50%  {  box-shadow: 0 0px 2px 3px #2780e6, 0 0 0 4px #2780e6; }
     100% {  box-shadow: 0 0px 1px #5914d0, 0 0 0 0px #5914d0; }
 }
+
+/* Old Status Boxes */
+.status-oxiHuE:not(.status-3fQvEa) {
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+  border-radius: 50% !important;
+  margin-top: 78% !important;
+  height: 25% !important;
+  position: absolute !important;
+  margin-left: 78% !important;
+  width: 25% !important;
+}
+
+.online-2S838R {
+  background-color: var(--online) !important;
+}
+
+.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {
+  background-color: var(--dnd) !important;
+}
+
+.idle-3DEnRT {
+  background-color: var(--idle) !important;
+}
+
+.streaming-2_dnHe {
+  background-color: var(--streaming) !important;
+}
