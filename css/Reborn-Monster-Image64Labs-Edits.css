@@ -328,27 +328,39 @@
 
 /* Inverted Send Message */
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-  background-color: var(--tertiary-color);
-  border: 1px solid var(--tertiary-color);
+  background-color: transparent;
+  border: 1px solid hsla(0,0%,100%,.6);
   color: #fff;
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-  background-color: var(--tertiary-color);
+  background-color: transparent;
   border: 1px solid var(--hover-color);
   color: var(--hover-color);
 }
 
 .lookInverted-2D7oAl.colorGreen-29iAKY {
-  background-color: var(--tertiary-color);
-  border: 1px solid var(--tertiary-color);
+  background-color: transparent;
+  border: 1px solid hsla(0,0%,100%,.6);
   color: #43b581;
 }
 
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-  background-color: var(--tertiary-color);
+  background-color: transparent;
   border: 1px solid #43b581;
   color: #43b581;
+}
+
+.buttonInvertedPurple-WtBglX {
+  background-color: transparent;
+  border: 1px solid hsla(0,0%,100%,.6);
+  color: #593695;
+}
+
+.buttonInvertedPurple-WtBglX:hover {
+  background-color: transparent;
+  border: 1px solid #593695;
+  color: #593695;
 }
 
 /* Colored PluginRepo Loading */
