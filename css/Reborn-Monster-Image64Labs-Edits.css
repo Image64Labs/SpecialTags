@@ -399,3 +399,13 @@ path[d*="M0.000 183.023 L 0.000 366.046 46.377 366.046 L 92.754 366.046 92.754 3
 .canvas-3XuBXe, .image-2jyRAK {
   display:none !important;
 }
+
+
+/* ======Reborn Fixes====== */
+.mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
+  background-color: var(--hover-color);
+}
+
+.imageSelected-4Kl81J {
+  border: 4px solid var(--main-color);
+}
