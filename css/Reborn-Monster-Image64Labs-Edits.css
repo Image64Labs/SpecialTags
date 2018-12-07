@@ -216,8 +216,8 @@
   width: 362px;
 }
 
-/* Read All Notifications */
-#RANbutton {
+/* Read All Notifications/Public Servers */
+#bd-pub-button {
   text-transform: capitalize !important;
 }
 
@@ -269,21 +269,6 @@
 /* Status Picker Transparency */
 .menu-Sp6bN1.alt-3btY0e {
   background: transparent !important;
-}
-
-/* Public Servers Icon (Thanks Tropix For Icon) */
-#bd-pub-button {
-  background-color: var(--main-color);
-  -webkit-mask: url("https://image64labs.github.io/assets/public_servers_icon.svg");
-  -webkit-mask-size: 40px 40px;
-  -webkit-mask-position: 50%;
-  -webkit-mask-repeat: no-repeat;
-  height: 50px !important;
-  font-size: 0px !important;
-}
-
-#bd-pub-li {
-  height: 50px !important;
 }
 
 /* No Emote Found Sad Face */
