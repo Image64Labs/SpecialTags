@@ -74,3 +74,23 @@
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
+
+/* Chat Avatar Christmas Lights */
+.large-3ChYtB:not(.wrapper-2F3Zv8)::after{
+  content: '';
+  position: absolute;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  top: -2px;
+  left: -2px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness);
+  z-index: -1;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)::after {
+  background-image: url(https://i.imgur.com/pEIU3nC.gif) !important;
+}
