@@ -425,3 +425,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   -webkit-box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px var(--quaternary-color);
   box-shadow: inset 0 0 0 2px var(--main-color), inset 0 0 0 3px var(--quaternary-color);
 }
+
+[class*="result-3w1ZcL da-result"] {
+  background-color: var(--main-color) !important;
+}
