@@ -401,9 +401,9 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Toast */
 .toast {
-  background: var(--quaternary-color);
-  box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
-  color: #fff;
+  background: var(--quaternary-color) !important;
+  box-shadow: 0 0 0 1px var(--secondary-color), 0 2px 10px 0 rgba(0,0,0,.2) !important;
+  color: #fff !important;
 }
 
 .toast-prog-bar-progress {
