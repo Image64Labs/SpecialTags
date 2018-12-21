@@ -439,6 +439,15 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   transition: 1.5s all ease-in-out;
 }
 
+/* GIF Favorite */
+.gifFavoriteButton-2UvP3Q:hover {
+  color: var(--main-color);
+}
+
+.gifFavoriteButton-2UvP3Q.selected-2QpwIN {
+  color: var(--main-color);
+}
+
 /* ======Reborn Fixes====== */
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
   background-color: var(--hover-color);
