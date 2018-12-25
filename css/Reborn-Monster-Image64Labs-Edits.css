@@ -452,6 +452,52 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   color: var(--main-color);
 }
 
+/* BD Modal */
+.bd-modal-wrapper .footer button {
+  background-color: var(--main-color);
+}
+
+.bd-modal-wrapper .footer button:hover {
+  background-color: var(--hover-color);
+}
+
+.bd-modal-wrapper .bd-content-modal .bd-modal-inner {
+  content: " ";
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  filter: blur(var(--background-blur));
+  background-color: var(--tertiary-color) !important;
+  height: 500px;
+  width: 700px;
+}
+
+.bd-modal-wrapper .bd-modal-body {
+  background-color: var(--tertiary-color) !important;
+  color: #fff;
+}
+
+.bd-modal-wrapper .header {
+  background-color: var(--tertiary-color) !important;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+  color: #fff;
+}
+
+.bd-modal-wrapper .footer {
+  background-color: var(--tertiary-color) !important;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+
 /* ======Reborn Fixes====== */
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
   background-color: var(--hover-color);
@@ -471,7 +517,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   background-color: var(--main-color) !important;
 }
 
-/* Background fix for Create Server Modol*/
+/* Background fix for Create Server Modal*/
 .wrapper-2ZbzR9 {
     background:transparent !important;
 }
