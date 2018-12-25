@@ -462,12 +462,10 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 }
 
 .bd-modal-wrapper .bd-content-modal .bd-modal-inner {
-  content: " ";
   background-image: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  pointer-events: none;
   filter: blur(var(--background-blur));
   background-color: var(--tertiary-color) !important;
   height: 500px;
