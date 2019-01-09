@@ -288,11 +288,6 @@
 
 
 /* Tag Animations */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover:before {
-  animation-name: growIn;
-  animation-duration: .2s;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]:hover:before {
   animation-name: tagFadeRight;
@@ -310,7 +305,7 @@
   animation-duration: .4s;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]:hover:before {
-  animation-name: growInPulse;
-  animation-duration: 1.5s;
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover:before {
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
