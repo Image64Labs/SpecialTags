@@ -6,7 +6,6 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
-@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Compressed%20Search.css");
 
 /* Theme Version */
 .need-help-modal.form.deprecated .header h1::after {
@@ -491,6 +490,19 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   display: flex;
   justify-content: flex-end;
   padding: 10px 20px;
+}
+
+/*Compressed Search Bar*/
+.search-2oPWTC .searchBar-3dMhjb {
+  width:30px;
+}
+
+.search-2oPWTC .searchBar-3dMhjb:hover {
+  width:175px;
+}
+
+.focused-31_ccS .searchBar-3dMhjb {
+  width: 244px !important;
 }
 
 
