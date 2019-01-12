@@ -240,12 +240,12 @@
 
 /* Friends Tab */
 .theme-dark .topPill-30KHOu .item-PXvHYJ {
-  border-radius:3px !important;
+  border-radius: 3px !important;
 }
 
 .theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
   background-color: var(--main-color) !important; 
-  color:white;
+  color: white !important;
 }
 
 .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
