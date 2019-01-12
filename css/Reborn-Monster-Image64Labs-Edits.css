@@ -239,10 +239,17 @@
 
 
 /* Friends Tab */
-.theme-dark .topPill-30KHOu .item-PXvHYJ {border-radius:3px !important;}
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {background-color: var(--main-color) !important; color:white;}
-.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {background-color: var(--hover-color) !important;}
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {color: #fff;
+.theme-dark .topPill-30KHOu .item-PXvHYJ {
+  border-radius:3px !important;
+}
+
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+  background-color: var(--main-color) !important; 
+  color:white;
+}
+
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+  background-color: var(--hover-color) !important;
 }
 
 
