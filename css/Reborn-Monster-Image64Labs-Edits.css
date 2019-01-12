@@ -7,6 +7,8 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
 
+
+
 /* Theme Version */
 .need-help-modal.form.deprecated .header h1::after {
   content: 'Discord Reborn: Image64Labs Edition' !important;
@@ -53,6 +55,8 @@
   color: #fff;
 }
 
+
+
 /* Text For Server Name / Category Name / Role List / Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
   font-family: 'Satisfy', cursive;
@@ -93,6 +97,8 @@
   padding-bottom: 6px;
 }
 
+
+
 /* Animated Guild List Streaming Border */
 .status-streaming{
     animation:streaming-flash 1.5s linear infinite;
@@ -123,16 +129,22 @@
     border-color: #593695 !important;
 }
 
+
+
 /* BetterPonyMotes Button Fix (Top Right Only!) */
 .bpm-emote-search-button {
   width: 30px;
   height: 24px;
 }
 
+
+
 /* New BetterPonyMotes Button */
 .bpm-emote-search-button {
   background: url(https://image64labs.github.io/assets/bpm_icon.png) no-repeat center center;
 }
+
+
 
 /* Bigger Emoji */
 .emoji.jumboable {
@@ -146,14 +158,18 @@
   min-width: 25px;
 }
 
+
+
 /* Completely Removes Blocked Users Messages */
 .messageGroupBlocked-3wrQQX {
     display: none;
 }
 
+
+
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
-    background: var(--main-color) !important;
+  background: var(--main-color) !important;
 }
 
 .ra-x-button {
@@ -168,6 +184,8 @@
   height: 15px;
   margin-bottom: 17.5%;
 }
+
+
   
 /* User Birthday's */
 .ub-item-inner {
@@ -187,6 +205,8 @@
   margin-bottom: 17.5%;
 }
 
+
+
 /* BPM Fix */
 #bpm-sb-container {  border: 2px solid var(--main-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var(--BPM) !important;}
 #bpm-sb-close {filter: invert(1) !important;}
@@ -198,6 +218,8 @@
 #bpm-sb-options {color: white !important;}
 #bpm-sb-flagtab { color: white !important;}
 
+
+
 /* Tag Fixes */
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
 .guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
@@ -207,6 +229,8 @@
   display: none !important;
 }
 
+
+
 /* Custom NSFW Warning Image */
 .theme-dark .image-2LqJex {
   background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
@@ -214,10 +238,14 @@
   width: 420px;
 }
 
+
+
 /* Read All Notifications/Public Servers */
 #bd-pub-button {
   text-transform: capitalize !important;
 }
+
+
 
 /* Peeking Boosette on Server Create Button */
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
@@ -228,6 +256,7 @@
   margin-bottom:-55px !important;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
+
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
   background-size: 25px;
   margin-bottom:-100px !important;
@@ -235,6 +264,8 @@
   background-repeat: no-repeat;
   transition:500ms linear;
 }
+
+
 
 /* Nitro Settings */
 .layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8) {
@@ -252,12 +283,16 @@
   color: #fff;
 }
 
+
+
 /* Friends Tab (Thanks Tropix) */
 .theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
 .theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white;}
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;}
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {color: #fff;
 }
+
+
 
 /* Video Call Transparent Background */
 .videoBackgroundWrapper-2dCt49 {
@@ -268,16 +303,22 @@
   background-color: transparent;
 }
 
+
+
 /* Status Picker Transparency */
 .menu-Sp6bN1.alt-3btY0e {
   background: transparent !important;
 }
 
+
+
 /* No Emote Found Sad Face */
-.emojiPicker-3m1S-j .no-search-results .sad-discord {
+.sadImage-2ph8SI {
   -webkit-filter: invert() hue-rotate(-180deg);
   opacity:0.7;
 }
+
+
 
 /* New VIP Icons */
 [class*="VIP"] {
@@ -299,6 +340,7 @@
   width: 24px !important;
   background-color: var(--main-color) !important;
 }
+
 
 
 /* Send Message */
@@ -354,6 +396,8 @@
     background-color: var(--main-color);
 }
 
+
+
 /* Colored PluginRepo & ThemeRepo Loading */
 path[d*="M0.000 183.023 L 0.000 366.046 46.377 366.046 L 92.754 366.046 92.754 312.629 L 92.754 259.213 127.223 259.213 C 174.433 259.213,187.432 257.146,210.766 245.926 C 311.105 197.681,301.344 41.358,195.859 7.193 C 173.603 -0.015,173.838 0.000,80.846 0.000 L 0.000 0.000 0.000 183.023 M157.615 88.195 C 193.007 97.413,198.827 152.678,166.407 171.674 C 158.993 176.019,155.494 176.398,122.807 176.398 L 92.754 176.398 92.754 131.677 L 92.754 86.957 122.807 86.957 C 146.807 86.957,153.819 87.206,157.615 88.195"] {
   fill: var(--main-color) !important;
@@ -362,6 +406,8 @@ path[d*="M0.000 183.023 L 0.000 366.046 46.377 366.046 L 92.754 366.046 92.754 3
 path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.097 L 87.151 329.236 129.609 329.236 L 172.067 329.236 172.067 204.097 L 172.067 78.957 215.642 78.957 L 259.218 78.957 259.218 39.479 L 259.218 0.000 129.609 0.000 L 0.000 0.000 0.000 39.479"] {
   fill: var(--main-color) !important;
 }
+
+
 
 /* Loading Container (Thanks Tropix) */
 .platform-win .container-16j22k::before {
@@ -375,35 +421,46 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   z-index: -1;
   background-color:var(--primary-color);
 }
+
 .platform-win .container-16j22k {
   background-image:var(--background-image) !important;
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
 }
+
 .status-1JTY3j,
 .problemsText-1Yx-Kl {
   color:white !important;
   opacity:0.5;
 }
+
 .anchor-3Z-8Bb {
   color:var(--mc) !important;
 }
+
+
 
 /* Login Page (Thanks Tropix) */
 .canvas-3XuBXe, .image-2jyRAK {
   display:none !important;
 }
 
+
+
 /* Server Folders Spacer */
 .guildSeparator-1X4GQ1.folderseparator::after {
   background-color: var(--main-color) !important;
 }
 
+
+
 /* @mention & #channel color */
 .theme-dark .wrapper-3WhCwL {
   color: var(--main-color);
 }
+
+
 
 /* Toast */
 .toast {
@@ -415,6 +472,8 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .toast-prog-bar-progress {
   background: var(--main-color) !important;
 }
+
+
 
 /* Spoiler Tweaks*/
 .theme-dark .spoilerWarning-2aAZq1 {
@@ -445,6 +504,8 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   transition: 1.5s all ease-in-out;
 }
 
+
+
 /* GIF Favorite */
 .gifFavoriteButton-2UvP3Q:hover {
   color: var(--main-color);
@@ -453,6 +514,8 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .gifFavoriteButton-2UvP3Q.selected-2QpwIN {
   color: var(--main-color);
 }
+
+
 
 /* BD Modal */
 .bd-modal-wrapper .footer button {
@@ -491,6 +554,8 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   justify-content: flex-end;
   padding: 10px 20px;
 }
+
+
 
 /* Compressed Search Bar */
 .search-2oPWTC .searchBar-3dMhjb {
