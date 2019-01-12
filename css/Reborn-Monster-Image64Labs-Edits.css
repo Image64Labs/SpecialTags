@@ -238,11 +238,11 @@
 
 
 
-/* Friends Tab (Thanks Tropix) */
-.theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
-.theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white;}
-#friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;}
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {color: #fff;
+/* Friends Tab */
+.theme-dark .topPill-30KHOu .item-PXvHYJ {border-radius:3px !important;}
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {background-color: var(--main-color) !important; color:white;}
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {background-color: var(--hover-color) !important;}
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {color: #fff;
 }
 
 
