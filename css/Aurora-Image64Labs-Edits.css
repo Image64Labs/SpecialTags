@@ -8,68 +8,68 @@
 
 /* Text For Server Name / Category Name / Role List / Group DM Name */
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
-	font-family: 'Satisfy', cursive;
-	text-transform: capitalize;
-	font-size: 90%;
-	color: var(--hover-color);
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-size: 90%;
+  color: var(--hover-color);
   border-bottom: 3px solid;
   border-image: linear-gradient(90deg, transparent, var(--hover-color), transparent);
   border-image-slice: 1;
-	margin-top: -7px;
-	text-align: center;
-  }
+  margin-top: -7px;
+  text-align: center;
+}
   
-  .header-2o-2hj .name-3YKhmS {
-	  font-family: 'Satisfy', cursive;
-	  text-transform: capitalize;
-	  font-weight: bold;
-	  font-style: italic;
-	  font-weight: 500;
-	  height: 48px;
-	  padding: 0 12px 0 16px;
-  }
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 500;
+  height: 48px;
+  padding: 0 12px 0 16px;
+}
   
-  .membersGroup-v9BXpm {
-	  font-family: 'Satisfy', cursive;
-	  text-transform: capitalize;
-	  padding-top: 13px;
-	  padding-bottom: 13px;
-	  padding: 19px 16px 6px 16px;
-	  font-size: 90%;
-	  color: var(--hover-color) !important;
-	  border-bottom: 3px solid;
-	  border-image: linear-gradient(90deg, transparent, var(--hover-color), transparent);
-	  border-image-slice: 1;
-	  margin: 4px 0px 10px 15px;
-	  font-weight: 600;
-	  text-align: center;
-	  border-radius: 3px;
-	  width: 175px;
-  }
+.membersGroup-v9BXpm {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding: 19px 16px 6px 16px;
+  font-size: 90%;
+  color: var(--hover-color) !important;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, transparent, var(--hover-color), transparent);
+  border-image-slice: 1;
+  margin: 4px 0px 10px 15px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 3px;
+  width: 175px;
+}
   
-  .title-3qD0b- .input-autosize-input, .titleCall-_b9o8P .input-autosize-input {
-	  font-family: 'Satisfy', cursive;
-	  text-transform: capitalize;
-	  font-weight: bold;
-	  font-style: italic;
-  }
+.title-3qD0b- .input-autosize-input, .titleCall-_b9o8P .input-autosize-input {
+  font-family: 'Satisfy', cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+}
 
-  .header-2o-2hj .name-3YKhmS {
-	  font-family: 'Satisfy', cursive;
-	  font-weight: 500;
-	  height: 45px;
-	  padding: 0 12px 0 16px;
-	  padding-top: 6px;
-	  padding-bottom: 6px;
-  }
+.header-2o-2hj .name-3YKhmS {
+   font-family: 'Satisfy', cursive;
+   font-weight: 500;
+   height: 45px;
+   padding: 0 12px 0 16px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+}
 
 
 
 /* User Settings Nitro Color Fixes */
 #user-settings .item-PXvHYJ:nth-of-type(8) {
-	color: var(--hover-color) !important; 
+   color: var(--hover-color) !important; 
 }
 
 #user-settings .item-PXvHYJ:nth-of-type(8):hover {
-	color: #fff !important; 
+   color: #fff !important; 
 }
