@@ -132,168 +132,167 @@
 }
 
 .header-2o-2hj .name-3YKhmS {
-   font-family: 'Satisfy', cursive;
-   font-weight: 500;
-   height: 45px;
-   padding: 0 12px 0 16px;
-   padding-top: 6px;
-   padding-bottom: 6px;
+  font-family: 'Satisfy', cursive;
+  font-weight: 500;
+  height: 45px;
+  padding: 0 12px 0 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 
 
 /* User Settings Nitro Color Fixes */
 #user-settings .item-PXvHYJ:nth-of-type(8) {
-   color: var(--hover-color) !important; 
+  color: var(--hover-color) !important; 
 }
 
 #user-settings .item-PXvHYJ:nth-of-type(8):hover {
-   color: #fff !important; 
+  color: #fff !important; 
 }
 
 
 
 /* Home Icon */
 .homeIcon-1FoKUJ {
-	background-color: var(--main-color);
-	-webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
-	-webkit-mask-size: 35px;
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-position: center;
-	transition:250ms all ease;
-  }
+  background-color: var(--main-color);
+  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
+  -webkit-mask-size: 35px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  transition:250ms all ease;
+}
   
-  .homeIcon-1FoKUJ defs,
-  .homeIcon-1FoKUJ g {
-	display: none;
-  }
+.homeIcon-1FoKUJ defs,
+.homeIcon-1FoKUJ g {
+  display: none;
+}
   
   
 
-
-  /* New VIP Icons */
+/* New VIP Icons */
 [class*="VIP"] {
-	-webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
-	cursor: pointer !important;
-	height: 24px !important;
-	margin-top: -3px !important;
-	margin-left: 8px !important;
-	width: 24px !important;
-	background-color: #fff !important;
-  }
+  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-top: -3px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: #fff !important;
+}
   
-  [class*="VIP selected"] {
-	-webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
-	cursor: pointer !important;
-	height: 24px !important;
-	margin-top: -3px !important;
-	margin-left: 8px !important;
-	width: 24px !important;
-	background-color: rgb(250, 192, 46) !important;
-  }
+[class*="VIP selected"] {
+  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-top: -3px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: rgb(250, 192, 46) !important;
+}
 
 
 
   /* Colored PluginRepo & ThemeRepo Loading */
 path[d*="M0.000 183.023 L 0.000 366.046 46.377 366.046 L 92.754 366.046 92.754 312.629 L 92.754 259.213 127.223 259.213 C 174.433 259.213,187.432 257.146,210.766 245.926 C 311.105 197.681,301.344 41.358,195.859 7.193 C 173.603 -0.015,173.838 0.000,80.846 0.000 L 0.000 0.000 0.000 183.023 M157.615 88.195 C 193.007 97.413,198.827 152.678,166.407 171.674 C 158.993 176.019,155.494 176.398,122.807 176.398 L 92.754 176.398 92.754 131.677 L 92.754 86.957 122.807 86.957 C 146.807 86.957,153.819 87.206,157.615 88.195"] {
-	fill: var(--main-color) !important;
-  }
+  fill: var(--main-color) !important;
+}
   
-  path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.097 L 87.151 329.236 129.609 329.236 L 172.067 329.236 172.067 204.097 L 172.067 78.957 215.642 78.957 L 259.218 78.957 259.218 39.479 L 259.218 0.000 129.609 0.000 L 0.000 0.000 0.000 39.479"] {
-	fill: var(--main-color) !important;
-  }
-  
-  
-  
-  /* Loading Container (Thanks Tropix) */
-  .platform-win .container-16j22k::before {
-	content: '';
-	display: block;
-	position: absolute;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	top: 0;
-	z-index: -1;
-	background-color:var(--primary-color);
-  }
-  
-  .platform-win .container-16j22k {
-	background-image:var(--background-image) !important;
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:cover;
-  }
-  
-  .status-1JTY3j,
-  .problemsText-1Yx-Kl {
-	color:white !important;
-	opacity:0.5;
-  }
-  
-  .anchor-3Z-8Bb {
-	color:var(--mc) !important;
-  }
+path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.097 L 87.151 329.236 129.609 329.236 L 172.067 329.236 172.067 204.097 L 172.067 78.957 215.642 78.957 L 259.218 78.957 259.218 39.479 L 259.218 0.000 129.609 0.000 L 0.000 0.000 0.000 39.479"] {
+  fill: var(--main-color) !important;
+}
   
   
   
-  /* Login Page (Thanks Tropix) */
-  .canvas-3XuBXe, .image-2jyRAK {
-	display:none !important;
-  }
+/* Loading Container (Thanks Tropix) */
+.platform-win .container-16j22k::before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+  background-color:var(--primary-color);
+}
+  
+.platform-win .container-16j22k {
+  background-image:var(--background-image) !important;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+  
+.status-1JTY3j,
+.problemsText-1Yx-Kl {
+  color:white !important;
+  opacity:0.5;
+}
+  
+.anchor-3Z-8Bb {
+  color:var(--mc) !important;
+}
   
   
   
-  /* Server Folders Spacer */
-  .guildSeparator-1X4GQ1.folderseparator::after {
-	background-color: var(--main-color) !important;
-  }
+/* Login Page (Thanks Tropix) */
+.canvas-3XuBXe, .image-2jyRAK {
+  display:none !important;
+}
+  
+  
+  
+/* Server Folders Spacer */
+.guildSeparator-1X4GQ1.folderseparator::after {
+  background-color: var(--main-color) !important;
+}
   
 
 
-  /* Spoiler Tweaks*/
+/* Spoiler Tweaks*/
 .theme-dark .spoilerWarning-2aAZq1 {
-	background-color: transparent;
+  background-color: transparent;
 }
   
 .theme-dark .spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1{
-	background-color: var(--hover-color) !important;
-	border-radius: 5px;
+  background-color: var(--hover-color) !important;
+  border-radius: 5px;
 }
   
 .theme-dark .spoilerContainer-331r0R .spoilerWarning-2aAZq1{
-	background-color: var(--main-color) !important;
-	border-radius: 5px;
+  background-color: var(--main-color) !important;
+  border-radius: 5px;
 }
   
 .spoiler-1PPAUc.hiddenSpoilers-1ksnR6 { 
-	filter: blur(22px);
+  filter: blur(22px);
 }
   
 .spoilerContainer-331r0R.hidden-HHr2R9 { 
-	width: 85px;
-	height: 30px;
-	transition: 3s all ease-in-out;
+  width: 85px;
+  height: 30px;
+  transition: 3s all ease-in-out;
 }
   
 .spoiler-1PPAUc {
-	transition: 1.5s all ease-in-out;
+  transition: 1.5s all ease-in-out;
 }
 
 
 
 /* Custom NSFW Warning Image */
 .theme-dark .image-2LqJex {
-	background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
-	height: 420px;
-	width: 420px;
+  background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
+  height: 420px;
+  width: 420px;
 }
 
 
 
 /* Animated Guild List Streaming Border */
 .status-streaming{
-    animation:streaming-flash 1.5s linear infinite;
+  animation: streaming-flash 1.5s linear infinite;
 }
 .user-popout .header.streaming .username-wrapper .activity strong{
     color: #593695;
