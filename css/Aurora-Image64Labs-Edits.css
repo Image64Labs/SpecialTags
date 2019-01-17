@@ -408,3 +408,22 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .bpm-sb-help { color: white !important;}
 #bpm-sb-options {color: white !important;}
 #bpm-sb-flagtab { color: white !important;}
+
+
+
+/* Read All Notifications/Public Servers */
+.guildsWrapper-5TJh6A [class*="RANbutton"] { 
+  text-transform: capitalize !important;
+  width: 67px !important;
+}
+
+
+
+/* Mention */
+.mention-1f5kbO {
+  background-color: var(--hover-color);
+}
+
+.mention-1f5kbO:hover {
+  background-color: var(--main-color-faded);
+}
