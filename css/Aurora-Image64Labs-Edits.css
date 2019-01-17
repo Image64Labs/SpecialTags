@@ -396,3 +396,16 @@ path[d*="M0.000 183.023 L 0.000 366.046 46.377 366.046 L 92.754 366.046 92.754 3
   height: 15px;
   margin-bottom: 17.5%;
 }
+
+
+
+/* BPM Fix */
+#bpm-sb-container {  border: 2px solid var(--hover-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: rgba(0,0,0,0.8) !important;}
+#bpm-sb-close {filter: invert(1) !important;}
+#bpm-sb-tabframe { background-color: transparent !important;}
+#bpm-sb-dragbox { filter: invert(1) !important;}
+#bpm-sb-input { font: 13.3333px Arial !important;color: black !important;}
+.bpm-search-result { border: none !important;}
+.bpm-sb-help { color: white !important;}
+#bpm-sb-options {color: white !important;}
+#bpm-sb-flagtab { color: white !important;}
