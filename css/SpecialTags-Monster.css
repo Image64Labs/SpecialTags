@@ -302,6 +302,7 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover:before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
