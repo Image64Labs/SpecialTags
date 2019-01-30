@@ -82,7 +82,7 @@
 
 /* New BetterPonyMotes Button */
 .bpm-emote-search-button {
-  background: url(https://image64labs.github.io/assets/bpm_icon.png) no-repeat center center;
+  background: url(null) no-repeat center center;
 }
 
 
@@ -174,7 +174,7 @@
 
 /* Custom NSFW Warning Image */
 .theme-dark .image-2LqJex {
-  background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
+  background-image: url(null);
   height: 420px;
   width: 420px;
 }
@@ -190,7 +190,7 @@
 
 /* Peeking Kanna on Server Create Button */
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
-  background-image: url(https://image64labs.github.io/assets/kanna_rawr.png);
+  background-image: url(null);
   background-size: 25px;
   background-repeat: no-repeat;
   margin-left: 24px;
@@ -274,7 +274,7 @@
 
 /* New VIP Icons */
 [class*="VIP"] {
-  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  -webkit-mask-image: url(null) !important;
   cursor: pointer !important;
   height: 24px !important;
   margin-top: -3px !important;
@@ -284,7 +284,7 @@
 }
 
 [class*="VIP selected"] {
-  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  -webkit-mask-image: url(null) !important;
   cursor: pointer !important;
   height: 24px !important;
   margin-top: -3px !important;
