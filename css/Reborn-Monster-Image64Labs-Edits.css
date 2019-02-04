@@ -200,26 +200,6 @@
 
 
 
-/* Peeking Kanna on Server Create Button */
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:before {
-  background-image: url(https://image64labs.github.io/assets/kanna_rawr.png);
-  background-size: 25px;
-  background-repeat: no-repeat;
-  margin-left: 24px;
-  margin-bottom:-55px !important;
-  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
-}
-
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
-  background-size: 25px;
-  margin-bottom:-100px !important;
-  margin-left:24px !important;
-  background-repeat: no-repeat;
-  transition:500ms linear;
-}
-
-
-
 /* Nitro Settings */
 .layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8) {
   color: var(--main-color) !important;
