@@ -439,11 +439,11 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .spoilerContainer-331r0R.hidden-HHr2R9 { 
   width: 85px;
   height: 30px;
-  transition: 3s all ease-in-out;
+  transition: 3s all ease-in-out !important;
 }
 
 .spoiler-1PPAUc {
-  transition: 1.5s all ease-in-out;
+  transition: 1.5s all ease-in-out !important;
 }
 
 
