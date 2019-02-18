@@ -1,0 +1,13 @@
+/* Alternate Home Icon */
+.homeIcon-1FoKUJ {
+  background-color: var(--home-color);
+  -webkit-mask: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/chatIcon.svg);
+  -webkit-mask-size: var(--home-size);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.homeIcon-1FoKUJ defs,
+.homeIcon-1FoKUJ g {
+  display: none;
+}
