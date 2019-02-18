@@ -326,3 +326,16 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .wrapper-2ZbzR9 {
     background:transparent !important;
 }
+
+
+
+/* Server Outage Color Fixes */
+.theme-dark .guildsError-3cFMtY {
+  background: var(--quaternary-color);
+  border-color: var(--main-color);
+}
+
+.theme-dark .guildsError-3cFMtY:hover {
+  background: var(--tertiary-color);
+  border-color: var(--hover-color);
+}
