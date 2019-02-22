@@ -114,13 +114,6 @@
 
 
 
-/* Completely Removes Blocked Users Messages */
-.messageGroupBlocked-3wrQQX {
-    display: none;
-}
-
-
-
 /* Guild/Friend Removal Alert */
 .ra-serveritem-inner {
   background: var(--main-color) !important;
