@@ -4,12 +4,12 @@
 }
 
 .theme-dark .spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1{
-  background-color: var(--hover-color) !important;
+  background-color: $hover-color !important;
   border-radius: 5px;
 }
 
 .theme-dark .spoilerContainer-331r0R .spoilerWarning-2aAZq1{
-  background-color: var(--main-color) !important;
+  background-color: $main-color !important;
   border-radius: 5px;
 }
 
