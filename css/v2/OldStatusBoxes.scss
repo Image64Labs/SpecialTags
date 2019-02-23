@@ -11,17 +11,17 @@
 }
 
 .online-2S838R {
-  background-color: var(--online) !important;
+  background-color: $online !important;
 }
 
 .status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {
-  background-color: var(--dnd) !important;
+  background-color: $dnd !important;
 }
 
 .idle-3DEnRT {
-  background-color: var(--idle) !important;
+  background-color: $idle !important;
 }
 
 .streaming-2_dnHe {
-  background-color: var(--streaming) !important;
+  background-color: $streaming !important;
 }
