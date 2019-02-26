@@ -1,0 +1,135 @@
+/* Image64Labs Edits */
+
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color: #593695;
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color: #593695;
+}
+
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: #593695 !important;
+}
+
+/* Bigger Emoji */
+.emoji.jumboable {
+	height: auto;
+	width: 80px;
+	max-height: 100px;
+  }
+  
+  .emoji {
+	min-height: 25px;
+	min-width: 25px;
+  }
+
+/* Read All Notifications/Public Servers */
+#bd-pub-button {
+	text-transform: capitalize !important;
+  }
+
+/* Nitro Settings */
+#user-settings .item-PXvHYJ:nth-of-type(8) {
+	color: var(--hover-color) !important;
+  }
+  
+  
+/* New VIP Icons */
+[class*="VIP"] {
+	-webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+	cursor: pointer !important;
+	height: 24px !important;
+	margin-top: -3px !important;
+	margin-left: 8px !important;
+	width: 24px !important;
+	background-color: #fff !important;
+  }
+  
+  [class*="VIP selected"] {
+	-webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+	cursor: pointer !important;
+	height: 24px !important;
+	margin-top: -3px !important;
+	margin-left: 8px !important;
+	width: 24px !important;
+	background-color: rgb(250, 192, 46) !important;
+  }
+  
+  
+
+  /* Send Message */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+	background-color: var(--hover-color) !important;
+  }
+  
+  .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+	background-color: var(--hover-color);
+	filter: brightness(100%);
+  }
+  
+  .lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+	  background-color: var(--main-color);
+	}
+	
+
+
+	/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+  background: var(--main-color) !important;
+}
+
+.ra-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
+
+  
+/* User Birthday's */
+.ub-item-inner {
+  background: var(--main-color) !important;
+}
+
+.ub-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
+.emojiPicker-3m1S-j {
+	height: 45vh !important;
+}
