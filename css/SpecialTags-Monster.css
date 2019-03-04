@@ -36,7 +36,7 @@
   background: url(https://i.imgur.com/sZJzzNW.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
-  color: var(--main-color);
+  color: var(--hover-color);
   bottom: -15px;
   font-size: 14px;
   font-weight: 700;
@@ -243,7 +243,7 @@
   background: url(https://i.imgur.com/sZJzzNW.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
-  color: var(--main-color);
+  color: var(--hover-color);
   font-size: 14px;
   font-weight: 700;
   bottom: -15px;
