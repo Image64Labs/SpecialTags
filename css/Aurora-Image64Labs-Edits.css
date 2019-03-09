@@ -133,3 +133,17 @@
 .emojiPicker-3m1S-j {
 	height: 45vh !important;
 }
+
+
+
+/* Guild Margin Fixes */
+.friendsOnline-2JkivW {
+    margin-left:0px;
+}
+.container-1aNBdK {
+    margin-left:10px;
+}
+
+.guildsErrorContainer-2uWYsE {
+    margin-left: 10px;
+}
