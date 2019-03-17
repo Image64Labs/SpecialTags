@@ -99,7 +99,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before,
@@ -141,13 +140,6 @@
   right: -5px;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]::before {
-  background-image: url(https://i.imgur.com/qMCPw93.gif);
-  transform: scale(1.5);
-  bottom: -5px;
-  right: -5px;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]::before {
   background-image: url(https://i.imgur.com/zKPb4BV.gif);
   transform: scale(1.5);
@@ -184,7 +176,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
@@ -231,13 +222,6 @@
   bottom: -15px;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]:hover::before {
-  content: 'Shal Dynasty';
-  background-image: url(https://i.imgur.com/W9gwak3.png);
-  color: #fff;
-  bottom: -15px;
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before {
   content: 'Big Fox';
   background: url(https://i.imgur.com/sZJzzNW.gif);
@@ -275,7 +259,6 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
@@ -293,11 +276,6 @@
   animation-name: tagFadeRight;
   animation-duration: .2s;
   animation-iteration-count: 1;
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="133978858457268224"]:hover:before {
-  animation-name: fallBounce;
-  animation-duration: 1s;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover:before {
