@@ -163,15 +163,25 @@
 
 /* BetterImagePopups Tooltips */
 .tooltip-1OS-Ti.brand-3tBTjG {
-	background: var(--main-color) !important;
-	box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
-	color: #f8f9fd;
+   background: var(--main-color) !important;
+   box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
+   color: #f8f9fd;
+}
+
+.tooltip-1OS-Ti.brand-3tBTjG.top-1pTh1F {
+   background: var(--main-color) !important;
+   box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
+}
+
+.tooltip-1OS-Ti.brand-3tBTjG.bottom-19kp6S {
+   background: var(--main-color) !important;
+   box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
 }
 
 .tooltip-1OS-Ti.brand-3tBTjG.top-1pTh1F:after {
-	border-top-color: transparent !important;
+   border-top-color: transparent !important;
 }
 
 .tooltip-1OS-Ti.brand-3tBTjG.bottom-19kp6S:after {
-	border-bottom-color: transparent !important;
+   border-bottom-color: transparent !important;
 }
