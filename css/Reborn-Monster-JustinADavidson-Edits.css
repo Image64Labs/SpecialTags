@@ -96,7 +96,7 @@
 
 /* New BetterPonyMotes Button */
 .bpm-emote-search-button {
-  background: url(https://image64labs.github.io/assets/bpm_icon.png) no-repeat center center;
+  background: url(https://justinadavidson.github.io/assets/bpm_icon.png) no-repeat center center;
 }
 
 
@@ -181,7 +181,7 @@
 
 /* Custom NSFW Warning Image */
 .theme-dark .image-2LqJex {
-  background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
+  background-image: url(https://justinadavidson.github.io/assets/kanna_nsfw_warning.png);
   height: 420px;
   width: 420px;
 }
@@ -261,7 +261,7 @@
 
 /* New VIP Icons */
 [class*="VIP"] {
-  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  -webkit-mask-image: url(https://justinadavidson.github.io/assets/vip_icon.png) !important;
   cursor: pointer !important;
   height: 24px !important;
   margin-top: -3px !important;
@@ -271,7 +271,7 @@
 }
 
 [class*="VIP selected"] {
-  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  -webkit-mask-image: url(https://justinadavidson.github.io/assets/vip_icon.png) !important;
   cursor: pointer !important;
   height: 24px !important;
   margin-top: -3px !important;
