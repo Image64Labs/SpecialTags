@@ -254,8 +254,9 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
   content: "Modpack King";
-  background: url(https://i.imgur.com/ZcZChVB.gif);
   color: #fff;
+  background: url(https://i.imgur.com/ZcZChVB.gif);
+  bottom: -15px;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before,
