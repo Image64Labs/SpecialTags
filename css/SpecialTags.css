@@ -6,7 +6,6 @@
 /* ========= START OF USER TAGS ============== */
 
   /* before hover */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="277988285513596928"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="168274283414421504"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]::before {
@@ -15,17 +14,6 @@
 
 
   /* on hover */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
-  content: "Modpack King";
-  background: url(https://i.imgur.com/ZcZChVB.gif);
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  font-size:14px;
-  font-weight: 700;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
-}
-
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="277988285513596928"]:hover::before {
   content: "AHHHHHHHHHHHHHHHHHHHHHHH";
   background-color: #7f0000; 
@@ -102,7 +90,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]::before{
   content: '';
   color: transparent;
   height: 15px;
@@ -163,6 +152,13 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]::before {
   background-image: url(https://i.imgur.com/xos3aIy.png);
+  transform: scale(1.5);
+  bottom: -5px;
+  right: -5px;
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]::before {
+  background-image: url(https://i.imgur.com/NPMhJYu.png);
   transform: scale(1.5);
   bottom: -5px;
   right: -5px;
@@ -256,13 +252,25 @@
   bottom: -15px;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
+  content: "Modpack King";
+  background: url(https://i.imgur.com/ZcZChVB.gif);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size:14px;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]:hover::before{
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="381333411778002954"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
