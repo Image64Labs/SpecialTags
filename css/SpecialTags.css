@@ -144,7 +144,7 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
-  background-image: url(https://i.imgur.com/EMI6dh8.gif);
+  background-image: url(https://i.imgur.com/qX6Ds7o.png);
   transform: scale(1.5);
   bottom: -5px;
   right: -5px;
@@ -239,9 +239,9 @@
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
-  content: 'Hero Of Coding';
-  color: white;
-  background-image: url(https://i.imgur.com/TiyiCqn.gif);
+  content: 'Keeper Of Lolis';
+  color: #1f75fe;
+  background-image: url(https://i.imgur.com/BT41M6N.gif);
   bottom: -15px;
 }
 
