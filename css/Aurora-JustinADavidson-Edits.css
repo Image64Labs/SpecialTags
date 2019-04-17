@@ -150,6 +150,35 @@
 
 
 
+/* Card-style plugins/themes menu */
+#app-mount .bda-slist li {
+  width: 350px;
+  height: 300px;
+}
+#app-mount .bda-slist {
+  user-select: text;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: fit-content;
+  max-height: unset;
+  width: 110%;
+  margin-left: -34px;
+}
+
+#bd-settingspane-container .scroller-wrap {
+  height: 61%;
+}
+
+
+
+/* Remove whatts new in settings */
+#bd-settingspane-container .bda-slist::before {
+  content: none !important;
+}
+
+
+
 
 
 
