@@ -1,0 +1,43 @@
+:root {
+    --roundness: 50%;
+}
+
+
+
+/* Border Radius */
+.status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL, .inner-1W0Bkn, .image-33JSyf, .wrapper-2F3Zv8 {
+  border-radius: var(--roundness) !important;
+} 
+
+.avatarHint-1qgaV3 {
+  border-radius: var(--roundness) !important;
+}
+
+#app-mount .status-oxiHuE:not(.status-3fQvEa) {
+  border-radius: var(--roundness) !important;
+}
+
+.guildIconImage-3qTk45 {
+  border-radius: var(--roundness) !important;
+}
+
+.status-2L8Zc7 {
+  border-radius: var(--roundness) !important;
+}
+
+.guildIconExpired-2Qcq05 {
+  border-radius: var(--roundness) !important;
+}
+
+.guildIcon-VlWW86 {
+  border-radius: var(--roundness) !important;
+}
+
+#app-mount .wrapper-1Rf91z .container-2td-dC .wrapper-2lTRaf {
+  border-radius: var(--roundness) !important;
+  background-color: transparent !important;
+}
+
+.circleIconButton-jET_ig {
+  border-radius: var(--roundness) !important;
+}
