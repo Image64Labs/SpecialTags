@@ -92,24 +92,6 @@
 	
 
 
-/* Guild/Friend Removal Alert */
-.ra-serveritem-inner {
-  background: var(--main-color) !important;
-}
-
-.ra-x-button {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px;
-  float: right;
-  cursor: pointer;
-  color: transparent !important;
-  width: 15px;
-  height: 15px;
-  margin-bottom: 17.5%;
-}
-
 
   
 /* User Birthday's */
