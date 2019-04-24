@@ -43,7 +43,7 @@
   }
 
 /* Read All Notifications/Public Servers */
-#bd-pub-button {
+.RANbutton {
 	text-transform: capitalize !important;
   }
 
