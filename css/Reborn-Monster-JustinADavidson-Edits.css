@@ -12,7 +12,7 @@
 
 
 /* Text For Server Name / Category Name / Role List / Group DM Name */
-.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+.name-IbjUBS {
   font-family: 'Satisfy', cursive;
   text-transform: capitalize;
   font-size: 90%;
@@ -36,12 +36,13 @@
   font-size: 90%;
 }
 
-.title-3qD0b- .input-autosize-input, .titleCall-_b9o8P .input-autosize-input {
+.input-2A_zIr {
   font-family: 'Satisfy', cursive;
   text-transform: capitalize;
   font-weight: bold;
   font-style: italic;
 }
+
 .header-2o-2hj .name-3YKhmS {
   font-family: 'Satisfy', cursive;
   font-weight: 500;
@@ -188,7 +189,7 @@
 
 
 /* Read All Notifications/Public Servers */
-#bd-pub-button {
+.RANbutton {
   text-transform: capitalize !important;
 }
 
