@@ -10,6 +10,7 @@
 .name-IbjUBS {
   font-family: 'Satisfy', cursive;
   font-size: 90%;
+  text-transform: capitalize;
   color: var(--hover-color) !important;
   border-bottom: 3px solid;
   border-image: linear-gradient(90deg, transparent, var(--gradient1), var(--gradient2), transparent);
@@ -22,6 +23,7 @@
 .membersGroup-v9BXpm {
   font-family: 'Satisfy', cursive;
   font-weight: 500;
+  text-transform: capitalize;
   padding-top: 14px;
   padding-bottom: 13px;
   font-size: 90%;
