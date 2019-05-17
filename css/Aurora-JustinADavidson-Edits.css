@@ -199,6 +199,18 @@
 
 
 
+/* Video Guild Call Fixes */
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
+   background: var(--main-color-faded) !important;
+}
+
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+   background: var(--main-color) !important;
+}
+
+
+
+
 /* Blurple Fixes */
 .numberBadge-2s8kKX {
    background: var(--main-color);
