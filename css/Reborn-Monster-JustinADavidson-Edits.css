@@ -508,3 +508,22 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .focused-31_ccS .searchBar-3dMhjb {
   width: 244px !important;
 }
+
+
+/* Friends bar fix */
+.theme-dark .container-1r6BKw {
+  background: transparent;
+  color: #b9bbbe;
+}
+
+
+
+
+/* Read All Button Fix */
+.acronym-2mOFsV {
+  background: var(--secondary-color) !important;
+}
+
+.acronym-2mOFsV:hover {
+  background: var(--main-color) !important;
+}
