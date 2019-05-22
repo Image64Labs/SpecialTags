@@ -72,3 +72,7 @@
 .appAvatar-3bgkQ9 {
   border-radius: var(--roundness);
 }
+
+.listDefault-2y5Z9D .avatarContainer-2inGBK {
+  border-radius: var(--roundness) !important;
+}
