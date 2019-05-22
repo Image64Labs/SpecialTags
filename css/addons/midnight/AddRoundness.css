@@ -3,7 +3,6 @@
 }
 
 
-
 /* Border Radius */
 .status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL, .inner-1W0Bkn, .image-33JSyf, .wrapper-2F3Zv8 {
   border-radius: var(--roundness) !important;
@@ -39,5 +38,25 @@
 }
 
 .circleIconButton-jET_ig {
+  border-radius: var(--roundness) !important;
+}
+
+.assetsSmallImage-3_3Bzj, .listAvatar-1NlAhb {
+  border-radius: var(--roundness) !important;
+}
+
+.callAvatarBorder-1D_KaE, .callAvatar-v-u4BM{
+  border-radius: var(--roundness) !important;
+}
+
+.icon-27yU2q {
+  border-radius: var(--roundness) !important;
+}
+
+.closeButton-1tv5uR {
+  border-radius: var(--roundness) !important;
+}
+
+.avatarUploaderInner-3UNxY3 {
   border-radius: var(--roundness) !important;
 }
