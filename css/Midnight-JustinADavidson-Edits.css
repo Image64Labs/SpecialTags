@@ -1,0 +1,161 @@
+/* Justin A. Davidson Edits */
+
+/* Animated Guild List Streaming Border */
+.status-streaming{
+    animation:streaming-flash 1.5s linear infinite;
+}
+.user-popout .header.streaming .username-wrapper .activity strong{
+    color: #593695;
+}
+@keyframes streaming-flash {
+    0% {
+        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
+    }
+    50% {
+        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
+    }
+    100% {
+        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
+    }
+}
+.user-popout .header.streaming~.body,
+.user-popout .header.streaming~.footer{
+    --accent-color: #593695;
+}
+
+[class*="theme-"] [class*="wrapper-"] [class*="streaming"],
+[class*="theme-"] [class*="wrapper-"] [class*="Streaming"],
+.root-2sNHUF [class*="streaming"]{
+    animation: streaming-flash 1.5s linear infinite !important;
+    border-color: #593695 !important;
+}
+
+/* Bigger Emoji */
+.emoji.jumboable {
+	height: auto;
+	width: 80px;
+	max-height: 100px;
+  }
+  
+  .emoji {
+	min-height: 25px;
+	min-width: 25px;
+  }
+
+/* Read All Notifications/Public Servers */
+.RANbutton {
+	text-transform: capitalize !important;
+  line-height: 20px;
+  font-size: 11px !important;
+}
+  
+.RANbutton:hover {
+  background-color: var(--accent) !important;
+}
+  
+  
+/* New VIP Icons */
+[class*="VIP"] {
+	-webkit-mask-image: url(https://justinadavidson.github.io/assets/vip_icon.png) !important;
+	cursor: pointer !important;
+	height: 24px !important;
+	margin-top: -3px !important;
+	margin-left: 8px !important;
+	width: 24px !important;
+	background-color: #fff !important;
+  }
+  
+  [class*="VIP selected"] {
+	-webkit-mask-image: url(https://justinadavidson.github.io/assets/vip_icon.png) !important;
+	cursor: pointer !important;
+	height: 24px !important;
+	margin-top: -3px !important;
+	margin-left: 8px !important;
+	width: 24px !important;
+	background-color: var(--accent) !important;
+  }
+  
+  
+	
+
+
+
+  
+/* User Birthday's */
+.ub-item-inner {
+  background: var(--accent) !important;
+}
+
+.ub-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
+.emojiPicker-3m1S-j {
+	height: 45vh !important;
+}
+
+
+
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+  background: var(--accent) !important;
+}
+
+.ra-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
+
+
+
+
+
+
+
+
+
+-------/* Bug Fixes */-------
+
+
+/* Settings Background */
+.layer-3QrUeG:nth-child(2)::after,
+#user-settings::after,
+#pubslayerroot .layer-3QrUeG::after {
+    background-color: #000;
+}
+
+
+
+
+/* Blurple Fixes */
+.guildAvatarWithoutIcon-1sTmE_ {
+  background-color: var(--accent);
+}
+
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+  background-color: var(--accent);
+}
+
+.numberBadge-2s8kKX {
+  background: var(--accent) !important;
+  filter: drop-shadow(0 0 1px var(--lv1)) drop-shadow(0 0 1px var(--lv1)) drop-shadow(0 0 1px var(--lv1))
+}
