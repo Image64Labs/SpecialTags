@@ -80,3 +80,11 @@
 .privateChannels-1nO12o .searchBar-6Kv8R2 {
   border-radius: var(--roundness) !important;
 }
+
+.acronym-2mOFsV.selected-bZ3Lue {
+  border-radius: var(--roundness);
+}
+
+.acronym-2mOFsV:not(.RANbutton) {
+  border-radius: var(--roundness);
+}
