@@ -132,14 +132,6 @@
 -------/* Bug Fixes */-------
 
 
-/* Settings Background */
-.layer-3QrUeG:nth-child(2)::after,
-#user-settings::after,
-#pubslayerroot .layer-3QrUeG::after {
-    background-color: #030303 !important;
-}
-
-
 
 
 /* Blurple Fixes */
