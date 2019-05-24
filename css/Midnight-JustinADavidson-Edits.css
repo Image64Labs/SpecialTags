@@ -44,7 +44,7 @@
 
 /* Read All Notifications/Public Servers */
 .RANbutton {
-	text-transform: capitalize !important;
+  text-transform: capitalize !important;
   line-height: 20px;
   font-size: 11px !important;
 }
@@ -99,10 +99,6 @@
   margin-bottom: 17.5%;
 }
 
-.emojiPicker-3m1S-j {
-	height: 45vh !important;
-}
-
 
 
 
@@ -140,7 +136,7 @@
 .layer-3QrUeG:nth-child(2)::after,
 #user-settings::after,
 #pubslayerroot .layer-3QrUeG::after {
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 
