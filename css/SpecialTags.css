@@ -49,37 +49,6 @@
 
 /* ======= SPECIAL TAGS ========= */
 
-/* Me and my friends borders */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::after,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]::after,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="561682986479648778"]::after {
-  content: '';
-  position: absolute;
-  height: calc(100% + 4px);
-  width: calc(100% + 4px);
-  top: -2px;
-  left: -2px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  pointer-events: none;
-  border-radius: var(--roundness);
-  z-index: -1;
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]::after {
-  background-image: url(https://i.imgur.com/EbzlPNX.gif);
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::after {
-  background-image: url(https://i.imgur.com/zEEfGxN.gif);
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="561682986479648778"]::after {
-  background-image: url(https://i.imgur.com/Po8hObB.gif);
-}
-
-
 
 /* badges */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before,
