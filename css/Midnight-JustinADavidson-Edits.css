@@ -47,6 +47,7 @@
   text-transform: capitalize !important;
   line-height: 20px;
   font-size: 11px !important;
+  border-radius: 0px;
 }
   
 .RANbutton:hover {
