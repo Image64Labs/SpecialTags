@@ -147,5 +147,5 @@
 
 .numberBadge-2s8kKX {
   background: var(--accent) !important;
-  filter: drop-shadow(0 0 1px var(--lv1)) drop-shadow(0 0 1px var(--lv1)) drop-shadow(0 0 1px var(--lv1))
+  border: 1px solid var(--lv1);
 }
