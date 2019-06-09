@@ -44,6 +44,7 @@
 
 /* Read All Notifications/Public Servers */
 .RANbutton {
+  background-color: var(--lv1);
   text-transform: capitalize !important;
   line-height: 20px;
   font-size: 11px !important;
