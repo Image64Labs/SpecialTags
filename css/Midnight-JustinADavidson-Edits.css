@@ -149,3 +149,12 @@
   background: var(--accent) !important;
   border: 1px solid var(--lv1);
 }
+
+
+
+
+
+/* Fixes issue of home button not being shown on screen */
+.scrollerWrap-2lJEkd {
+    contain: layout style;
+}
