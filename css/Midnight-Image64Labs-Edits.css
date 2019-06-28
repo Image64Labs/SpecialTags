@@ -1,4 +1,4 @@
-/* Justin A. Davidson Edits */
+/* Image64Labs Edits */
 
 /* Animated Guild List Streaming Border */
 .status-streaming{
@@ -32,15 +32,15 @@
 
 /* Bigger Emoji */
 .emoji.jumboable {
-	height: auto;
-	width: 80px;
-	max-height: 100px;
-  }
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
   
-  .emoji {
-	min-height: 25px;
-	min-width: 25px;
-  }
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
 
 /* Read All Notifications/Public Servers */
 .RANbutton {
@@ -58,24 +58,24 @@
   
 /* New VIP Icons */
 [class*="VIP"] {
-	-webkit-mask-image: url(https://justinadavidson.github.io/assets/vip_icon.png) !important;
-	cursor: pointer !important;
-	height: 24px !important;
-	margin-top: -3px !important;
-	margin-left: 8px !important;
-	width: 24px !important;
-	background-color: #fff !important;
-  }
+  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-top: -3px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: #fff !important;
+}
   
-  [class*="VIP selected"] {
-	-webkit-mask-image: url(https://justinadavidson.github.io/assets/vip_icon.png) !important;
-	cursor: pointer !important;
-	height: 24px !important;
-	margin-top: -3px !important;
-	margin-left: 8px !important;
-	width: 24px !important;
-	background-color: var(--accent) !important;
-  }
+[class*="VIP selected"] {
+  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-top: -3px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: var(--accent) !important;
+}
   
   
 	
