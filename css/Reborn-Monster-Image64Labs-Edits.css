@@ -1,9 +1,7 @@
 /* Imports */
-@import url("https://ellexidecodes.github.io/Discord-Themes/addons/categoryNameFlair.css"); 
 @import url("https://ellexidecodes.github.io/Discord-Themes/addons/slideDownStatus.css");
 @import url("https://ellexidecodes.github.io/Discord-Themes/addons/minimalServerMenu.css");
 @import url("https://ellexidecodes.github.io/Discord-Themes/addons/floatingGuildsAdd.css");
-@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Details%20In%20Margin.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Settings%20Icons.css");
@@ -11,46 +9,7 @@
 
 
 
-/* Text For Server Name / Category Name / Role List / Group DM Name */
-.name-IbjUBS {
-  font-family: 'Satisfy', cursive;
-  text-transform: capitalize;
-  font-size: 90%;
-}
 
-.header-2o-2hj .name-3YKhmS {
-  font-family: 'Satisfy', cursive;
-  text-transform: capitalize;
-  font-weight: bold;
-  font-style: italic;
-  font-weight: 500;
-  height: 48px;
-  padding: 0 12px 0 16px;
-}
-
-.membersGroup-v9BXpm {
-  font-family: 'Satisfy', cursive;
-  text-transform: capitalize;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  font-size: 90%;
-}
-
-.input-2A_zIr {
-  font-family: 'Satisfy', cursive;
-  text-transform: capitalize;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.header-2o-2hj .name-3YKhmS {
-  font-family: 'Satisfy', cursive;
-  font-weight: 500;
-  height: 20px;
-  padding: 0 12px 0 16px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
 
 
 
