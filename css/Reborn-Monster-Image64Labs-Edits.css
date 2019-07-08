@@ -458,3 +458,12 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .selectorNitroIcon-2rQO-z g path {
     fill: var(--main-color);
 }
+
+/* Server No Icon */
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+  background-color: var(--main-color);
+}
+
+.guildAvatarWithoutIcon-1sTmE_ {
+  background: var(--main-color);
+}
