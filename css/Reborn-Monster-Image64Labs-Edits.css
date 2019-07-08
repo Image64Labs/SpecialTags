@@ -45,20 +45,6 @@
 
 
 
-/* BetterPonyMotes Button Fix (Top Right Only!) */
-.bpm-emote-search-button {
-  width: 30px;
-  height: 24px;
-}
-
-
-
-/* New BetterPonyMotes Button */
-.bpm-emote-search-button {
-  background: url(https://image64labs.github.io/assets/bpm_icon.png) no-repeat center center;
-}
-
-
 
 /* Bigger Emoji */
 .emoji.jumboable {
@@ -114,23 +100,6 @@
 
 
 
-/* BPM Fix */
-#bpm-sb-container {  border: 2px solid var(--main-color) !important; padding: 5px 5px 0px 5px !important; margin: 0px !important !important; background-color: var(--BPM) !important;}
-#bpm-sb-close {filter: invert(1) !important;}
-#bpm-sb-tabframe { background-color: transparent !important;}
-#bpm-sb-dragbox { filter: invert(1) !important;}
-#bpm-sb-input { font: 13.3333px Arial !important;color: black !important;}
-.bpm-search-result { border: none !important;}
-.bpm-sb-help { color: white !important;}
-#bpm-sb-options {color: white !important;}
-#bpm-sb-flagtab { color: white !important;}
-
-
-
-
-
-
-
 /* Custom NSFW Warning Image */
 .theme-dark .image-2LqJex {
   background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
@@ -165,20 +134,6 @@
 
 
 
-/* Friends Tab */
-.theme-dark .topPill-30KHOu .item-PXvHYJ {
-  border-radius: 3px !important;
-}
-
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
-  background-color: var(--main-color) !important; 
-  color: white !important;
-}
-
-.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
-  background-color: var(--hover-color) !important;
-}
-
 
 
 /* Video Call Transparent Background */
@@ -204,7 +159,7 @@
 
 
 /* No Emote Found Sad Face */
-.sadImage-2ph8SI {
+.theme-dark .forceLightTheme-1nVhlT .sadImage-2ph8SI, .theme-light .sadImage-2ph8SI {
   -webkit-filter: invert() hue-rotate(-180deg);
   opacity:0.7;
 }
@@ -340,8 +295,8 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 /* Server Folders Spacer */
-.guildSeparator-1X4GQ1.folderseparator::after {
-  background-color: var(--main-color) !important;
+.guildSeparator-3s64Iy.folderseparator {
+  background: var(--main-color) !important;
 }
 
 
