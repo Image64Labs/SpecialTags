@@ -470,23 +470,6 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
-/* Friends bar fix */
-.theme-dark .container-1r6BKw {
-  background: transparent;
-  color: #b9bbbe;
-}
-
-
-
-/* Voice Max Users Fix */
-.users-i_3-kL {
-  background: var(--secondary-color);
-}
-
-.total-3tKGEB {
-  background: var(--tertiary-color);
-}
-
 
 
 /* Public Servers */
