@@ -475,3 +475,33 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   background: transparent;
   color: #b9bbbe;
 }
+
+
+
+/* Voice Max Users Fix */
+.users-i_3-kL {
+  background: var(--secondary-color);
+}
+
+.total-3tKGEB {
+  background: var(--tertiary-color);
+}
+
+
+
+/* Public Servers */
+#bd-pub-button {
+  text-transform: capitalize !important;
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  box-sizing: border-box;
+  transition: all 200ms ease-in-out;
+}
+
+#bd-pub-button:hover {
+  text-transform: capitalize !important;
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  box-sizing: border-box;
+  transition: all 200ms ease-in-out;
+}
