@@ -122,7 +122,7 @@
 
 /* Nitro Settings */
 .layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8) {
-  color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 .layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8).selected-3s45Ha {
