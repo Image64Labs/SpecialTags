@@ -1,0 +1,60 @@
+/* My Home Icon */
+.homeIcon-tEMBK1 {
+  background-color: var(--home-color);
+  -webkit-mask: url(https://image64labs.github.io/assets/Triforce.svg);
+  -webkit-mask-size: var(--home-size);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.homeIcon-tEMBK1 {
+  -webkit-mask-position: center;
+  margin-left: -3px;
+}
+
+.homeIcon-tEMBK1 {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+
+
+
+/* Text For Server Name / Category Name / Role List / Group DM Name */
+.name-IbjUBS {
+  font-family: 'Hylia Serif Beta';
+  text-transform: capitalize;
+  font-size: 90%;
+}
+
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Hylia Serif Beta';
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 88%;
+  left: -1px;
+  height: 48px;
+  padding: 0 12px 0 16px;
+}
+
+.membersGroup-v9BXpm {
+  font-family: 'Hylia Serif Beta';
+  text-transform: capitalize;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 90%;
+}
+
+.input-2A_zIr {
+  font-family: 'Hylia Serif Beta';
+  text-transform: capitalize;
+}
+
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Hylia Serif Beta';
+  font-weight: 500;
+  height: 20px;
+  padding: 0 12px 0 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
