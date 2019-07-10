@@ -120,21 +120,6 @@
 
 
 
-/* Nitro Settings */
-.layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8) {
-  color: var(--main-color);
-}
-
-.layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8).selected-3s45Ha {
-  color: #fff !important;
-  background: var(--main-color) !important;
-}
-
-.theme-dark .grandfatheredMessage-1BnHtv {
-  background-image: -webkit-gradient(linear,right top,left top,from(var(--main-color)),to(var(--hover-color)));
-  background-image: linear-gradient(270deg,var(--main-color),var(--hover-color));
-  color: #fff;
-}
 
 
 
