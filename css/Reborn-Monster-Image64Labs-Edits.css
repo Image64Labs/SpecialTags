@@ -424,6 +424,17 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
+/* Nitro Tab Fix */
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218)"] {
+  color: #fff !important;
+}
+
+#user-settings .item-PXvHYJ:nth-of-type(8) {
+  color: #fff !important;
+}
+
+
+
 
 
 /* Blurple Fixes */
