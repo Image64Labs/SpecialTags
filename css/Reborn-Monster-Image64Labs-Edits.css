@@ -466,11 +466,13 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 [class*="user-name"] {
   color: var(--main-color) !important;
+  margin-left: 5px !important;
 }
 
 [class*="markup"]:not(.markup-2BOw-j) {
   color: #fff !important;
   margin-bottom: 15px !important;
+  margin-left: 5px !important;
 }
 
 [class*="timestamp"] {
