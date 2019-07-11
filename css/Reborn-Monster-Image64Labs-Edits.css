@@ -435,6 +435,58 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
+/* Voice Notifications */
+.vcn-log-scroller-wrapper {
+  background-image: var(--popup-background) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.vcn-log-scroller {
+  background-color: var(--primary-color) !important;
+}
+
+.vcn-log-scroller::-webkit-scrollbar-thumb {
+  background-color: var(--main-color) !important;
+  border-radius: 40px !important;
+}
+
+.vcn-log-scroller::-webkit-scrollbar-track-piece {
+  background-color: transparent !important;
+}
+
+.vcn-log-label {
+  background-color: var(--primary-color) !important;
+  color: white;
+  font-size: 23px !important;
+  text-align: center;
+  border: 20px solid transparent !important;
+}
+
+[class*="user-name"] {
+  color: var(--main-color) !important;
+}
+
+[class*="markup"] {
+  color: #fff !important;
+}
+
+[class*="timestamp"] {
+  color: rgb(182, 182, 182) !important;
+}
+
+[class*="highlight-separator"] {
+  color: rgb(182, 182, 182) !important;
+}
+
+
+
+
+
+
+
+
 
 
 /* Blurple Fixes */
@@ -451,4 +503,13 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 .guildAvatarWithoutIcon-1sTmE_ {
   background: var(--main-color);
+}
+
+/* Friend Notification Toasts Fixes */
+.FriendNotifications-settings .type-toast {
+  background-color: var(--main-color);
+}
+
+.FriendNotifications-settings .settings-avatar {
+  border: 5px solid var(--main-color);
 }
