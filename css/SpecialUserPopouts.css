@@ -3,7 +3,8 @@
     z-index:1;
 }
 
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .status-oxiHuE {
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .status-oxiHuE {
     position:absolute;
     width:287% !important;
     height:200px !important;
@@ -21,19 +22,23 @@
     border-radius:0 !important;
 }
 
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .online-2S838R {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .online-2S838R {
     border-top-color:var(--online);
 }
 
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .idle-3DEnRT {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .idle-3DEnRT {
     border-top-color:var(--idle);
 }
 
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .dnd-1_xrcq {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .dnd-1_xrcq {
     border-top-color:var(--dnd);
 }
 
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .streaming-2_dnHe{
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .streaming-2_dnHe, 
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .streaming-2_dnHe {
     border-top-color:var(--streaming);
 }
 
@@ -44,6 +49,15 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] {
     opacity:.75;
     animation:keyframeFallBounce .5s ease;
+}
+
+/* Pearlescent Moon */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .status-oxiHuE {
+  background-image:url('https://tinyurl.com/y3wz46us') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] {
+  animation:keyframePulsePearlescent 1.5s ease infinite;
+  opacity:.8;
 }
 
 
@@ -110,5 +124,16 @@
   }
   100% {
     -webkit-box-shadow: 0 0 12px 2px rgb(253, 169, 76);
+  }
+}
+@-webkit-keyframes keyframePulsePearlescent {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px #cc2b14;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px #cc2b14;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px #cc2b14;
   }
 }
