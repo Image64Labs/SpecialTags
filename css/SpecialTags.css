@@ -77,7 +77,7 @@
 
 /* icons */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]::before {
-  background-image: url(https://i.imgur.com/kW8fUZy.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_692a25865a7d454f8ed2f7cf61cc6b40~mv2_d_1385_1385_s_2.png);
   transform: scale(1.5);
   bottom: -5px;
   right: -5px;
@@ -160,8 +160,8 @@
 
 /* content */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before {
-  content: "Justin's Waifu";
-  background-image: url(https://i.imgur.com/8YJ40kx.gif);
+  content: "Image64Labs Waifu";
+  background-image: url(https://static.wixstatic.com/media/06469d_08b42652ff4e40ca990a0358cee431d9~mv2.gif);
   color: #fff;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   bottom: -15px;
