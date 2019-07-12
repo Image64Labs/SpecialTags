@@ -65,6 +65,15 @@
   opacity:.8;
 }
 
+/* Image64Labs Girlfriend */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .status-oxiHuE {
+  background-image:url('https://static.wixstatic.com/media/06469d_038f4e2db18d440f916704e064caa056~mv2.gif?') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] {
+  animation:keyframePulseMyGirlfriend 1.5s ease infinite;
+  opacity:.8;
+}
+
 
 /*KEYFRAMES*/
 @keyframes keyframeScaleIn {
@@ -122,5 +131,16 @@
   }
   100% {
     -webkit-box-shadow: 0 0 16px 3px #cc2b14;
+  }
+}
+@-webkit-keyframes keyframePulseMyGirlfriend {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px #F855CF;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px #F855CF;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px #F855CF;
   }
 }
