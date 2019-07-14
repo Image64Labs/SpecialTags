@@ -531,3 +531,14 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .wrapper-1Rf91z { 
   border-radius: 0; 
 }
+
+
+
+
+
+/* Grey Bug Fixes */
+
+/* Voice Person Selected */
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+  background-color: var(--quaternary-color);
+}
