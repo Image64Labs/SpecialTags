@@ -158,6 +158,15 @@
   opacity:.8;
 }
 
+/* GreasyKitty */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .status-oxiHuE {
+  background-image:url('https://static.wixstatic.com/media/06469d_3ef3fdb50d424a659b3f864869e3e838~mv2.jpg') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] {
+  animation:keyframePulseGreasyKitty 1.5s ease infinite;
+  opacity:.6;
+}
+
 
 /*KEYFRAMES*/
 @keyframes keyframeScaleIn {
