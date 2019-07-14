@@ -7,7 +7,7 @@
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .status-oxiHuE,
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
@@ -40,7 +40,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .online-2S838R,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
@@ -63,7 +63,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .idle-3DEnRT,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
@@ -86,7 +86,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .dnd-1_xrcq,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
@@ -109,7 +109,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .streaming-2_dnHe,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
@@ -163,6 +163,15 @@
   background-image:url('https://static.wixstatic.com/media/06469d_3ef3fdb50d424a659b3f864869e3e838~mv2.jpg') !important;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] {
+  animation:keyframePulseGreasyKitty 1.5s ease infinite;
+  opacity:.6;
+}
+
+/* FATFATTY2BY4 */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] + .status-oxiHuE {
+  background-image:url('https://static.wixstatic.com/media/06469d_2bb6885c754a47f9ab722916fa6bce3d~mv2.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236701839888744449"] {
   animation:keyframePulseGreasyKitty 1.5s ease infinite;
   opacity:.6;
 }
