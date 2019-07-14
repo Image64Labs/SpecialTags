@@ -5,7 +5,20 @@
 
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .status-oxiHuE,
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .status-oxiHuE {
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE {
     position:absolute;
     width:287% !important;
     height:200px !important;
@@ -25,25 +38,96 @@
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .online-2S838R,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .online-2S838R {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R {
     border-top-color:var(--online);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .idle-3DEnRT,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .idle-3DEnRT {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT {
     border-top-color:var(--idle);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .dnd-1_xrcq,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .dnd-1_xrcq {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq {
     border-top-color:var(--dnd);
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="236421510108020736"] + .streaming-2_dnHe, 
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="561682986479648778"] + .streaming-2_dnHe,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .streaming-2_dnHe {
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="266406986235510786"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="334025021645127682"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe {
     border-top-color:var(--streaming);
 }
 
@@ -142,5 +226,16 @@
   }
   100% {
     -webkit-box-shadow: 0 0 16px 3px #F855CF;
+  }
+}
+@-webkit-keyframes keyframePulseGreasyKitty {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px #B31111;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px #B31111;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px #B31111;
   }
 }
