@@ -20,7 +20,7 @@
 
 
 
-/* Text For Server Name / Category Name / Role List / Group DM Name */
+/* Zelda Font */
 .name-IbjUBS {
   font-family: 'Hylia Serif Beta';
   text-transform: capitalize;
@@ -57,4 +57,44 @@
   padding: 0 12px 0 16px;
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.nameTag-3uD-yy .username-2BIRiC {
+    font-family: Hylia Serif Beta;
+}
+
+.theme-dark .discriminator-3-Lf_x, .theme-light .discriminator-3-Lf_x {
+    font-family: Hylia Serif Beta;
+}
+
+.username-3gJmXY {
+    font-family: Hylia Serif Beta;
+}
+
+.discriminator-xUhQkU {
+    font-family: Hylia Serif Beta;
+}
+
+.activityName-1IaRLn {
+    font-family: Hylia Serif Beta;
+}
+
+.headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 {
+    font-family: Hylia Serif Beta;
+}
+
+span.discriminator {
+    font-family: Hylia Serif Beta;
+}
+
+span.username {
+    font-family: Hylia Serif Beta;
+}
+
+.name-2WpE7M, .nameWithActivity-1ceSyU {
+    font-family: Hylia Serif Beta;
+}
+
+.privateChannels-1nO12o header {
+    font-family: Hylia Serif Beta;
 }
