@@ -23,7 +23,7 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="168274283414421504"]:hover::before {
   content: 'PREMIUM!';
-  background: url(https://image64labs.github.io/assets/rainbow2.gif);
+  background-image: url(https://image64labs.github.io/assets/rainbow2.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
   border: 2px solid var(--main-color);
@@ -39,7 +39,7 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]:hover::before {
   content: "Rea is life";
-  background: url(https://i.imgur.com/EbzlPNX.gif);
+  background-image: url(https://i.imgur.com/EbzlPNX.gif);
   background-size: cover;
   background-position: center;
   color: #FFF35B;
@@ -188,7 +188,7 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before {
   content: 'Big Fox';
-  background: url(https://image64labs.github.io/assets/rainbow2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_4b1eeca9e4054592b4c67fe8ebfa1a81~mv2.gif);
   color: white;
   bottom: -15px;
 }
@@ -196,7 +196,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before {
   content: 'Little Fox';
   color: white;
-  background-image: url(https://image64labs.github.io/assets/rainbow2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_4b1eeca9e4054592b4c67fe8ebfa1a81~mv2.gif);
   bottom: -15px;
 }
 
@@ -211,7 +211,7 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
   content: 'Forever Alone';
   color: #fff;
-  background: url(https://static.wixstatic.com/media/06469d_4681bfef3263455ba309be643830a23f~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_4681bfef3263455ba309be643830a23f~mv2.gif);
   background-size: cover;
   background-position: center;
   bottom: -15px;
