@@ -9,8 +9,7 @@
 
   /* before hover */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="277988285513596928"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="168274283414421504"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="168274283414421504"]::before {
   content: "}";
 }
 
@@ -35,17 +34,6 @@
   bottom: -20px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
   text-align: center;
-}
-
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]:hover::before {
-  content: "Rea is life";
-  background-image: url(https://i.imgur.com/EbzlPNX.gif);
-  background-size: cover;
-  background-position: center;
-  color: #FFF35B;
-  font-size:14px;
-  font-weight: 700;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
 }
 
 
@@ -234,8 +222,7 @@
 /* Tag Animations */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover:before{
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover:before {
   animation-name: tagFadeRight;
   animation-duration: .2s;
   animation-iteration-count: 1;
