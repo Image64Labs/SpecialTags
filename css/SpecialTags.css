@@ -26,11 +26,15 @@
   background: url(https://image64labs.github.io/assets/rainbow2.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
-  color: var(--hover-color);
-  bottom: -15px;
+  border: 2px solid var(--mc);
+  color: var(--mc);
   font-size: 14px;
   font-weight: 700;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 4px 4px;
+  left: calc(100% - 20px);
+  bottom: -20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+  text-align: center;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="258773322098147345"]:hover::before {
