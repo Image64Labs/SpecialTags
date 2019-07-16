@@ -249,6 +249,7 @@
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover:before {
   animation-name: growIn;
+  animation-duration: .2s;
 }
 
 
