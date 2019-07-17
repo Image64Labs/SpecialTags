@@ -176,6 +176,15 @@
   opacity:.6;
 }
 
+/* Dyno Premium */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="168274283414421504"] + .status-oxiHuE {
+  background-image:url('https://static.wixstatic.com/media/06469d_333a614b38f84a35a73a2cc98a5c068e~mv2.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="168274283414421504"] {
+  animation:keyframeScaleIn 350ms cubic-bezier(0,0,0,1), keyframeFadeIn 350ms ease;;
+  opacity:.75;
+}
+
 
 /*KEYFRAMES*/
 @keyframes keyframeScaleIn {
