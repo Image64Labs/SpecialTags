@@ -51,7 +51,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="561682986479648778"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]::before{
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="594351674366099456"]::before {
   content: "";
   color: transparent;
   height: 15px;
@@ -120,6 +121,13 @@
   color: var(--main-color);
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="594351674366099456"]::before {
+  background-image: url(https://static.wixstatic.com/media/06469d_a306cdaa55734fb894d0c9b3ac323a2d~mv2.gif);
+  transform: scale(1.5);
+  bottom: -5px;
+  right: -5px;
+}
+
 
 /* on hover */
 
@@ -131,7 +139,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="561682986479648778"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="594351674366099456"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -205,13 +214,21 @@
   bottom: -15px;
 }
 
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="594351674366099456"]:hover::before {
+  content: "Meow";
+  background-image: url(https://static.wixstatic.com/media/06469d_78ae128c080f4477b0a3fd5e0078cfdc~mv2.gif);
+  color: #fff;
+  bottom: -15px;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="266406986235510786"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="218048901167579137"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236701839888744449"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="334025021645127682"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="561682986479648778"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="236421510108020736"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="594351674366099456"]:hover::before {
   display: block;
   background-color: transparent;
   box-shadow: none;
@@ -238,7 +255,8 @@
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="220643828963606534"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="594351674366099456"]:hover:before {
   animation-name: growIn;
   animation-duration: .2s;
 }
