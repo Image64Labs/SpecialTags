@@ -120,3 +120,10 @@
 .item-2hkk8m {
     background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
 }
+
+
+
+/* Nitro Icon */
+.selectorNitroIcon-2rQO-z g path {
+    fill: var(--main-color);
+}
