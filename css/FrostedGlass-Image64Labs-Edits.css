@@ -127,3 +127,10 @@
 .selectorNitroIcon-2rQO-z g path {
     fill: var(--main-color);
 }
+
+
+
+/* Remove Discord Watermark */
+.wordmarkWindows-1v0lYD {
+    display: none !important;
+}
