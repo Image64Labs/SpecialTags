@@ -187,6 +187,10 @@
     color: var(--main-color);
 }
 
+.theme-dark .wrapper-3WhCwL:hover {
+    background-color: var(--main-color);
+}
+
 .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ {
     background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
 }
