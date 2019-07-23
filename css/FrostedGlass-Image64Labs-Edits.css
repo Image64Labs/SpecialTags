@@ -134,3 +134,14 @@
 .wordmarkWindows-1v0lYD {
     display: none !important;
 }
+
+
+
+/* Add Server/ Server Discovery Buttons */
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig:not(.selected-ugP_am) {
+    color: var(--main-color) !important;
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
+}
