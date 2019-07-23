@@ -159,6 +159,13 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
+/* Separator */
+#app-mount .wrapper-1Rf91z .guildSeparator-3s64Iy {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
+}
+
+
+
 
 
 
