@@ -166,3 +166,6 @@
 .questionMark-CWEQZn {
     background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
 }
+.avatarUploaderInner-3UNxY3 {
+    background-color: var(--main-color);
+}
