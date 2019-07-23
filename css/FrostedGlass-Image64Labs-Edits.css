@@ -169,3 +169,12 @@
 .avatarUploaderInner-3UNxY3 {
     background-color: var(--main-color);
 }
+
+.standardSidebarView-3F1I7i .side-8zPYf6 [style*="color: rgb(114, 137, 218)"] {
+    color: var(--main-color) !important;
+}
+
+.standardSidebarView-3F1I7i .side-8zPYf6 [style*="background-color: rgb(114, 137, 218)"] {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
+    color: #fff !important;
+}
