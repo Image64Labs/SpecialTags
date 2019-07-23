@@ -186,3 +186,19 @@
 .theme-dark .wrapper-3WhCwL {
     color: var(--main-color);
 }
+
+.theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
+}
+
+.theme-dark .join-33Tr-7 .actionButton-2PeQbJ, .theme-light .join-33Tr-7 .actionButton-2PeQbJ {
+    background: #3ca374 !important;
+}
+
+.theme-dark .create-3jownz .actionHeader-2CT5c7, .theme-light .create-3jownz .actionHeader-2CT5c7 {
+    color: var(--main-color);
+}
+
+.theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY {
+    color: var(--main-color);
+}
