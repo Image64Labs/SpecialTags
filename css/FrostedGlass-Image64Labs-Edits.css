@@ -113,3 +113,10 @@
     color: #fff;
     transition: all 200ms ease-in-out;
 }
+
+
+
+/* Unread Icon */
+.item-2hkk8m {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
+}
