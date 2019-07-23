@@ -1,6 +1,51 @@
 
 
 
+:root {
+    --main-color: #1f75fe;
+}
+
+
+/* Fancy Names */
+.name-3YKhmS {
+    font-family: 'Satisfy';
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+#app-mount .name-IbjUBS, .privateChannels-1nO12o header, .membersGroup-v9BXpm {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Satisfy';
+    font-weight: 500;
+    color: var(--main-color) !important;
+    opacity: .6;
+    border-bottom: none;
+    align-items: center;
+    align-content: center;
+    transition: all 200ms ease-in-out;
+}
+
+#app-mount .name-IbjUBS::after, .privateChannels-1nO12o header::after, .membersGroup-v9BXpm::after {
+    content: "";
+    align-self: center;
+    flex: 1 1 auto;
+    margin: 0 5px;
+    height: 3px;
+    background: linear-gradient(to right, currentColor 50%, transparent);
+    transition: all 200ms ease-in-out;
+}
+
+#app-mount .name-IbjUBS::before, .privateChannels-1nO12o header::before, .membersGroup-v9BXpm::before {
+    content: "";
+    align-self: center;
+    flex: 1 1 auto;
+    margin: 0 5px;
+    height: 3px;
+    background: linear-gradient(to left, currentColor 50%, transparent);
+    transition: all 200ms ease-in-out;
+}
+
 
 /* Animated Guild List Streaming Border */
 .status-streaming{
