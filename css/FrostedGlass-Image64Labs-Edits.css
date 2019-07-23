@@ -45,3 +45,20 @@
   min-height: 25px;
   min-width: 25px;
 }
+
+
+
+/* Read All Notifications/Public Servers */
+.RANbutton {
+    text-transform: capitalize !important;
+}
+
+.RANbutton:hover {
+    text-transform: capitalize !important;
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), var(--BG-gradient-opacity)) 20%, rgba(var(--BG-gradient-two), var(--BG-gradient-opacity))) !important;
+}
+  
+.theme-dark .acronym-2mOFsV, .theme-light .acronym-2mOFsV {
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
