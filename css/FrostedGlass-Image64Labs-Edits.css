@@ -46,6 +46,12 @@
     transition: all 200ms ease-in-out;
 }
 
+.username-2BIRiC {
+    font-family: 'Satisfy';
+    font-weight: 600;
+    color: var(--main-color) !important;
+}
+
 
 /* Animated Guild List Streaming Border */
 .status-streaming{
