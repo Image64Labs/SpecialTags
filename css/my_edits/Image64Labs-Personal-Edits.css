@@ -30,7 +30,7 @@
 .header-2o-2hj .name-3YKhmS {
   font-family: 'Satisfy';
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 88%;
   left: 10px;
   height: 48px;
@@ -92,8 +92,8 @@ span.username {
 .nameTag-3uD-yy .username-2BIRiC {
     display: inline-block !important;
     font-family: "Satisfy" !important;
-    font-weight: 100 !important;
-    font-size: 230% !important;
+    font-weight: 600 !important;
+    font-size: 250% !important;
     height: 90px !important;
     line-height: 65px !important;
     color: var(--main-color) !important;
