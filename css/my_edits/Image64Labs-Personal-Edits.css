@@ -20,15 +20,15 @@
 
 
 
-/* Zelda Font */
+/* Satisfy Font */
 .name-IbjUBS {
-  font-family: 'Hylia Serif Beta';
+  font-family: 'Satisfy';
   text-transform: capitalize;
   font-size: 90%;
 }
 
 .header-2o-2hj .name-3YKhmS {
-  font-family: 'Hylia Serif Beta';
+  font-family: 'Satisfy';
   text-transform: capitalize;
   font-weight: 500;
   font-size: 88%;
@@ -38,7 +38,7 @@
 }
 
 .membersGroup-v9BXpm {
-  font-family: 'Hylia Serif Beta';
+  font-family: 'Satisfy';
   text-transform: capitalize;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -46,12 +46,12 @@
 }
 
 .input-2A_zIr {
-  font-family: 'Hylia Serif Beta';
+  font-family: 'Satisfy';
   text-transform: capitalize;
 }
 
 .header-2o-2hj .name-3YKhmS {
-  font-family: 'Hylia Serif Beta';
+  font-family: 'Satisfy';
   font-weight: 500;
   height: 20px;
   padding: 0 12px 0 16px;
@@ -60,43 +60,23 @@
 }
 
 .nameTag-3uD-yy .username-2BIRiC {
-    font-family: Hylia Serif Beta;
-}
-
-.theme-dark .discriminator-3-Lf_x, .theme-light .discriminator-3-Lf_x {
-    font-family: Hylia Serif Beta;
-}
-
-.username-3gJmXY {
-    font-family: Hylia Serif Beta;
-}
-
-.discriminator-xUhQkU {
-    font-family: Hylia Serif Beta;
+    font-family: Satisfy;
 }
 
 .activityName-1IaRLn {
-    font-family: Hylia Serif Beta;
+    font-family: Satisfy;
 }
 
 .headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 {
-    font-family: Hylia Serif Beta;
-}
-
-span.discriminator {
-    font-family: Hylia Serif Beta;
-}
-
-span.username {
-    font-family: Hylia Serif Beta;
+    font-family: Satisfy;
 }
 
 .name-2WpE7M, .nameWithActivity-1ceSyU {
-    font-family: Hylia Serif Beta;
+    font-family: Satisfy;
 }
 
 .privateChannels-1nO12o header {
-    font-family: Hylia Serif Beta;
+    font-family: Satisfy;
 }
 
 
@@ -104,7 +84,7 @@ span.username {
 /*Account details in margin*/
 .nameTag-3uD-yy .username-2BIRiC {
     display: inline-block !important;
-    font-family: "Hylia Serif Beta" !important;
+    font-family: "Satisfy" !important;
     font-weight: 100 !important;
     font-size: 230% !important;
     height: 90px !important;
