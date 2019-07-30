@@ -539,6 +539,11 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
     border-radius: var(--roundness) !important;
 }
 
+/* Server Folders Color Picker Fix */
+.layerContainer-yqaFcK {
+    z-index: 1002 !important;
+}
+
 
 
 
