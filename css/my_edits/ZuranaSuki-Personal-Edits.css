@@ -1,7 +1,7 @@
 /* My Home Icon */
 .homeIcon-tEMBK1 {
   background-color: var(--home-color);
-  -webkit-mask: url(https://image64labs.github.io/assets/pantsu.svg);
+  -webkit-mask: url(https://zuranasuki.github.io/assets/pantsu.svg);
   -webkit-mask-size: var(--home-size);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
