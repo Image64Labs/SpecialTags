@@ -1,2 +1,2 @@
-# Image64Labs Github
+# Zurana Suki's Github
 Just a place for me to store things
