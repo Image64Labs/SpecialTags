@@ -5,7 +5,7 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 @import url("https://anti-betterdocs.github.io/BlockBetterDocs/code.css");
-@import url("https://image64labs.github.io/css/addons/reborn/UserSettingsIcons.css");
+@import url("https://zuranasuki.github.io/css/addons/reborn/UserSettingsIcons.css");
 
 
 
@@ -150,7 +150,7 @@
 
 /* Custom NSFW Warning Image */
 .theme-dark .image-2LqJex {
-  background-image: url(https://image64labs.github.io/assets/kanna_nsfw_warning.png);
+  background-image: url(https://zuranasuki.github.io/assets/kanna_nsfw_warning.png);
   height: 420px;
   width: 420px;
 }
@@ -205,7 +205,7 @@
 
 /* New VIP Icons */
 [class*="VIP"] {
-  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  -webkit-mask-image: url(https://zuranasuki.github.io/assets/vip_icon.png) !important;
   cursor: pointer !important;
   height: 24px !important;
   margin-top: -3px !important;
@@ -215,7 +215,7 @@
 }
 
 [class*="VIP selected"] {
-  -webkit-mask-image: url(https://image64labs.github.io/assets/vip_icon.png) !important;
+  -webkit-mask-image: url(https://zuranasuki.github.io/assets/vip_icon.png) !important;
   cursor: pointer !important;
   height: 24px !important;
   margin-top: -3px !important;
