@@ -1,0 +1,44 @@
+/*Account details in margin*/
+.nameTag-3uD-yy .username-2BIRiC {
+    display: inline-block !important;
+    font-family: "Satisfy" !important;
+    font-weight: 600 !important;
+    font-size: 250% !important;
+    height: 90px !important;
+    line-height: 65px !important;
+    color: var(--main-color) !important;
+    margin-bottom: -18px !important;
+    min-width: 111% !important;
+    max-width: 111% !important;
+    text-align: center !important;
+    margin-top:3px !important;
+    margin-left:-15px !important;
+}
+.nameTag-3uD-yy .username-2BIRiC {
+    position: absolute !important;
+    right: 0px !important;
+    height: 75px !important;
+    max-width: 242px !important;
+    min-width: 242px !important;
+}
+.theme-dark .discriminator-3-Lf_x, .theme-light .discriminator-3-Lf_x {
+    right: 5px !important;
+    position: absolute !important;
+    display: initial !important;
+    padding-top: 14px !important;
+}
+.container-3baos1 .button-2JbWXs {
+    margin-left: 30px;
+    right: 30px;
+}
+.members-1998pB {margin-bottom:60px !important;}
+.button-2b6hmh {margin-right:26px !important;}
+.privateChannels-1nO12o ~ .container-3baos1 .nameTag-3uD-yy .username-2BIRiC, .privateChannels-1nO12o ~ .container-3baos1 .nameTag-3uD-yy .discriminator-3-Lf_x {display: none !important;}
+.accountDetails-3k9g4n .username {z-index:99 !important;}
+.searchResultsWrap-2DKFzt {z-index:100 !important;}
+.tooltip-1OS-Ti[style*="183.982px"] {
+    margin-left:-12px;
+}
+.tooltip-1OS-Ti[style*="123.494px"] {
+    margin-left:-12px;
+}
