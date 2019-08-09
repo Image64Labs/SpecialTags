@@ -543,6 +543,22 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
+/* Create/Join Server Modal Fix */
+.bda-dark .theme-dark .actionIcon-2IISM_, .bda-dark .theme-light .actionIcon-2IISM_ {
+    filter: none !important;
+}
+
+.bda-dark .theme-dark .action-1lSjCi, .bda-dark .theme-light .action-1lSjCi {
+    background: var(--tertiary-color) !important;
+}
+
+.bda-dark .theme-dark .or-3THJsp, .bda-dark .theme-light .or-3THJsp {
+    background: var(--primary-color) !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+
+
 
 
 /* 1px Bug Fixes */
