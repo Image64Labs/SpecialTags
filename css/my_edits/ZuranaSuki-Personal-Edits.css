@@ -151,3 +151,23 @@ span.username {
 .theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX {
     color: var(--main-color);
 }
+
+
+
+/* Friends List Text */
+.name-2WpE7M {
+    color: var(--main-color);
+}
+
+.privateChannels-1nO12o header {
+    color: var(--main-color);
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, transparent, var(--main-color), transparent);
+    border-image-slice: 1;
+    padding: 19px 16px 6px 16px;
+    margin: 4px 0px 10px 15px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    width: 175px;
+}
