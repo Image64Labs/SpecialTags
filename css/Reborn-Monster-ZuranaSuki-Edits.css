@@ -101,6 +101,13 @@ span.username {
 }
 
 
+/* Catergory Margin Fix */
+.name-IbjUBS {
+   padding-top: 0px;
+   padding-bottom: 5px;
+}
+
+
 /* Animated Guild List Streaming Border */
 .status-streaming{
     animation:streaming-flash 1.5s linear infinite;
