@@ -269,7 +269,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb*="220643828963606534"]:hover:before,
 .wrapper-3t9DeA[user_by_bdfdb*="594351674366099456"]:hover:before {
-  animation-name: growIn2;
+  animation-name: growIn;
   animation-duration: .2s;
 }
 
