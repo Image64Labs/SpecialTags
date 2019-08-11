@@ -588,6 +588,20 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
+/* BetterFriendCount */
+.betterfriendcount-badge {
+    background-color: transparent !important;
+}
+
+
+
+/* OnlineFriendCount */
+.theme-dark .friendsOnline-2JkivW {
+    color: #fff !important;
+}
+
+
+
 
 
 
