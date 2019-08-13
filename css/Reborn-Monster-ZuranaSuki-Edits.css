@@ -109,7 +109,9 @@ span.username {
 
 
 /* Animated Guild List Streaming Border */
-.wrapper-3t9DeA[aria-label*="Streaming"] {
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#593695"],
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="streaming"],
+.wrapper-3t9DeA foreignObject+svg rect[fill="rgba(89, 54, 149, 1)"] {
     animation:streaming-flash 1.5s linear infinite;
 }
 
