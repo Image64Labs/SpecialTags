@@ -217,7 +217,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]:hover::before {
   content: "PREMIUM!";
-  background-image: url(https://image64labs.github.io/assets/rainbow2.gif);
+  background-image: url(https://zuranasuki.github.io/assets/rainbow2.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
   border: 2px solid var(--main-color);
