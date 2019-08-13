@@ -108,27 +108,6 @@ span.username {
 }
 
 
-/* Animated Guild List Streaming Border */
-.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#593695"],
-.wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="streaming"],
-.wrapper-3t9DeA foreignObject+svg rect[fill="rgba(89, 54, 149, 1)"] {
-    animation:streaming-flash 1.5s linear infinite;
-}
-
-@keyframes streaming-flash {
-    0% {
-        box-shadow: 0 1px 1px rgba(89, 54, 149, 0), 0 0 0 0px rgba(89, 54, 149, .4);
-    }
-    50% {
-        box-shadow: 0 0px 2px 3px rgba(89, 54, 149, .3), 0 0 0 4px rgba(89, 54, 149, .7);
-    }
-    100% {
-        box-shadow: 0 0px 1px 1px rgba(89, 54, 149, 0), 0 0 1px 4px rgba(89, 54, 149, 0);
-    }
-}
-
-
-
 
 /* Bigger Emoji */
 .emoji.jumboable {
