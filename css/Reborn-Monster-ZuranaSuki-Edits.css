@@ -338,31 +338,31 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
   bottom: 0;
   top: 0;
   z-index: -1;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .platform-win .container-16j22k {
-  background-image:var(--background-image) !important;
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:cover;
+  background-image: var(--background-image) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .status-1JTY3j,
 .problemsText-1Yx-Kl {
-  color:white !important;
-  opacity:0.5;
+  color: #fff !important;
+  opacity: 0.5;
 }
 
 .anchor-3Z-8Bb {
-  color:var(--mc) !important;
+  color: var(--main-color) !important;
 }
 
 
 
 /* Login Page (Thanks Tropix) */
 .canvas-3XuBXe, .image-2jyRAK {
-  display:none !important;
+  display: none !important;
 }
 
 
