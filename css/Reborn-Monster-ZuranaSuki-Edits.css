@@ -511,15 +511,15 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Public Servers Broken Modal */
 .publicServersOpen ~ #pubslayerroot:empty:before {
-   background: var(--popup-background);
-   background-color: var(--primary-color);
+   background: var(--popup-background) !important;
+   background-color: var(--primary-color) !important;
 }
-
+ 
 .publicServersOpen ~ #pubslayerroot:empty:after {
-   background: var(--quaternary-color);
-   border-radius: 5px;
-   border-color: #202225;
-   color: #fff;
+   background: var(--quaternary-color) !important;
+   border-radius: 5px !important;
+   border-color: #202225 !important;
+   color: #fff !important;
    box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
