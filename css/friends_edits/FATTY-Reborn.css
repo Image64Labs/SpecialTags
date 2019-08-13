@@ -15,6 +15,7 @@
   display: none;
 }
 
+
 /* Flashing Notifications / New Guild Animations */
 .contentUnreadText-2vNnZc {
   animation: glow 1s ease-out;
@@ -38,33 +39,6 @@
   background-color: #5914d0;
 }
 
-/* Old Status Boxes */
-.status-oxiHuE:not(.status-3fQvEa) {
-  background-position: 50% 50% !important;
-  background-repeat: no-repeat !important;
-  border-radius: 50% !important;
-  margin-top: 78% !important;
-  height: 25% !important;
-  position: absolute !important;
-  margin-left: 78% !important;
-  width: 25% !important;
-}
-
-.online-2S838R {
-  background-color: var(--online) !important;
-}
-
-.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {
-  background-color: var(--dnd) !important;
-}
-
-.idle-3DEnRT {
-  background-color: var(--idle) !important;
-}
-
-.streaming-2_dnHe {
-  background-color: var(--streaming) !important;
-}
   
 /* Even Bigger Emoji */
 .emoji.jumboable {
