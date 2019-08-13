@@ -512,6 +512,9 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 /* Public Servers Broken Modal */
 .publicServersOpen ~ #pubslayerroot:empty:before {
    background: var(--popup-background);
+   background-size: cover !important;
+   background-repeat: no-repeat !important;
+   background-position: center !important;
    background-color: var(--primary-color) !important;
 }
  
