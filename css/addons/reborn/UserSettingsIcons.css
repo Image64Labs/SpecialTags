@@ -1,7 +1,7 @@
 /*Settings Icons*/
 #user-settings .item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item {padding-left:50px}
-#user-settings .item-PXvHYJ::before, #bd-settings-sidebar .ui-tab-bar-item::before {content:"";position:absolute;left:15px;top:4px;height:24px;width:24px;background:#fff;opacity:0.3}
-#user-settings .item-PXvHYJ:hover::before, #bd-settings-sidebar .ui-tab-bar-item:hover::before {opacity:0.7}
+#user-settings .item-PXvHYJ::before, #bd-settings-sidebar .ui-tab-bar-item::before {content:"";position:absolute;left:15px;top:4px;height:24px;width:24px;background:#fff;opacity:1}
+#user-settings .item-PXvHYJ:hover::before, #bd-settings-sidebar .ui-tab-bar-item:hover::before {opacity:1}
 #user-settings .item-PXvHYJ.selected-3s45Ha::before, #bd-settings-sidebar .ui-tab-bar-item.selected::before {opacity:1}
 
 
