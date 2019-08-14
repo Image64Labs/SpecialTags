@@ -56,6 +56,16 @@
   color: #fff !important;
   background: var(--main-color) !important; }
 
+/* Nitro Tab Color */
+.standardSidebarView-3F1I7i .side-8zPYf6 [style*="color: rgb(114, 137, 218)"] {
+    color: var(--main-color);
+}
+
+.standardSidebarView-3F1I7i .side-8zPYf6 [style*="background-color: rgb(114, 137, 218)"] {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+
 #user-settings .item-PXvHYJ:nth-of-type(8)::before,
 #user-settings .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(8)::before {
   content: "|";
