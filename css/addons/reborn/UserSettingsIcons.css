@@ -1,7 +1,20 @@
 /*Settings Icons*/
-#user-settings .item-PXvHYJ, #bd-settings-sidebar .ui-tab-bar-item {padding-left:50px}
-#user-settings .item-PXvHYJ::before, #bd-settings-sidebar .ui-tab-bar-item::before {content:"";position:absolute;left:15px;top:4px;height:24px;width:24px;background:#fff;opacity:0.7}
+#user-settings #bd-settings-sidebar .ui-tab-bar-item,
+.item-PXvHYJ,
+.ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item {
+  display: flex; }
 
+#user-settings #bd-settings-sidebar .ui-tab-bar-item::before,
+#user-settings .item-PXvHYJ::before {
+  transition: all 100ms ease;
+  display: block;
+  height: 0px;
+  top: -4px;
+  margin-right: 5px;
+  position: relative;
+  -ms-transform: translate(0, 2px);
+  transform: translate(0, 2px);
+  opacity: 0.7; }
 
 #user-settings #bd-settings-sidebar .ui-tab-bar-item.selected::before,
 #user-settings .item-PXvHYJ.selected-3s45Ha::before {
