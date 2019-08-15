@@ -204,8 +204,8 @@
   opacity: 1;
   height: 0px;
   top: 2px;
-  -ms-transform: translate(0, 2px);
-  transform: translate(0, 2px); }
+  -ms-transform: rotate(180deg) translate(0, 2px) !important;; 
+  transform: rotate(180deg) translate(0, 2px) !important;}
 
 #user-settings .item-PXvHYJ.selected:nth-last-of-type(3):not([data-reactid]),
 #user-settings .item-PXvHYJ:nth-last-of-type(3):not([data-reactid]):active,
