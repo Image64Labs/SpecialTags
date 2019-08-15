@@ -83,11 +83,11 @@
   background-size: cover}
 
 #user-settings .item-PXvHYJ:nth-of-type(9) {
-  color: var(--main-color); }
+  color: #FBB848; }
 
 #user-settings .item-PXvHYJ:nth-of-type(9).selected-3s45Ha {
   color: #fff !important;
-  background: var(--main-color) !important; }
+  background: #FBB848 !important; }
 
 /** ----------------- **/
 /** App Settings **/
