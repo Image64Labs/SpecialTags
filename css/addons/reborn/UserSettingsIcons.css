@@ -103,9 +103,13 @@
 #user-settings .item-PXvHYJ:nth-of-type(9) {
   color: #FBB848;}
 
-#user-settings .item-PXvHYJ:nth-child(9).selected-3s45Ha::before {
-  background: #FBB848 !important;
-  color: #fff !important;}
+#user-settings .item-PXvHYJ:nth-child(9).selected-3s45Ha {
+   background: #fff !important;
+   background-color: #FBB848 !important;
+   color: #fff !important;}
+
+#user-settings .item-PXvHYJ:nth-child(9).selected-3s45Ha:before {
+   background-color: #fff !important; }
 
 
 /** ----------------- **/
