@@ -90,7 +90,7 @@
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]::before {
-  background-image: url(https://i.imgur.com/xos3aIy.png);
+  background-image: url(https://i.imgur.com/WBWqLY5.gif);
   transform: scale(1.5);
   bottom: -5px;
   right: -5px;
@@ -192,8 +192,8 @@
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]:hover::before {
-  content: "☀Thief of Light☀";
-  background-image: url(https://i.imgur.com/z269678.gif);
+  content: "Guardian Angel";
+  background-image: url(https://i.imgur.com/Obfoy5C.gif);
   color: #fff;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   bottom: -15px;
