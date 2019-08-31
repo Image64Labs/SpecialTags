@@ -17,24 +17,3 @@
   width: 35px;
   height: 35px;
 }
-
-
-
-
-
-
-/* Channel Coloring */
-.theme-dark .name-3_Dsmg, .theme-light .name-3_Dsmg {
-    color: var(--main-color);
-}
-
-.theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX {
-    color: var(--main-color);
-}
-
-
-
-/* Friends List Text */
-.name-2WpE7M {
-    color: var(--main-color);
-}
