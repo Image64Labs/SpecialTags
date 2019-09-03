@@ -128,17 +128,27 @@ span.username {
   background: var(--main-color) !important;
 }
 
+.ra-serveritem {
+    margin: 20px;
+    margin-top: 50px !important;
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    contain: layout;
+    pointer-events: auto;
+}
+
 .ra-x-button {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px;
-  float: right;
-  cursor: pointer;
-  color: transparent !important;
-  width: 15px;
-  height: 15px;
-  margin-bottom: 17.5%;
+    background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    float: right;
+    cursor: pointer;
+    color: transparent !important;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 80px;
 }
 
 
