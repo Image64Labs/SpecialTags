@@ -68,7 +68,7 @@
   font-family: Courgette;
 }
   
-.name-2WpE7M, .nameWithActivity-1ceSyU {
+.name-2WpE7M:not(.nameWrapper-10v56U) {
   font-family: Courgette;
 }
   
