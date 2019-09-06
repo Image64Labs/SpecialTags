@@ -181,9 +181,10 @@ span.username {
 /* Read All Notifications/Public Servers */
 .RANbutton {
   text-transform: capitalize !important;
+  font-size: 11px !important;
 }
 
-.theme-dark .acronym-2mOFsV, .theme-light .acronym-2mOFsV {
+.theme-dark .acronym-2mOFsV {
   color: #fff;
 }
 
