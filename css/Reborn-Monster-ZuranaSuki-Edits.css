@@ -391,56 +391,6 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
-/* Voice Notifications */
-.vcn-log-scroller-wrapper {
-  background-image: var(--popup-background) !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-}
-
-.vcn-log-scroller {
-  background-color: var(--primary-color) !important;
-}
-
-.vcn-log-scroller::-webkit-scrollbar-thumb {
-  background-color: var(--main-color) !important;
-  border-radius: 40px !important;
-}
-
-.vcn-log-scroller::-webkit-scrollbar-track-piece {
-  background-color: transparent !important;
-}
-
-.vcn-log-label {
-  background-color: var(--primary-color) !important;
-  color: white;
-  font-size: 23px !important;
-  text-align: center;
-  border: 20px solid transparent !important;
-}
-
-[class*="user-name"] {
-  color: var(--main-color) !important;
-  margin-left: 5px !important;
-}
-
-[class*="markup"]:not(.markup-2BOw-j) {
-  color: #fff !important;
-  margin-bottom: 15px !important;
-  margin-left: 5px !important;
-}
-
-[class*="timestamp"] {
-  color: rgb(182, 182, 182) !important;
-}
-
-[class*="highlight-separator"] {
-  color: rgb(182, 182, 182) !important;
-}
-
-
-
 /* Server Folders Server Icon Roundness Fix */
 .icon-27yU2q, .wrapper-1BJsBx {
     border-radius: var(--roundness) !important;
@@ -520,49 +470,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
-/* Create/Join Server Modal Fix */
-.bda-dark .theme-dark .actionIcon-2IISM_, .bda-dark .theme-light .actionIcon-2IISM_ {
-    filter: none !important;
-}
-
-.bda-dark .theme-dark .action-1lSjCi, .bda-dark .theme-light .action-1lSjCi {
-    background: var(--tertiary-color) !important;
-}
-
-.bda-dark .theme-dark .or-3THJsp, .bda-dark .theme-light .or-3THJsp {
-    background: var(--primary-color) !important;
-    border: 2px solid var(--primary-color) !important;
-}
-
-
-
 /* Server Folders Roundness*/
 #app-mount .expandedFolderBackground-2sPsd-::before {
   border-radius: var(--roundness);
-}
-
-
-
-
-
-/* 1px Bug Fixes */
-
-/* Upper Left Section Of Discord */
-.base-3dtUhz { 
-  border-radius: 0 !important; 
-}
-
-.wrapper-1Rf91z { 
-  border-radius: 0; 
-}
-
-
-
-
-
-/* Grey Bug Fixes */
-
-/* Voice Person Selected */
-.theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
-  background-color: var(--quaternary-color);
 }
