@@ -459,11 +459,11 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Improvments Change Log */
 .improved-1F5LIN {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .improved-1F5LIN:after {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 
@@ -483,5 +483,21 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Server Folder Server No Icon Color Fix */
 .noIcon-1a_FrS {
+  color: #fff;
+}
+
+
+
+/* Voice User Limit Colors */
+.total-3tKGEB {
+  background-color: var(--main-color) !important;
+  color: #fff;
+}
+
+.total-3tKGEB::after {
+  border-right-color: var(--main-color) !important;
+}
+
+#app-mount .users-i_3-kL {
   color: #fff;
 }
