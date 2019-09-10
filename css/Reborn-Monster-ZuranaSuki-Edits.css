@@ -472,3 +472,9 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 #app-mount .expandedFolderBackground-2sPsd-::before {
   border-radius: var(--roundness);
 }
+
+
+/* AKA Color Fix */
+.akaBadge-1M-1Gw {
+  color: #fff;
+}
