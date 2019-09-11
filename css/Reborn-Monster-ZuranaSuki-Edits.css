@@ -50,10 +50,19 @@
   padding-bottom: 6px;
 }
   
-.nameTag-3uD-yy .title-eS5yk3 {
-  color: var(--main-color);
+.nameTag-3uD-yy .usernameContainer-1fp4nu {
   font-family: Courgette;
+  color: var(--main-color);
   padding-left: 1px;
+  font-size: inherit !important;
+  height: inherit !important;
+  line-height: inherit !important;
+}
+
+
+.nameTag-3uD-yy .usernameContainer-1fp4nu .title-eS5yk3 {
+  color: inherit;
+  font-weight: 600 !important;
 }
   
 .activityName-1IaRLn {
