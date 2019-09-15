@@ -1,3 +1,8 @@
+/* Imports */
+@import url("https://zuranasuki.github.io/css/addons/reborn/UserSettingsIcons.css");
+
+
+
 /* Font */
 .name-IbjUBS {
   padding-top: 0px;
@@ -216,4 +221,11 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 /* AKA Color Fix */
 .akaBadge-1M-1Gw {
   color: #fff;
+}
+
+
+
+/* Nitro Tab Color FrostedGlass Fix */
+.item-PXvHYJ:nth-of-type(8) {
+    color: var(--main-color) !important;
 }
