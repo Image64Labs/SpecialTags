@@ -1,0 +1,9 @@
+/* Read All Notifications/Public Servers */
+.RANbutton {
+  text-transform: capitalize !important;
+  font-size: 11px !important;
+}
+
+.RANbutton:hover {
+  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
