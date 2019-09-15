@@ -106,3 +106,101 @@ div[style*="width: 100%; height: 20px"] {
     width:100% !important;
 }
 /*search bar*/
+
+
+
+
+/* Server Pills */
+.da-guild,
+.guild-1EfMGQ.folder,
+.friendsOnline-_wi_fM,
+.da-guildsError {
+    margin-left:10px;
+}
+.friendsOnline-2JkivW {
+    margin-left:0px;
+}
+.container-1aNBdK {
+    margin-left:10px;
+}
+
+.guildSeparator-1X4GQ1:after {
+    display:none !important;
+}
+
+.acronym-2mOFsV {
+    transition:250ms ease background;
+    background:rgba(0,0,0,0.5) !important;
+}
+.acronym-2mOFsV:hover {
+    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
+.listItem-2P_4kh {
+    margin-left:10px;
+}
+.pill-31IEus {
+    width:30px;
+    margin-left:-9px;
+}
+.pill-3YxEhL {
+    width:30px;
+    margin-left:-9px;
+}
+.item-2hkk8m {
+    margin-left:8px;
+    border-radius:50px;
+    width:8px !important;
+    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+}
+.guildSeparator-3s64Iy {
+    display:none;
+}
+.button-OhfaWu {
+    background:transparent !important;
+}
+.listItem-2P_4kh:first-child .wrapper-sa6paO {
+    display:none;
+}
+.circleIconButton-jET_ig {
+    margin:0 !important;
+}
+
+.listItem-2P_4kh {
+    position: relative;
+    margin: 0 0 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 72px;
+    contain: layout style;
+}
+#app-mount .wrapper-1Rf91z .wrapper-21YSNc + .listItem-2P_4kh {
+    margin-top: 10px;
+}
+.listItem-2P_4kh {
+    margin-left: 5.5px;
+}
+.expandedFolderBackground-2sPsd- {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    bottom: 24px;
+    width: 48px;
+    border-radius: 24px;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+    background-color: var(--background-secondary);
+}
+.unread-3zKkbm {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-radius: 0 0px 0px 0;
+    top: 00%;
+    left: 0;
+    margin-top: -4px;
+}
+/* Server Pills */
