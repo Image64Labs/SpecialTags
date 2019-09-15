@@ -447,4 +447,11 @@ div[style*="width: 100%; height: 20px"] {
 		transform: translatey(0px)
 	}
 }
+
+.da-activityProfile:hover .bodyAlignCenter-1KzvJk .activityName-1IaRLn, .da-activityProfile:hover .bodyAlignCenter-1KzvJk .nameNormal-2lqVQK, .da-activityProfile:hover .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .da-activityProfile:hover .detailsWrap-22pigg, .da-activityProfile:hover .da-timestamp, .da-activityProfile:hover .da-playTime, .da-activityProfile:hover .da-gameIcon, .da-activityProfile:hover .details-38sfDr, .da-activityProfile:hover .assets-VMAukC, .da-activityProfile:hover .state-Tt0LO3, .da-activityProfile:hover .nameWrap-3Z4G_9 {
+    opacity: 1 !important;
+}
+.da-activityProfile .bodyAlignCenter-1KzvJk .activityName-1IaRLn, .da-activityProfile .bodyAlignCenter-1KzvJk .nameNormal-2lqVQK, .da-activityProfile .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .da-activityProfile .detailsWrap-22pigg, .da-activityProfile .da-timestamp, .da-activityProfile .da-playTime, .da-activityProfile .da-gameIcon, .da-activityProfile .details-38sfDr, .da-activityProfile .assets-VMAukC, .da-activityProfile .state-Tt0LO3, .da-activityProfile .nameWrap-3Z4G_9 {
+    transition: opacity 250ms;
+}
 /* Activity Profile */
