@@ -252,3 +252,76 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
     background-color: var(--main-color-faded);
 }
+
+
+
+
+/* Server No Icon */
+.noIcon-1a_FrS {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    color: #fff;
+}
+
+
+
+
+/* Server No Icon Selected */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
+
+
+
+
+/* DM Background Color */
+.selected-aXhQR6 .layout-2DM8Md {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
+
+.clickable-1JJAn8:hover .layout-2DM8Md {
+    background-color: var(--main-color-faded);
+}
+
+
+
+
+/* Member List Profile Hover */
+#app-mount .members-1998pB .layout-2DM8Md:hover {
+    background: var(--main-color-faded) !important;
+}
+
+
+
+
+/* Dm Hover Background */
+.clickable-1JJAn8:hover .layout-2DM8Md {
+    background-color: var(--main-color-faded) !important;
+}
+
+
+
+
+/* Server Channel Hover Color */
+#app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq:hover .content-3at_AU {
+    background: var(--main-color-faded);
+}
+
+
+
+
+/* Voice Channel Limit */
+#app-mount .sidebar-2K8pFh .container-PNkimc .userLimit-64AFxe .wrapper-pZmgj4 .total-3tKGEB {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
+
+#app-mount .sidebar-2K8pFh .container-PNkimc .userLimit-64AFxe .wrapper-pZmgj4 .users-i_3-kL {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* Main Text Input Background */
+#app-mount form .inner-zqa7da {
+    background: rgba(0, 0, 0, 0.3);
+}
