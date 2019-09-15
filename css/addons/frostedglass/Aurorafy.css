@@ -455,3 +455,25 @@ div[style*="width: 100%; height: 20px"] {
     transition: opacity 250ms;
 }
 /* Activity Profile */
+
+
+
+/* Chat Header */
+.containerCozy-jafyvG {
+  background: rgba(0,0,0,0.4);
+  margin: 15px 15px 0 25px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .dividerEnabled-2TTlcf {
+    border-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+/* Chat Header */
