@@ -325,3 +325,11 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 #app-mount form .inner-zqa7da {
     background: rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+/* Server Channel Unread Background */
+#app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq .wrapper-1ucjTd:not(.modeMuted-3osy7j).modeUnread-1zpFdA .content-3at_AU {
+    background: var(--main-color-faded);
+}
