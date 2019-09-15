@@ -324,3 +324,127 @@ div[style*="width: 100%; height: 20px"] {
     width:5px !important;
 }
 /* Scrollbars */
+
+
+
+/* Activity Profile */
+.da-activityProfile {
+    height:unset !important;
+    max-height:6px;
+    overflow:hidden;
+    background:rgba(0,0,0,0.25);
+    box-shadow:0 0 10px rgba(0,0,0,0.25);
+    transition:500ms ease-out max-height;
+}
+.activityProfile-2bJRaP .assetsLargeImageProfile-3YXDex {
+  margin-top:5px;
+}
+.activityProfile-2bJRaP .details-38sfDr {
+  margin-top:2px;
+}
+.activityProfile-2bJRaP:hover .headerText-1HLrL7:before {
+  transform:rotate(90deg);
+}
+.activityProfile-2bJRaP .headerText-1HLrL7:before {
+  content:'';
+  width:20px;
+  height:20px;
+  position:absolute;
+  filter:brightness(2);
+  transform:rotate(180deg);
+  background-repeat:no-repeat !important;
+  background-size:cover;
+  margin-left:650px;
+  margin-top:-10px !important;
+  transition:250ms transform ease;
+  background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iN3B4IiBoZWlnaHQ9IjEwcHgiIHZpZXdCb3g9IjAgMCA3IDEwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4gICAgICAgIDx0aXRsZT5pY29uLWFycm93PC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPjwvZGVmcz4gICAgPGcgaWQ9IkNvbnRleHQtTWVudXMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPiAgICAgICAgPGcgaWQ9IkNvbnRleHQtTWVudXMtLS1MaWdodCIgc2tldGNoOnR5cGU9Ik1TQXJ0Ym9hcmRHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU2My4wMDAwMDAsIC0xNzguMDAwMDAwKSIgZmlsbD0iIzlGQTZCMCI+ICAgICAgICAgICAgPGcgaWQ9IlVzZXItTWVudSIgc2tldGNoOnR5cGU9Ik1TTGF5ZXJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDExLjAwMDAwMCwgOTUuMDAwMDAwKSI+ICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0xMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC45NjgwMDAsIDcxLjAwMDAwMCkiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTE1MC4zMDQyMDcsMTUuNzA3MTA2OCBMMTU0LjI0MDIwNywxOS43MDcxMDY4IEMxNTQuNjI0NDgzLDIwLjA5NzYzMTEgMTU1LjI0NzUxNywyMC4wOTc2MzExIDE1NS42MzE3OTMsMTkuNzA3MTA2OCBMMTU5LjU2Nzc5MywxNS43MDcxMDY4IEMxNTkuOTUyMDY5LDE1LjMxNjU4MjUgMTU5Ljk1MjA2OSwxNC42ODM0MTc1IDE1OS41Njc3OTMsMTQuMjkyODkzMiBDMTU5LjE4MzUxNywxMy45MDIzNjg5IDE1OC41NjA0ODMsMTMuOTAyMzY4OSAxNTguMTc2MjA3LDE0LjI5Mjg5MzIgTDE1NC4yNDAyMDcsMTguMjkyODkzMiBMMTU1LjYzMTc5MywxOC4yOTI4OTMyIEwxNTEuNjk1NzkzLDE0LjI5Mjg5MzIgQzE1MS4zMTE1MTcsMTMuOTAyMzY4OSAxNTAuNjg4NDgzLDEzLjkwMjM2ODkgMTUwLjMwNDIwNywxNC4yOTI4OTMyIEMxNDkuOTE5OTMxLDE0LjY4MzQxNzUgMTQ5LjkxOTkzMSwxNS4zMTY1ODI1IDE1MC4zMDQyMDcsMTUuNzA3MTA2OCBMMTUwLjMwNDIwNywxNS43MDcxMDY4IFoiIGlkPSJpY29uLWFycm93IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNTQuOTM2MDAwLCAxNy4wMDAwMDApIHJvdGF0ZSgtOTAuMDAwMDAwKSB0cmFuc2xhdGUoLTE1NC45MzYwMDAsIC0xNy4wMDAwMDApICI+PC9wYXRoPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+);
+}
+.activityProfile-2bJRaP .nameNormal-2lqVQK {
+  margin-top:-23px;
+  z-index:10000;
+  position:absolute;
+}
+.da-activityProfile:hover {
+  height:unset !important;
+  max-height:125px;
+}
+.da-modal .bodyAlignCenter-1KzvJk {
+  margin-top:15px;
+}
+.da-activityProfile .bodyAlignCenter-1KzvJk .activityName-1IaRLn,
+.da-activityProfile .bodyAlignCenter-1KzvJk .nameNormal-2lqVQK,
+.da-activityProfile .lookOutlined-3sRXeN.colorWhite-rEQuAQ,
+.da-activityProfile .detailsWrap-22pigg,
+.da-activityProfile .da-timestamp,
+.da-activityProfile .da-playTime,
+.da-activityProfile .da-gameIcon,
+.da-activityProfile .details-38sfDr,
+.da-activityProfile .assets-VMAukC,
+.da-activityProfile .state-Tt0LO3,
+.da-activityProfile .nameWrap-3Z4G_9 {
+  opacity:0;
+  transition:opacity 250ms;
+}
+.da-activityProfile .da-anchor:not(.bodyAlignCenter-1KzvJk) {
+  margin-left:30px;
+  color:#fff !important;
+}
+.da-activityProfile .bodyAlignCenter-1KzvJk .activityName-1IaRLn {
+  margin-top:10px;
+}
+.activityProfile-2bJRaP .contentGameImageProfile-WTVbI0 {
+  margin-bottom:-25px !important;
+}
+.da-activityProfile:hover .bodyAlignCenter-1KzvJk .activityName-1IaRLn,
+.da-activityProfile:hover .bodyAlignCenter-1KzvJk .nameNormal-2lqVQK,
+.da-activityProfile:hover .lookOutlined-3sRXeN.colorWhite-rEQuAQ,
+.da-activityProfile:hover .detailsWrap-22pigg,
+.da-activityProfile:hover .da-timestamp,
+.da-activityProfile:hover .da-playTime,
+.da-activityProfile:hover .da-gameIcon,
+.da-activityProfile:hover .details-38sfDr,
+.da-activityProfile:hover .assets-VMAukC,
+.da-activityProfile:hover .state-Tt0LO3,
+.da-activityProfile:hover .nameWrap-3Z4G_9 {
+  opacity:1 !important;
+}
+.da-activityProfile .da-contentNoImagesProfile .nameNormal-2lqVQK {
+    margin-left:110px;
+}
+.activityProfile-2bJRaP .headerText-1HLrL7 {
+    margin-top:-3px;
+}
+.activityProfile-2bJRaP .headerText-1HLrL7:after {
+    content:'-';
+    font-weight:bold;
+    margin-left:5px;
+}
+@keyframes profile2 {
+	from {
+		transform: translate(0, 100px);
+		opacity: 0;
+	}
+}
+@keyframes profile {
+	from {
+		transform: translate(0, -10px);
+		opacity: 0;}
+}
+.root-SR8cQa {
+	width: 700px;
+}
+@keyframes float {
+	0% {
+		box-shadow:0 5px 15px 0 rgba(0,0,0,1);
+		transform: translatey(0px)
+	}
+	50% {
+		box-shadow:0 5px 15px 0 rgba(0,0,0,.5);
+		transform: translatey(-10px)
+	}
+	100% {
+		box-shadow:0 5px 15px 0 rgba(0,0,0,1);
+		transform: translatey(0px)
+	}
+}
+/* Activity Profile */
