@@ -194,6 +194,9 @@ div[style*="width: 100%; height: 20px"] {
     transition: background-color .15s ease-out;
     background-color: var(--background-secondary);
 }
+.unread-3zKkbm {
+    background: var(--gradient) !important;
+}
 /* Server Pills */
 
 
