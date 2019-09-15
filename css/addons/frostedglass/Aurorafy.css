@@ -201,3 +201,90 @@ div[style*="width: 100%; height: 20px"] {
     margin-top: -4px;
 }
 /* Server Pills */
+
+
+
+/* Emoji Picker */
+.da-emojiPicker .da-scroller::-webkit-scrollbar-thumb {
+	background:var(--gradient) !important;
+}
+.da-emojiPicker .da-scroller::-webkit-scrollbar {
+	width:7px !important;
+}
+#bda-qem {
+	background:transparent !important;
+}
+/*emoji picker scrollbar and shit*/
+.da-emojiPicker .da-scroller::-webkit-scrollbar-track-piece {
+	background:rgba(0,0,0,0.5);
+}
+.fav {
+    background-color:rgba(0,0,0,0.5) !important;
+    border-color:rgba(0,0,0,0.75) !important;
+}
+.da-emojiPicker,
+#bda-qem-twitch-container,
+#bda-qem-favourite-container{
+    background:var(--backdrop) !important;
+    padding:10px 10px 10px 10px;
+    border-radius:0px !important;
+    border:4px solid rgba(0,0,0,0.75) !important;
+    background-size:cover !important;
+    box-shadow:inset 0px 0px 0px 1000px rgba(0,0,0,0.75);
+}
+.da-emojiPicker .da-stickyHeader {
+    border-radius:5px;
+    background:rgba(0,0,0,0.75) !important;
+}
+.da-emojiPicker .da-category {
+    color:var(--hover-color) !important;
+    font-weight:bold;
+    background-color:transparent !important;
+}
+.da-emojiPicker .da-emojiItem {
+    transition:250ms all linear;
+}
+.da-emojiPicker .da-searchBar .da-searchBarInner,
+.da-emojiItem.da-selected,
+.da-diversitySelector .da-popout,
+.da-emojiPicker .da-scroller::-webkit-scrollbar-track {
+    background-color:rgba(0,0,0,0.5) !important;
+    border:none !important;
+}
+#bda-qem button.active, #bda-qem button:hover {
+	background:rgba(0,0,0,0.85) !important;
+}
+#bda-qem-twitch,
+#bda-qem-favourite,
+#bda-qem-emojis,
+#bda-qem button {
+    color:#fff !important;
+    background:rgba(0,0,0,0.75) !important;
+    box-shadow:none;
+    border:none !important;
+}
+.da-emojiPicker .da-categories .da-item,
+.da-emojiPicker .da-sadImage {
+    opacity:0.6;
+    filter:invert(100) brightness(10);
+}
+.da-emojiPicker .da-categories .da-item.da-selected {
+    border-bottom-color:var(--hover-color) !important;
+}
+.da-emojiPicker .da-item:hover,
+.da-emojiPicker .da-item.da-selected {
+    filter:none !important;
+}
+/* Emoji Picker */
+
+
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece { border-color: transparent !important; background: transparent !important; }
+
+::-webkit-scrollbar-thumb { border-radius: 10px !important; border: none !important; background-clip: content-box !important; background: var(--gradient) !important; }
+
+::-webkit-scrollbar-corner { visibility: hidden !important; }
+/* Scrollbars */
