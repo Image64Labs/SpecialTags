@@ -532,3 +532,95 @@ div[style*="width: 100%; height: 20px"] {
 	min-width: 32px!important;
 }
 /* Reactions */
+
+
+
+/* Fancy Headers */
+.name-IbjUBS {
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+.name-IbjUBS {
+  color: var(--main-color) !important;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, transparent, var(--hover-color), var(--main-color), transparent);
+  border-image-slice: 1;
+  margin-top: -7px;
+  text-align: center;
+  opacity: 1 !important;
+}
+
+.membersGroup-v9BXpm {
+  color: var(--main-color) !important;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, transparent, var(--hover-color), var(--main-color), transparent);
+  border-image-slice: 1;
+  padding: 19px 16px 6px 16px;
+  margin: 4px 0px 10px 15px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 3px;
+  width: 175px;
+  line-height: 15px;
+}
+
+.header-zu8eWb {
+  color: var(--main-color);
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, transparent, var(--hover-color), var(--main-color), transparent);
+  border-image-slice: 1;
+  padding: 19px 16px 6px 16px;
+  margin: 4px 0px 10px 15px;
+  padding-top: 14px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 3px;
+  width: 210px;
+}
+.header-zu8eWb {
+  opacity: 1 !important;
+}
+/* Fancy Headers */
+
+
+
+/* Read All Notifications/Public Servers */
+/* Read All Notifications */
+.RANbutton {
+  text-transform: capitalize !important;
+  font-size: 11px !important;
+}
+
+.RANbutton:hover {
+  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
+
+
+/* Public Servers */
+#bd-pub-button {
+  height: 50px !important;
+  -webkit-mask: url("https://zuranasuki.github.io/assets/public_servers_icon.svg");
+  -webkit-mask-size: 40px 40px;
+  -webkit-mask-position: 50%;
+  -webkit-mask-repeat: no-repeat;
+  font-size: 0px !important;
+  background-color: var(--main-color);
+}
+
+#bd-pub-button:hover {
+  background-color: var(--hover-color);
+}
+
+
+#bd-pub-li {
+  height: 50px !important;
+}
+/* Read All Notifications/Public Servers */
+
+
+
+/* #channel Roundness */
+#app-mount .chat-3bRxxu .wrapper-3WhCwL {
+  border-radius: 4px;
+}
+/* #channel Roundness */
