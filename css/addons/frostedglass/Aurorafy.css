@@ -226,7 +226,7 @@ div[style*="width: 100%; height: 20px"] {
 .da-emojiPicker,
 #bda-qem-twitch-container,
 #bda-qem-favourite-container{
-    background:var(--backdrop) !important;
+    background:var(--BG-image) !important;
     padding:10px 10px 10px 10px;
     border-radius:0px !important;
     border:4px solid rgba(0,0,0,0.75) !important;
