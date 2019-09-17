@@ -1,47 +1,36 @@
 :root {
-    --MC-chat-size: 50px;
+    --avatar-size: 70px;
 }
 
-
-
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .container-1YxwTf {
-    padding: 0;
-    min-height: calc(var(--MC-chat-size) + 40px);
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG {
+    min-height: calc(var(--avatar-size) + 40px);
 }
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .container-1YxwTf:before {
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG:before {
     content: "";
     height: 1px;
-    width: calc(100% - 40px);
-    background: hsla(0,0%,100%,.04);
     display: block;
+    background: var(--background-modifier-accent);
     margin: 0 20px;
-    box-sizing: border-box;
+    position: relative;
+    top: -20px;
 }
-#app-mount .messagesWrapper-3lZDfY .divider-3gKybi.divider-3zi9LO + .container-1YxwTf:before {
-    content: none;
-} 
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .container-1YxwTf .wrapper-3t9DeA {
-    height: var(--MC-chat-size) !important;
-    width: var(--MC-chat-size) !important;
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG .headerCozy-2N9HOL {
+    height: auto;
+    margin-bottom: calc(var(--avatar-size) / -1 + 3px);
 }
-.containerCozy-jafyvG .divider-32i8lo {
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG .wrapper-3t9DeA {
+    width: var(--avatar-size) !important;
+    height: var(--avatar-size) !important;
+}
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG .contentCozy-3XX413 {
+    margin-left: calc(var(--avatar-size) + 40px);
+}
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG .dividerEnabled-2TTlcf.divider-32i8lo {
     display: none;
 }
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .container-1YxwTf .avatar-17mtNa {
-    margin: 20px;
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .containerCozy-jafyvG:last-of-type {
+    margin-bottom: 20px;
 }
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .container-1YxwTf .message-1PNnaP:first-of-type .content-3dzVd8 {
-    margin-top: calc(var(--MC-chat-size) / -1);
-}
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .container-1YxwTf .message-1PNnaP:last-of-type .content-3dzVd8 {
-    padding-bottom: 20px;
-}
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .headerCozyMeta-rdohGq {
-    margin-top: 20px;
-}
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .headerCozy-2N9HOL {
-    height: auto;
-}
-#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .content-3dzVd8 {
-    margin-left: calc(var(--MC-chat-size) + 40px);
+#app-mount .content-yTz4x3 .messagesWrapper-3lZDfY .divider-3gKybi.divider-3zi9LO + .containerCozy-jafyvG:before {
+    display: none;
 }
