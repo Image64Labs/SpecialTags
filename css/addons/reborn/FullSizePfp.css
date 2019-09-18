@@ -3,7 +3,6 @@
 
     --profileRadius: 6px;    /* 0 is normal squared edges. Up to 50px for rounded profiles. */
     --color: #fff;         /* Name colour */
-    --nowPlaying: #fff ; /* Now playing status colour */
 }
 
 @keyframes userPopout {
@@ -112,10 +111,6 @@
   z-index: 1;
   border-radius: var(--roundness) !important;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2)!important;
-}
-
-#app-mount .userPopout-3XzG_A .mask-1l8v16 rect[fill="#ffffff"] {
-  fill: var(--nowPlaying);
 }
 
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA rect:not([mask="url(#svg-mask-status-online-mobile)"]) {
