@@ -812,3 +812,12 @@ div[style*="width: 100%; height: 20px"] {
     opacity: 1;
   }
 /* Roles */
+
+
+
+
+/* Remove Header Box Shadow */
+#app-mount .sidebar-2K8pFh .container-PNkimc header {
+    box-shadow: none;
+}
+/* Remove Header Box Shadow */
