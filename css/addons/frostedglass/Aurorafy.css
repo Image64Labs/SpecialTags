@@ -241,7 +241,7 @@ div[style*="width: 100%; height: 20px"] {
     background:rgba(0,0,0,0.75) !important;
 }
 .da-emojiPicker .da-category {
-    color:var(--hover-color) !important;
+    color: rgb(var(--BG-gradient-two)) !important;
     font-weight:bold;
     background-color:transparent !important;
 }
@@ -273,7 +273,7 @@ div[style*="width: 100%; height: 20px"] {
     filter:invert(100) brightness(10);
 }
 .da-emojiPicker .da-categories .da-item.da-selected {
-    border-bottom-color:var(--hover-color) !important;
+    border-bottom-color: rgb(var(--BG-gradient-two)) !important;
 }
 .da-emojiPicker .da-item:hover,
 .da-emojiPicker .da-item.da-selected {
@@ -522,7 +522,7 @@ div[style*="width: 100%; height: 20px"] {
 }
 .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
 	font-weight: bold !important;
-	color: var(--hover-color) !important;
+	color: rgb(var(--BG-gradient-two)) !important;
 }
 .reaction-1ELvT8 .reactionCount-2ddRoS {
 	position: absolute !important;
@@ -542,9 +542,9 @@ div[style*="width: 100%; height: 20px"] {
   padding-bottom: 3px;
 }
 .name-IbjUBS {
-  color: var(--main-color) !important;
+  color: rgb(var(--BG-gradient-one)); !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--main-color), var(--hover-color), transparent);
+  border-image: linear-gradient(90deg, transparent, rgb(var(--BG-gradient-one));, rgb(var(--BG-gradient-two)), transparent);
   border-image-slice: 1;
   margin-top: -7px;
   text-align: center;
@@ -552,9 +552,9 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 .membersGroup-v9BXpm {
-  color: var(--main-color) !important;
+  color: rgb(var(--BG-gradient-one)); !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--main-color), var(--hover-color), transparent);
+  border-image: linear-gradient(90deg, transparent, rgb(var(--BG-gradient-one));, rgb(var(--BG-gradient-two)), transparent);
   border-image-slice: 1;
   padding: 19px 16px 6px 16px;
   margin: 4px 0px 10px 15px;
@@ -566,9 +566,9 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 .header-zu8eWb {
-  color: var(--main-color);
+  color: rgb(var(--BG-gradient-one));;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--main-color), var(--hover-color), transparent);
+  border-image: linear-gradient(90deg, transparent, rgb(var(--BG-gradient-one));, rgb(var(--BG-gradient-two)), transparent);
   border-image-slice: 1;
   padding: 19px 16px 6px 16px;
   margin: 4px 0px 10px 15px;
@@ -605,11 +605,11 @@ div[style*="width: 100%; height: 20px"] {
   -webkit-mask-position: 50%;
   -webkit-mask-repeat: no-repeat;
   font-size: 0px !important;
-  background-color: var(--main-color);
+  background-color: rgb(var(--BG-gradient-one));;
 }
 
 #bd-pub-button:hover {
-  background-color: var(--hover-color);
+  background-color: rgb(var(--BG-gradient-two));
 }
 
 
@@ -922,7 +922,7 @@ div[style*="width: 100%; height: 20px"] {
 
 .layer-v9HyYc[id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7):hover {
   background-color: var(--primary-color) !important;
-  color: var(--main-color);
+  color: rgb(var(--BG-gradient-one));
 }
 
 .layer-v9HyYc[id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover .statusIconText-3b4TkH {
