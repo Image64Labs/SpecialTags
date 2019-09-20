@@ -242,7 +242,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .themed-OHr7kt.item-PXvHYJ:hover {
-    background: var(--main-color-faded);
+    background: rgba(var(--BG-gradient-two),0.2);
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .ui-tab-bar-item.selected {
@@ -250,7 +250,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-    background-color: var(--main-color-faded);
+    background-color: rgba(var(--BG-gradient-two),0.2);
 }
 
 
@@ -279,7 +279,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 }
 
 .clickable-1JJAn8:hover .layout-2DM8Md {
-    background-color: var(--main-color-faded);
+    background-color: rgba(var(--BG-gradient-two),0.2);
 }
 
 
@@ -287,7 +287,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Member List Profile Hover */
 #app-mount .members-1998pB .layout-2DM8Md:hover {
-    background: var(--main-color-faded) !important;
+    background: rgba(var(--BG-gradient-two),0.2) !important;
 }
 
 
@@ -295,7 +295,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Dm Hover Background */
 .clickable-1JJAn8:hover .layout-2DM8Md {
-    background-color: var(--main-color-faded) !important;
+    background-color: rgba(var(--BG-gradient-two),0.2) !important;
 }
 
 
@@ -303,7 +303,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Server Channel Hover Color */
 #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq:hover .content-3at_AU {
-    background: var(--main-color-faded);
+    background: rgba(var(--BG-gradient-two),0.2);
 }
 
 
@@ -331,7 +331,7 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Server Channel Unread Background */
 #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq .wrapper-1ucjTd:not(.modeMuted-3osy7j).modeUnread-1zpFdA .content-3at_AU {
-    background: var(--main-color-faded);
+    background: rgba(var(--BG-gradient-two),0.2);
 }
 
 
