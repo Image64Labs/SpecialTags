@@ -211,7 +211,7 @@ div[style*="width: 100%; height: 20px"] {
     background-color: var(--background-secondary);
 }
 .unread-3zKkbm {
-    background: var(--gradient) !important;
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
 
 .pill-2uzAFe {
@@ -223,7 +223,7 @@ div[style*="width: 100%; height: 20px"] {
 
 /* Emoji Picker */
 .da-emojiPicker .da-scroller::-webkit-scrollbar-thumb {
-	background:var(--gradient) !important;
+	background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
 .da-emojiPicker .da-scroller::-webkit-scrollbar {
 	width:7px !important;
@@ -519,7 +519,7 @@ div[style*="width: 100%; height: 20px"] {
 	opacity: 1 !important;
 }
 .reaction-1ELvT8.reactionMe-23mbRf {
-	background: var(--gradient) !important;
+	background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 	border-radius: 10px;
 	opacity: 1 !important;
 }
