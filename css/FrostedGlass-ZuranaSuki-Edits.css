@@ -16,7 +16,7 @@
 .name-IbjUBS {
   color: var(--main-color) !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--hover-color), var(--main-color), transparent);
+  border-image: linear-gradient(90deg, transparent, var(--main-color), var(--hover-color), transparent);
   border-image-slice: 1;
   margin-top: -7px;
   text-align: center;
@@ -31,7 +31,7 @@
 .membersGroup-v9BXpm {
   color: var(--main-color) !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--hover-color), var(--main-color), transparent);
+  border-image: linear-gradient(90deg, transparent, var(--main-color), var(--hover-color), transparent);
   border-image-slice: 1;
   padding: 19px 16px 6px 16px;
   margin: 4px 0px 10px 15px;
@@ -70,7 +70,7 @@
 .header-zu8eWb {
   color: var(--main-color);
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--hover-color), var(--main-color), transparent);
+  border-image: linear-gradient(90deg, transparent, var(--main-color), var(--hover-color), transparent);
   border-image-slice: 1;
   padding: 19px 16px 6px 16px;
   margin: 4px 0px 10px 15px;
