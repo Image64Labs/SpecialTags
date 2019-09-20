@@ -651,7 +651,7 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .themed-OHr7kt.item-PXvHYJ:hover {
-    background: var(--main-color-faded);
+    background: rgba(var(--BG-gradient-two),0.2);
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .ui-tab-bar-item.selected {
@@ -659,7 +659,7 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-    background-color: var(--main-color-faded);
+    background-color: rgba(var(--BG-gradient-two),0.2);
 }
 /* User Settings Background Colors */
 
@@ -691,7 +691,7 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 .clickable-1JJAn8:hover .layout-2DM8Md {
-    background-color: var(--main-color-faded);
+    background-color: rgba(var(--BG-gradient-two),0.2);
 }
 /* DM Background Color */
 
@@ -700,7 +700,7 @@ div[style*="width: 100%; height: 20px"] {
 
 /* Member List Profile Hover */
 #app-mount .members-1998pB .layout-2DM8Md:hover {
-    background: var(--main-color-faded) !important;
+    background: rgba(var(--BG-gradient-two),0.2) !important;
 }
 /* Member List Profile Hover */
 
@@ -709,7 +709,7 @@ div[style*="width: 100%; height: 20px"] {
 
 /* Dm Hover Background */
 .clickable-1JJAn8:hover .layout-2DM8Md {
-    background-color: var(--main-color-faded) !important;
+    background-color: rgba(var(--BG-gradient-two),0.2) !important;
 }
 /* Dm Hover Background */
 
@@ -718,7 +718,7 @@ div[style*="width: 100%; height: 20px"] {
 
 /* Server Channel Hover Color */
 #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq:hover .content-3at_AU {
-    background: var(--main-color-faded);
+    background: rgba(var(--BG-gradient-two),0.2);
 }
 /* Server Channel Hover Color */
 
@@ -749,7 +749,7 @@ div[style*="width: 100%; height: 20px"] {
 
 /* Server Channel Unread Background */
 #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq .wrapper-1ucjTd:not(.modeMuted-3osy7j).modeUnread-1zpFdA .content-3at_AU {
-    background: var(--main-color-faded);
+    background: rgba(var(--BG-gradient-two),0.2);
 }
 /* Server Channel Unread Background */
 
