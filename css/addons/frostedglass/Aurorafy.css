@@ -1110,6 +1110,17 @@ div[style*="width: 100%; height: 20px"] {
 
 
 
+/* Nitro Tab Subcription Position Fix */
+.details-1YZMDP {
+  min-width: 660px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+/* Nitro Tab Subcription Position Fix */
+
+
+
+
 /* Keyframes */
   @keyframes show-status {
     from {
