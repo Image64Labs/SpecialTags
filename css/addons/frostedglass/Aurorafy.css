@@ -1134,6 +1134,20 @@ div[style*="width: 100%; height: 20px"] {
 
 
 
+/* Text Channel Unread Bar */
+.bar-30k2ka {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    color: transparent;
+}
+
+.text-2e2ZyG {
+    color: white;
+}
+/* Text Channel Unread Bar */
+
+
+
+
 /* Keyframes */
   @keyframes show-status {
     from {
