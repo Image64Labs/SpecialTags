@@ -185,22 +185,14 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 /* Public Servers */
 #bd-pub-button {
-  height: 50px !important;
-  -webkit-mask: url("https://zuranasuki.github.io/assets/public_servers_icon.svg");
-  -webkit-mask-size: 40px 40px;
-  -webkit-mask-position: 50%;
-  -webkit-mask-repeat: no-repeat;
-  font-size: 0px !important;
-  background-color: rgb(var(--BG-gradient-one));
+  text-transform: capitalize !important;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #bd-pub-button:hover {
-  background-color: rgb(var(--BG-gradient-two));
-}
-
-
-#bd-pub-li {
-  height: 50px !important;
+  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
 
 
