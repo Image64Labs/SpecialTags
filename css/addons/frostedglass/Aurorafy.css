@@ -1160,6 +1160,31 @@ div[style*="width: 100%; height: 20px"] {
 
 
 
+/* Spoiler */
+.spoilerText-3p6IlD.hidden-HHr2R9,
+.spoilerText-3p6IlD {
+  background: transparent !important;
+}
+.spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {
+  opacity: 1;
+  filter: blur(5px);
+}
+.spoilerWarning-2aAZq1 {
+  background-color: rgba(0,0,0,0.5) !important;
+  color: #fff !important;
+}
+.spoilerContainer-331r0R:hover .spoilerWarning-2aAZq1 {
+    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
+.isLocalBot-38G0P0 {
+    background:transparent !important;
+    box-shadow:none !important;
+}
+/* Spoiler */
+
+
+
+
 /* Keyframes */
   @keyframes show-status {
     from {
