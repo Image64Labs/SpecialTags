@@ -358,7 +358,6 @@ div[style*="width: 100%; height: 20px"] {
     max-height:6px;
     overflow:hidden;
     background:rgba(0,0,0,0.25);
-    box-shadow:0 0 10px rgba(0,0,0,0.25);
     transition:500ms ease-out max-height;
 }
 .activityProfile-2bJRaP .assetsLargeImageProfile-3YXDex {
