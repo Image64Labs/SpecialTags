@@ -432,6 +432,13 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 
 
 
+/* Server Create/Discover Box Shadow Removal */
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig {
+  box-shadow: none !important;
+}
+
+
+
 
 
 
