@@ -8,3 +8,181 @@
  --main-color: #7289da;
  --hover-color: #7289da;
  }
+
+
+
+
+
+/* Font */
+.name-IbjUBS {
+  font-family: 'Courgette';
+  text-transform: capitalize;
+  font-size: 90%;
+}
+  
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Courgette';
+  text-transform: capitalize;
+  font-weight: 100 !important;
+  font-size: 80%;
+  left: 10px;
+  height: 48px;
+  padding: 0 12px 0 16px;
+}
+  
+.membersGroup-v9BXpm {
+  font-family: 'Courgette';
+  text-transform: capitalize;
+  font-size: 90%;
+}
+  
+.input-2A_zIr {
+  font-family: 'Courgette';
+  text-transform: capitalize;
+}
+  
+.header-2o-2hj .name-3YKhmS {
+  font-family: 'Courgette';
+  font-weight: 500;
+  height: 20px;
+  padding: 0 12px 0 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+  
+.nameTag-3uD-yy .usernameContainer-1fp4nu {
+  font-family: Courgette;
+  color: var(--main-color);
+  padding-left: 1px;
+  font-size: inherit !important;
+  height: inherit !important;
+  line-height: inherit !important;
+}
+
+
+.nameTag-3uD-yy .usernameContainer-1fp4nu .title-eS5yk3 {
+  color: inherit;
+  font-weight: 600 !important;
+}
+  
+.activityName-1IaRLn {
+  font-family: Courgette;
+}
+  
+.headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 {
+  font-family: Courgette;
+}
+  
+.header-zu8eWb {
+  font-family: Courgette;
+  opacity: 1 !important;
+}
+  
+span.username {
+  font-family: Courgette;
+}
+.username-3gJmXY {
+  font-family: Courgette;
+}
+
+
+
+/* DM Labels */
+ .header-zu8eWb {
+   color: var(--main-color);
+   border-bottom: 3px solid;
+   border-image: linear-gradient(90deg, transparent, var(--main-color), transparent);
+   border-image-slice: 1;
+   padding: 19px 16px 6px 16px;
+   margin: 4px 0px 10px 15px;
+   padding-top: 14px;
+   font-weight: 600;
+   text-align: center;
+   border-radius: 3px;
+   width: 210px; 
+}
+
+
+
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
+
+
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+  background: var(--main-color) !important;
+}
+
+.ra-serveritem {
+    margin: 20px;
+    margin-top: 50px !important;
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    contain: layout;
+    pointer-events: auto;
+}
+
+.ra-x-button {
+    background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    float: right;
+    cursor: pointer;
+    color: transparent !important;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 80px;
+}
+
+
+  
+/* User Birthday's */
+.ub-item-inner {
+  background: var(--main-color) !important;
+}
+
+.ub-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
+
+
+/* Custom NSFW Warning Image */
+.theme-dark .image-2LqJex {
+  background-image: url(https://zuranasuki.github.io/assets/kanna_nsfw_warning.png);
+  height: 420px;
+  width: 420px;
+}
+
+
+
+/* Read All Notifications/Public Servers */
+.RANbutton {
+  text-transform: capitalize !important;
+  font-size: 11px !important;
+}
+
+.theme-dark .acronym-2mOFsV {
+  color: #fff;
+}
