@@ -1,6 +1,5 @@
 @import url("https://bdsources.tk/sourcecheck/code.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://monstrousdev.github.io/themes/addons/categoryNameFlair.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
 @import url("https://www.themonster.xyz/styles/google-fonts.css");
 @import url("https://zuranasuki.github.io/css/addons/reborn/UserSettingsIcons.css");
@@ -12,97 +11,6 @@
  }
 
 
-
-
-
-/* Font */
-.name-IbjUBS {
-  font-family: 'Courgette';
-  text-transform: capitalize;
-  font-size: 90%;
-}
-  
-.header-2o-2hj .name-3YKhmS {
-  font-family: 'Courgette';
-  text-transform: capitalize;
-  font-weight: 100 !important;
-  font-size: 80%;
-  left: 10px;
-  height: 48px;
-  padding: 0 12px 0 16px;
-}
-  
-.membersGroup-v9BXpm {
-  font-family: 'Courgette';
-  text-transform: capitalize;
-  font-size: 90%;
-}
-  
-.input-2A_zIr {
-  font-family: 'Courgette';
-  text-transform: capitalize;
-}
-  
-.header-2o-2hj .name-3YKhmS {
-  font-family: 'Courgette';
-  font-weight: 500;
-  height: 20px;
-  padding: 0 12px 0 16px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-  
-.nameTag-3uD-yy .usernameContainer-1fp4nu {
-  font-family: Courgette;
-  color: var(--main-color);
-  padding-left: 1px;
-  font-size: inherit !important;
-  height: inherit !important;
-  line-height: inherit !important;
-}
-
-
-.nameTag-3uD-yy .usernameContainer-1fp4nu .title-eS5yk3 {
-  color: inherit;
-  font-weight: 600 !important;
-}
-  
-.activityName-1IaRLn {
-  font-family: Courgette;
-}
-  
-.headerName-fajvi9, .headerTagUsernameNoNickname-2_H881 {
-  font-family: Courgette;
-}
-  
-.header-zu8eWb {
-  font-family: Courgette;
-  opacity: 1 !important;
-}
-  
-span.username {
-  font-family: Courgette;
-}
-.username-3gJmXY {
-  font-family: Courgette;
-}
-
-
-
-/* DM Labels */
- .header-zu8eWb {
-   color: var(--main-color);
-   border-bottom: 3px solid;
-   border-image: linear-gradient(90deg, transparent, var(--main-color), transparent);
-   border-image-slice: 1;
-   padding: 19px 16px 6px 16px;
-   margin: 4px 0px 10px 15px;
-   padding-top: 14px;
-   font-weight: 600;
-   text-align: center;
-   border-radius: 3px;
-   width: 210px; 
-}
 
 
 
