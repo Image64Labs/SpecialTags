@@ -1,0 +1,10 @@
+@import "https://monstrousdev.github.io/themes/addons/user-tags.css";
+@import "https://monstrousdev.github.io/themes/addons/filter.css";
+@import "https://www.themonster.xyz/styles/google-fonts.css";
+@import url("https://zuranasuki.github.io/css/addons/reborn/UserSettingsIcons.css");
+@import url("https://zuranasuki.github.io/css/SpecialTags.css");
+
+:root { 
+ --main-color: #7289da;
+ --hover-color: #7289da;
+ }
