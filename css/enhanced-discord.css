@@ -96,3 +96,16 @@
 .theme-dark .acronym-2mOFsV {
   color: #fff;
 }
+
+
+
+/* My Account Email Blur */
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg {
+    filter: blur(5px);
+    transition: 250ms filter ease-in-out;
+}
+
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg:hover {
+    filter: blur(0px);
+    transition: 250ms filter ease-in-out;
+}
