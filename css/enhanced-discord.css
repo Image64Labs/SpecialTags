@@ -13,7 +13,6 @@
 
 
 
-
 /* Bigger Emoji */
 .emoji.jumboable {
   height: auto;
@@ -28,64 +27,6 @@
 
 
 
-/* Guild/Friend Removal Alert */
-.ra-serveritem-inner {
-  background: var(--main-color) !important;
-}
-
-.ra-serveritem {
-    margin: 20px;
-    margin-top: 50px !important;
-    display: flex;
-    position: initial;
-    flex-direction: column;
-    contain: layout;
-    pointer-events: auto;
-}
-
-.ra-x-button {
-    background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px;
-    float: right;
-    cursor: pointer;
-    color: transparent !important;
-    width: 15px;
-    height: 15px;
-    margin-bottom: 80px;
-}
-
-
-  
-/* User Birthday's */
-.ub-item-inner {
-  background: var(--main-color) !important;
-}
-
-.ub-x-button {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px;
-  float: right;
-  cursor: pointer;
-  color: transparent !important;
-  width: 15px;
-  height: 15px;
-  margin-bottom: 17.5%;
-}
-
-
-
-/* Custom NSFW Warning Image */
-.theme-dark .image-2LqJex {
-  background-image: url(https://zuranasuki.github.io/assets/kanna_nsfw_warning.png);
-  height: 420px;
-  width: 420px;
-}
-
-
 
 /* Read All Notifications/Public Servers */
 .RANbutton {
@@ -96,6 +37,7 @@
 .theme-dark .acronym-2mOFsV {
   color: #fff;
 }
+
 
 
 
