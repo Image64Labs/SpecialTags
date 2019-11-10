@@ -1,0 +1,102 @@
+@import url("https://bdsources.tk/sourcecheck/code.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
+@import url("https://zuranasuki.github.io/css/addons/reborn/UserSettingsIcons.css");
+@import url("https://zuranasuki.github.io/css/SpecialTags.css");
+
+
+
+
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
+
+
+
+
+/* Read All Notifications/Public Servers */
+.RANbutton {
+  text-transform: capitalize !important;
+  font-size: 11px !important;
+}
+
+.theme-dark .acronym-2mOFsV {
+  color: #fff;
+}
+
+
+
+
+/* My Account Email Blur */
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg {
+    filter: blur(5px);
+    transition: 250ms filter ease-in-out;
+}
+
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg:hover {
+    filter: blur(0px);
+    transition: 250ms filter ease-in-out;
+}
+
+
+
+
+/* Permission Viewer */
+#permissions-modal-wrapper #permissions-modal {
+      background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
+      border-radius: 5px;
+  }
+
+  #permissions-modal-wrapper .header {
+      background: linear-gradient(var(--blurple-sheer), transparent 9001%), var(--stars) top left fixed;
+      box-shadow: none;
+      color: #fff;
+  }
+
+  #permissions-modal-wrapper .modal-body {
+      background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--stars) top left fixed;
+      box-shadow: none;
+  }
+
+  #permissions-modal-wrapper .perm-side {
+      background-color: transparent;
+  }
+
+  #permissions-modal-wrapper .role-side {
+      background-color: transparent;
+  }
+
+  #permissions-modal-wrapper .role-item.selected {
+      background-color: var(--veil);
+  }
+
+  #permissions-modal-wrapper .role-item.selected:hover {
+      background-color: var(--greyple-sheer);
+  }
+
+  #permissions-modal-wrapper .role-item:hover {
+      background-color: var(--blurple-sheer);
+  }
+
+  .role-scroller::-webkit-scrollbar, .perm-scroller::-webkit-scrollbar {
+      width: 5px !important;
+  }
+
+  .role-scroller::-webkit-scrollbar-track-piece, .perm-scroller::-webkit-scrollbar-track-piece {
+     background: transparent !important;
+     border: none !important;
+     border-radius: 10px;
+  }
+
+  .role-scroller::-webkit-scrollbar-thumb, .perm-scroller::-webkit-scrollbar-thumb {
+     border: none;
+     background-color: var(--blurple) !important;
+     border-radius: 10px;
+  }
