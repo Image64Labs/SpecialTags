@@ -28,12 +28,17 @@
 
 /* Read All Notifications/Public Servers */
 .RANbutton {
-  text-transform: capitalize !important;
-  font-size: 11px !important;
+  text-transform: capitalize;
+  font-size: 11px;
 }
 
-.theme-dark .acronym-2mOFsV {
-  color: #fff;
+.childWrapper-anI2G9 {
+   background-color: var(--blurple-sheer);
+   color: #fff;
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+   transition: all 200ms ease-in-out;
 }
 
 
