@@ -111,3 +111,12 @@
      background-color: var(--blurple) !important;
      border-radius: 10px;
   }
+
+
+
+
+/* Better Formating Redux */
+.bf-toolbar::before {
+    background: var(--veil) var(--stars) top left !important;
+    background-attachment: fixed;
+}
