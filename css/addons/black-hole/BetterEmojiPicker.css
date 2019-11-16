@@ -1,6 +1,8 @@
-.emojiPicker-3m1S-j {
+#app-mount .emojiPicker-3m1S-j {
     height: 326px;
     width: 400px;
+}
+.emojiPicker-3m1S-j {
     flex-direction: row-reverse;
     border-radius:5px;
     box-shadow:var(--elevation-high);
