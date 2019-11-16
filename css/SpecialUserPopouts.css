@@ -1,0 +1,137 @@
+@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css');
+
+/* Desolate */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="236421510108020736"] + .status-oxiHuE {
+    --popoutbg:url('https://static.wixstatic.com/media/06469d_28204b0c60a541c1a4289632a2e87134~mv2.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="236421510108020736"] {
+    opacity:.75;
+    animation:keyframeFallBounce .5s ease;
+}
+
+/* Pearlescent Moon */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="561682986479648778"] + .status-oxiHuE {
+  --popoutbg:url('https://static.wixstatic.com/media/06469d_6fb21ed146e940e0912625227ed76e3d~mv2.png') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="561682986479648778"] {
+  animation:keyframePulsePearlescent 1.5s ease infinite;
+  opacity:.8;
+}
+
+/* Image64Labs Girlfriend */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="266406986235510786"] + .status-oxiHuE {
+  --popoutbg:url('https://static.wixstatic.com/media/06469d_038f4e2db18d440f916704e064caa056~mv2.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="266406986235510786"] {
+  animation:keyframePulseMyGirlfriend 1.5s ease infinite;
+  opacity:.8;
+}
+
+/* GreasyKitty */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="334025021645127682"] + .status-oxiHuE {
+  --popoutbg:url('https://static.wixstatic.com/media/06469d_3ef3fdb50d424a659b3f864869e3e838~mv2.jpg') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="334025021645127682"] {
+  animation:keyframePulseGreasyKitty 1.5s ease infinite;
+  opacity:.6;
+}
+
+/* FATFATTY2BY4 */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="236701839888744449"] + .status-oxiHuE {
+  --popoutbg:url('https://static.wixstatic.com/media/06469d_f97ea49242b549ba83830c549c511b8b~mv2.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="236701839888744449"] {
+  animation:keyframePulseGreasyKitty 1.5s ease infinite;
+  opacity:.6;
+}
+
+/* Dyno Premium */
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="168274283414421504"] + .status-oxiHuE {
+  --popoutbg:url('https://static.wixstatic.com/media/06469d_333a614b38f84a35a73a2cc98a5c068e~mv2.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[user_by_bdfdb*="168274283414421504"] {
+  animation:keyframeScaleIn 350ms cubic-bezier(0,0,0,1), keyframeFadeIn 350ms ease;;
+  opacity:.75;
+}
+
+
+/*KEYFRAMES*/
+@keyframes keyframeScaleIn {
+    0% {transform:scale(0);}
+    100% {transform:scale(1);}
+}
+@keyframes keyframeFadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes keyframePulseMain {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px var(--accent);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px var(--accent);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px var(--accent);
+  }
+}
+@keyframes keyframeFallBounce {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  50% {
+    transform: translateY(-20%) scale(0.9, 1.1);
+  }
+  75% {
+    transform: translateY(0)
+  }
+}
+@-webkit-keyframes keyframeTropical {
+  0% {
+    -webkit-box-shadow: 0 0 12px 2px rgb(253, 169, 76);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 2px rgb(253, 169, 76);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 12px 2px rgb(253, 169, 76);
+  }
+}
+@-webkit-keyframes keyframePulsePearlescent {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px #cc2b14;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px #cc2b14;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px #cc2b14;
+  }
+}
+@-webkit-keyframes keyframePulseMyGirlfriend {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px #F855CF;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px #F855CF;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px #F855CF;
+  }
+}
+@-webkit-keyframes keyframePulseGreasyKitty {
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px #B31111;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px #B31111;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px #B31111;
+  }
+}
