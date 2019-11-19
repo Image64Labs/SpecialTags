@@ -304,3 +304,24 @@
   filter: drop-shadow(0 0 3px #CC0000);
   background-color: transparent;
 }
+
+
+/* Special Backgrounds */
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after {
+    background-image: url(https://i.imgur.com/sxvFvSq.gif);
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after {
+    content: '';
+    position: absolute;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    top: -2px;
+    left: -1px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    border-radius: var(--roundness);
+    z-index: -1;
+}
