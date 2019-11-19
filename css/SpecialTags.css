@@ -7,7 +7,8 @@
 /* ========= START OF USER TAGS ============== */
 
   /* before hover */
-.wrapper-3t9DeA[user_by_bdfdb="277988285513596928"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="277988285513596928"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before {
   content: "}";
 }
 
@@ -36,7 +37,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="236421510108020736"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="594351674366099456"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before{
   content: "";
   color: transparent;
   height: 15px;
@@ -122,6 +124,11 @@
   transform: scale(1.5);
   bottom: -5px;
   right: -5px;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before {
+  background-image: url(https://i.imgur.com/vo3kPwA.png);
+  transition: filter .2s ease-in-out;
 }
 
 
@@ -284,4 +291,15 @@
 .wrapper-3t9DeA[user_by_bdfdb*="594351674366099456"]:hover:before {
   animation-name: growIn;
   animation-duration: .2s;
+}
+
+
+
+/* extra hover effects */
+
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before {
+  height: 20px;
+  width: 20px;
+  filter: drop-shadow(0 0 3px #CC0000);
+  background-color: transparent;
 }
