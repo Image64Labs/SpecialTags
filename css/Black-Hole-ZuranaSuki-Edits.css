@@ -181,3 +181,11 @@
    background-color: transparent;
    background: linear-gradient(var(--blurple-sheer), var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
 }
+
+
+
+
+/* Create/Join Server Fix */
+.actionIcon-2IISM_ {
+  filter: none !important;
+}
