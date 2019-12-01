@@ -296,22 +296,13 @@
 
 
 
-/* extra hover effects */
-
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::after {
-  height: 20px;
-  width: 20px;
-  filter: drop-shadow(0 0 3px #CC0000);
-  background-color: transparent;
-}
-
 
 /* Special Backgrounds */
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after {
+.container-1YxwTf .wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before {
     background-image: url(https://i.imgur.com/sxvFvSq.gif);
 }
 
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after {
+.container-1YxwTf .wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before {
     content: '';
     position: absolute;
     height: calc(100% + 4px);
