@@ -1,36 +1,36 @@
 @import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css');
 
 /* Desolate */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="236421510108020736"] {
-    --popoutbg:url('https://i.imgur.com/lsSJ2xn.gif');
+[user_by_bdfdb*="236421510108020736"] {
+    --user-background: url('https://i.imgur.com/lsSJ2xn.gif');
 }
   
 /* Pearlescent Moon */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="561682986479648778"] {
-    --popoutbg:url('https://i.imgur.com/kFCXLc6.png');
+[user_by_bdfdb*="561682986479648778"] {
+    --user-background: url('https://i.imgur.com/kFCXLc6.png');
 }
 
 /* Zurana Suki's Girlfriend */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="266406986235510786"] {
-    --popoutbg:url('https://i.imgur.com/x893vIF.gif');
+[user_by_bdfdb*="266406986235510786"] {
+    --user-background: url('https://i.imgur.com/x893vIF.gif');
 }
   
 /* GreasyKitty */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="334025021645127682"] {
-    --popoutbg:url('https://i.imgur.com/27MkiXs.jpg');
+[user_by_bdfdb*="334025021645127682"] {
+   --user-background: url('https://i.imgur.com/27MkiXs.jpg');
 }
   
 /* FATFATTY2BY4 */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="236701839888744449"] {
-    --popoutbg:url('https://i.imgur.com/KIQnAGa.gif');
+[user_by_bdfdb*="236701839888744449"] {
+    --user-background: url('https://i.imgur.com/KIQnAGa.gif');
 }
   
 /* Dyno Premium */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="168274283414421504"] {
-    --popoutbg:url('https://i.imgur.com/HnIJ2xC.gif');
+[user_by_bdfdb*="168274283414421504"] {
+    --user-background: url('https://i.imgur.com/HnIJ2xC.gif');
 }
 
 /* Autumnal */
-.avatarWrapperNormal-3wFMbf[user_by_bdfdb*="220643828963606534"] {
-    --popoutbg:url('https://i.imgur.com/JPNEeSO.jpg');
+[user_by_bdfdb*="220643828963606534"] {
+    --user-background: url('https://i.imgur.com/JPNEeSO.jpg');
 }
