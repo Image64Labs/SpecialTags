@@ -8,8 +8,7 @@
 /* ========= START OF USER TAGS ============== */
 
   /* after hover */
-.wrapper-3t9DeA[user_by_bdfdb="277988285513596928"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="277988285513596928"]::after {
   content: "}";
 }
 
@@ -38,8 +37,7 @@
 .wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="236421510108020736"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="594351674366099456"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after{
+.wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]::after {
   content: "";
   color: transparent;
   height: 15px;
@@ -127,10 +125,6 @@
   right: -5px;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after {
-  background-image: url(https://i.imgur.com/vo3kPwA.png);
-  transition: filter .2s ease-in-out;
-}
 
 
 
