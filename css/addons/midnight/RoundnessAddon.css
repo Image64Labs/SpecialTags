@@ -1,0 +1,70 @@
+#app-mount .wrapper-3t9DeA,
+#app-mount .wrapper-3t9DeA img {
+  border-radius: var(--roundness) !important;
+}
+
+#app-mount .wrapper-1Rf91z foreignObject img {
+  border-radius: var(--roundness) !important;
+}
+
+.folderIconWrapper-226oVY {
+  border-radius: var(--roundness) !important;
+}
+
+.expandedFolderBackground-2sPsd- {
+  border-radius: var(--roundness) !important;
+}
+
+.iconInactive-98JN5i {
+  border-radius: var(--roundness) !important;
+}
+
+#app-mount .wrapper-3t9DeA .mask-1l8v16 {
+  border-radius: var(--roundness) !important;
+}
+
+#app-mount .circleIconButton-jET_ig {
+  border-radius: var(--roundness) !important;
+}
+
+#app-mount .wrapper-3t9DeA .mask-1l8v16>rect {
+  rx: var(--roundness) !important;
+}
+
+/* in-chat avatar rounding */
+#app-mount .wrapper-3t9DeA,
+#app-mount .avatar-17mtNa img,
+#app-mount .avatar-3elDyV {
+	border-radius: var(--roundness) !important;
+}
+
+/* popout avatar rounding */
+#app-mount .avatarWrapper-3H_478 img {
+	border-radius: var(--roundness) !important;
+}
+#app-mount .wrapper-3t9DeA rect {
+	rx:var(--roundness) !important;
+	ry:var(--roundness) !important;
+}
+#app-mount .avatarWrapper-3H_478 .avatarHint-1qgaV3 {
+  border-radius: var(--roundness) !important;
+}
+
+
+/* memberlist avatar rounding */
+#app-mount .wrapper-3t9DeA img {
+	border-radius: var(--roundness) !important;
+}
+
+/* Profile Modal rounding */
+#app-mount .header-QKLPzZ .avatar-3EQepX::after {
+	border-radius: var(--roundness) !important;
+}
+
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+  border-radius: var(--roundness-2) !important;
+}
+
+.numberBadge-2s8kKX {
+  border-radius: var(--roundness) !important;
+}
