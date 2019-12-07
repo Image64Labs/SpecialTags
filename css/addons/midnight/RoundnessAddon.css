@@ -68,3 +68,7 @@
 .numberBadge-2s8kKX {
   border-radius: var(--roundness) !important;
 }
+
+#app-mount .avatarUploaderInner-3UNxY3 {
+  border-radius: var(--roundness) !important;
+}
