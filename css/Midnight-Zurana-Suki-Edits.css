@@ -1,0 +1,10 @@
+/* Creation Date/Joined At Date Fixes */
+.theme-dark [class*='topSection'] .creationDate {
+  top: 10px;
+  right: 10px;
+}
+
+.theme-dark [class*='topSection'] .joinedAtDate {
+  top: 10px;
+  right: 14px;
+}
