@@ -1,0 +1,26 @@
+:root {
+ --user-roundness:50%;
+ --guilds-roundness:50px;
+}
+
+
+
+
+/* Server in Call */
+.content-3xS9Lh, .listDefault-2y5Z9D .avatarContainer-2inGBK {
+  border-radius: var(--user-roundness) !important;
+}
+
+/* Avatar Uploader */
+#app-mount .avatarUploaderInner-3UNxY3 {
+  border-radius: var(--user-roundness) !important;
+}
+
+/* Profile Modal Avatar Hover */
+#app-mount .header-QKLPzZ .avatar-3EQepX::after {
+  border-radius: var(--user-roundness) !important;
+}
+
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+  border-radius: var(--user-roundness) !important;
+}
