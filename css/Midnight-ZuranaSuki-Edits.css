@@ -32,3 +32,11 @@
   background: var(--accent) !important;
   border-radius: 0px !important;
 }
+
+
+
+
+/* Emoji Stitching Fix */
+.emoji.jumboable {
+  margin-right: 0px;
+}
