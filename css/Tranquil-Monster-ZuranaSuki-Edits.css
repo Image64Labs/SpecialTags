@@ -1,0 +1,323 @@
+/* Imports */
+@import url("https://bdsources.tk/sourcecheck/code.css");
+@import url("https://monstrousdev.github.io/themes/addons/floatingGuildsAdd.css");
+@import url("https://monstrousdev.github.io/themes/addons/categoryNameFlair.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
+@import url("https://zuranasuki.github.io/css/addons/UserSettingsIcons.css");
+
+
+
+
+/* DM Labels */
+ .header-zu8eWb {
+   color: var(--main-color);
+   border-bottom: 3px solid;
+   border-image: linear-gradient(90deg, transparent, var(--main-color), transparent);
+   border-image-slice: 1;
+   padding: 19px 16px 6px 16px;
+   margin: 4px 0px 10px 15px;
+   padding-top: 14px;
+   font-weight: 600;
+   text-align: center;
+   border-radius: 3px;
+   width: 210px; 
+}
+
+
+/* Catergory Margin Fix */
+.name-IbjUBS {
+   padding-top: 0px;
+   padding-bottom: 5px;
+}
+
+
+
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+}
+
+.emoji {
+  min-height: 25px;
+  min-width: 25px;
+}
+
+
+
+/* Guild/Friend Removal Alert */
+.ra-serveritem-inner {
+  background: var(--main-color) !important;
+}
+
+.ra-serveritem {
+    margin: 20px;
+    margin-top: 50px !important;
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    contain: layout;
+    pointer-events: auto;
+}
+
+.ra-x-button {
+    background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    float: right;
+    cursor: pointer;
+    color: transparent !important;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 80px;
+}
+
+
+  
+/* User Birthday's */
+.ub-item-inner {
+  background: var(--main-color) !important;
+}
+
+.ub-x-button {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/cancel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  float: right;
+  cursor: pointer;
+  color: transparent !important;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 17.5%;
+}
+
+
+
+/* Custom NSFW Warning Image */
+.theme-dark .image-2LqJex {
+  background-image: url(https://zuranasuki.github.io/assets/kanna_nsfw_warning.png);
+  height: 420px;
+  width: 420px;
+}
+
+
+
+/* Read All Notifications/Public Servers */
+.RANbutton {
+  text-transform: capitalize !important;
+  font-size: 11px !important;
+}
+
+.theme-dark .acronym-2mOFsV {
+  color: #fff;
+}
+
+
+
+/* No Emote Found Sad Face */
+.theme-dark .forceLightTheme-1nVhlT .sadImage-2ph8SI, .theme-light .sadImage-2ph8SI {
+  -webkit-filter: invert() hue-rotate(-180deg);
+  opacity:0.7;
+}
+
+
+
+/* New VIP Icons */
+[class*="VIP"] {
+  -webkit-mask-image: url(https://zuranasuki.github.io/assets/vip_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-top: -3px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: #fff !important;
+}
+
+[class*="VIP selected"] {
+  -webkit-mask-image: url(https://zuranasuki.github.io/assets/vip_icon.png) !important;
+  cursor: pointer !important;
+  height: 24px !important;
+  margin-top: -3px !important;
+  margin-left: 8px !important;
+  width: 24px !important;
+  background-color: var(--main-color) !important;
+}
+
+
+
+/* Colored PluginRepo & ThemeRepo Loading */
+path[d*="M0.000 183.023 L 0.000 366.046 46.377 366.046 L 92.754 366.046 92.754 312.629 L 92.754 259.213 127.223 259.213 C 174.433 259.213,187.432 257.146,210.766 245.926 C 311.105 197.681,301.344 41.358,195.859 7.193 C 173.603 -0.015,173.838 0.000,80.846 0.000 L 0.000 0.000 0.000 183.023 M157.615 88.195 C 193.007 97.413,198.827 152.678,166.407 171.674 C 158.993 176.019,155.494 176.398,122.807 176.398 L 92.754 176.398 92.754 131.677 L 92.754 86.957 122.807 86.957 C 146.807 86.957,153.819 87.206,157.615 88.195"] {
+  fill: var(--main-color) !important;
+}
+
+path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.097 L 87.151 329.236 129.609 329.236 L 172.067 329.236 172.067 204.097 L 172.067 78.957 215.642 78.957 L 259.218 78.957 259.218 39.479 L 259.218 0.000 129.609 0.000 L 0.000 0.000 0.000 39.479"] {
+  fill: var(--main-color) !important;
+}
+
+
+
+
+/* @mention & #channel color */
+.theme-dark .wrapper-3WhCwL {
+  color: var(--main-color);
+}
+
+.theme-dark .wrapper-3WhCwL:hover {
+  background-color: var(--hover-color);
+}
+
+
+
+
+/* BD Modal */
+.bd-modal-wrapper .footer button {
+  background-color: var(--main-color);
+}
+
+.bd-modal-wrapper .footer button:hover {
+  background-color: var(--hover-color);
+}
+
+
+
+
+/* Server No Icon Fix */
+#app-mount .acronym-2mOFsV:not(.RANbutton) {
+  border-radius: var(--roundness);
+}
+
+
+
+
+
+/* Public Servers */
+#bd-pub-button {
+  height: 50px !important;
+  -webkit-mask: url("https://zuranasuki.github.io/assets/public_servers_icon.svg");
+  -webkit-mask-size: 40px 40px;
+  -webkit-mask-position: 50%;
+  -webkit-mask-repeat: no-repeat;
+  font-size: 0px !important;
+  background-color: var(--main-color);
+}
+
+#bd-pub-button:hover {
+  background-color: var(--hover-color);
+}
+
+
+#bd-pub-li {
+  height: 50px !important;
+}
+
+
+
+
+/* Server Folders Server Icon Roundness Fix */
+.icon-27yU2q, .wrapper-1BJsBx {
+    border-radius: var(--roundness) !important;
+}
+
+
+
+
+/* OnlineFriendCount */
+.theme-dark .friendsOnline-2JkivW {
+    color: #fff !important;
+}
+
+
+/* Server Folders No Icon */
+.noIcon-1a_FrS.iconSizeSmol-2Dw61G {
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+}
+
+
+
+/* Server Create/Discover Box Shadow Removal */
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig {
+  box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
+/* Blurple Fixes */
+
+/* Nitro Logo In Video Share */
+.selectorNitroIcon-2rQO-z g path {
+    fill: var(--main-color);
+}
+
+/* Server No Icon */
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+  background-color: var(--main-color);
+}
+
+.guildAvatarWithoutIcon-1sTmE_ {
+  background: var(--main-color);
+}
+
+/* Friend Notification Toasts Fixes */
+.FriendNotifications-settings .type-toast {
+  background-color: var(--main-color);
+}
+
+.FriendNotifications-settings .settings-avatar {
+  border: 5px solid var(--main-color);
+}
+
+
+/* Improvments Change Log */
+.improved-1F5LIN {
+  color: var(--main-color);
+}
+
+.improved-1F5LIN:after {
+  background-color: var(--main-color);
+}
+
+
+
+/* Server Folders Roundness*/
+#app-mount .expandedFolderBackground-2sPsd-::before {
+  border-radius: var(--roundness);
+}
+
+
+/* AKA Color Fix */
+.akaBadge-1M-1Gw {
+  color: #fff;
+}
+
+
+
+/* Server Folder Server No Icon Color Fix */
+.noIcon-1a_FrS {
+  color: #fff;
+}
+
+
+
+/* Voice User Limit Colors */
+.total-3tKGEB {
+  background-color: var(--main-color) !important;
+  color: #fff;
+}
+
+.total-3tKGEB::after {
+  border-right-color: var(--main-color) !important;
+}
+
+#app-mount .users-i_3-kL {
+  color: #fff;
+}
