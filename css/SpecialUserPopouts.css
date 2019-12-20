@@ -2,16 +2,19 @@
 
 /* Desolate */
 [user_by_bdfdb*="236421510108020736"] {
+    --user-popout-position: center;
     --user-background: url('https://i.imgur.com/lsSJ2xn.gif');
 }
   
 /* Zurana Suki's Girlfriend */
 [user_by_bdfdb*="266406986235510786"] {
+    --user-popout-position: center;
     --user-background: url('https://i.imgur.com/x893vIF.gif');
 }
   
 /* GreasyKitty */
 [user_by_bdfdb*="334025021645127682"] {
+    --user-popout-position: center;
    --user-background: url('https://i.imgur.com/27MkiXs.jpg');
 }
   
@@ -22,15 +25,18 @@
   
 /* Dyno Premium */
 [user_by_bdfdb*="168274283414421504"] {
+    --user-popout-position: center;
     --user-background: url('https://i.imgur.com/HnIJ2xC.gif');
 }
 
 /* Autumnal */
 [user_by_bdfdb*="220643828963606534"] {
+    --user-popout-position: center;
     --user-background: url('https://i.imgur.com/JPNEeSO.jpg');
 }
 
 /* Pearlescent Moon */
 [user_by_bdfdb*="561682986479648778"] {
+    --user-popout-position: center;
     --user-background: url('https://i.imgur.com/kFCXLc6.png');
 }
