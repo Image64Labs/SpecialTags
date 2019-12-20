@@ -516,3 +516,18 @@ path[d*="M0.000 39.479 L 0.000 78.957 43.575 78.957 L 87.151 78.957 87.151 204.0
 #app-mount .users-i_3-kL {
   color: #fff;
 }
+
+
+
+/* Create Server Fix */
+.theme-dark .theme-light .actionIcon-2IISM_ {
+  filter: none !important;
+}
+
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi {
+  background: var(--tertiary-color) !important;
+}
+
+.theme-dark .or-3THJsp, .theme-light .or-3THJsp {
+  background-color: var(--primary-color) !important;
+}
