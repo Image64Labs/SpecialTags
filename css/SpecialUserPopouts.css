@@ -14,12 +14,13 @@
   
 /* GreasyKitty */
 [user_by_bdfdb*="334025021645127682"] {
-    --user-popout-position: center;
+   --user-popout-position: center;
    --user-background: url('https://i.imgur.com/27MkiXs.jpg');
 }
   
 /* FATFATTY2BY4 */
 [user_by_bdfdb*="236701839888744449"] {
+    --user-popout-position: center;
     --user-background: url('https://i.imgur.com/KIQnAGa.gif');
 }
   
