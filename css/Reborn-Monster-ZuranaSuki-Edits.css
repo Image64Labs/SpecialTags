@@ -186,14 +186,15 @@ span.username {
 
 /* Read All Notifications/Public Servers */
 .RANbutton {
+  border: 2px solid var(--main-color);
+  color: #fff !important;
   text-transform: capitalize !important;
   font-size: 11px !important;
 }
 
-.theme-dark .acronym-2mOFsV {
-  color: #fff;
+.RANbutton:hover {
+  background-color: var(--main-color) !important;
 }
-
 
 
 /* No Emote Found Sad Face */
