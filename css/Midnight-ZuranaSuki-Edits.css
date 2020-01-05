@@ -40,3 +40,16 @@
 .emoji.jumboable {
   margin-right: 0px;
 }
+
+
+
+
+/* Roundness Fixes */
+/* Unread Badge */
+.numberBadge-2s8kKX {
+  border-radius: var(--guilds-roundness);
+}
+/* DM Search Icon */
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+  border-radius: var(--user-roundness);
+}
