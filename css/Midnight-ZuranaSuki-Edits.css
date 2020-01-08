@@ -40,3 +40,13 @@
 .emoji.jumboable {
   margin-right: 0px;
 }
+
+
+
+
+/* Bigger Emoji */
+.emoji.jumboable {
+  height: auto;
+  width: 70px;
+  max-height: 100px;
+}
