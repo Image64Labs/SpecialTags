@@ -33,3 +33,8 @@
   border-radius: var(--user-roundness);
 }
 
+/* Icon Badges */
+.iconBadge-2wi9r4 {
+  border-radius: var(--guilds-roundness);
+}
+
