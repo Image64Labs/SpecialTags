@@ -37,7 +37,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="334025021645127682"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="236421510108020736"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="594351674366099456"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]::after {
   content: "";
   color: transparent;
@@ -112,13 +111,6 @@
   right: -5px;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]::after {
-  background-image: url(https://i.imgur.com/WBWqLY5.gif);
-  transform: scale(1.5);
-  bottom: -5px;
-  right: -5px;
-}
-
 .wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]::after {
   background-image: url(https://static.wixstatic.com/media/06469d_e17c344066e0480bbddabad93aac1dec~mv2.gif);
   transform: scale(1.5);
@@ -141,7 +133,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="334025021645127682"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="236421510108020736"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="594351674366099456"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]:hover::after {
   transform: none;
   background-size: cover;
@@ -222,14 +213,6 @@
   bottom: -15px;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]:hover::after {
-  content: "Guardian Angel";
-  background-image: url(https://i.imgur.com/Obfoy5C.gif);
-  color: #fff;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  bottom: -15px;
-}
-
 .wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]:hover::after {
   content: "PREMIUM!";
   background-image: url(https://zuranasuki.github.io/assets/rainbow2.gif);
@@ -255,7 +238,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="334025021645127682"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="236421510108020736"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="594351674366099456"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="561682986479648778"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="168274283414421504"]:hover::after {
   display: block;
   background-color: transparent;
@@ -278,7 +260,6 @@
   animation-duration: .4s;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb*="561682986479648778"]:hover:after,
 .wrapper-3t9DeA[user_by_bdfdb*="236421510108020736"]:hover:after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
