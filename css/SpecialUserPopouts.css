@@ -35,9 +35,3 @@
     --user-popout-position: center;
     --user-background: url('https://i.imgur.com/JPNEeSO.jpg');
 }
-
-/* Pearlescent Moon */
-[user_by_bdfdb*="561682986479648778"] {
-    --user-popout-position: center;
-    --user-background: url('https://i.imgur.com/kFCXLc6.png');
-}
