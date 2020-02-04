@@ -15,7 +15,7 @@
 
 
   /* on hover */
-.avatar-1BDn8e[src*="277988285513596928"] ~ span::after {
+.avatar-1BDn8e[src*="277988285513596928"]:hover ~ span::after {
   content: "AHHHHHHHHHHHHHHHHHHHHHHH";
   --main-color: #7f0000; 
 }
