@@ -198,19 +198,6 @@
 }
 
 
-.avatar-1BDn8e[src*="312782599439515650"] ~ span::after,
-.avatar-1BDn8e[src*="266406986235510786"] ~ span::after,
-.avatar-1BDn8e[src*="220643828963606534"] ~ span::after,
-.avatar-1BDn8e[src*="218048901167579137"] ~ span::after,
-.avatar-1BDn8e[src*="236701839888744449"] ~ span::after,
-.avatar-1BDn8e[src*="334025021645127682"] ~ span::after,
-.avatar-1BDn8e[src*="236421510108020736"] ~ span::after,
-.avatar-1BDn8e[src*="594351674366099456"] ~ span::after,
-.avatar-1BDn8e[src*="168274283414421504"] ~ span::after {
-  display: block;
-  background-color: transparent;
-  box-shadow: none;
-}
 
 
 
@@ -236,27 +223,4 @@
 .avatar-1BDn8e[user_by_bdfdb*="594351674366099456"] ~ span::after {
   animation-name: growIn;
   animation-duration: .2s;
-}
-
-
-
-
-/* Special Backgrounds */
-.container-1YxwTf .avatar-1BDn8e[src*="231827402102276096"] ~ span::before {
-    background-image: url(https://i.imgur.com/sxvFvSq.gif);
-}
-
-.container-1YxwTf .avatar-1BDn8e[src*="231827402102276096"] ~ span::before {
-    content: '';
-    position: absolute;
-    height: calc(100% + 4px);
-    width: calc(100% + 4px);
-    top: -2px;
-    left: -1px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    pointer-events: none;
-    border-radius: var(--roundness);
-    z-index: -1;
 }
