@@ -202,25 +202,25 @@
 
 
 /* Tag Animations */
-.avatar-1BDn8e[user_by_bdfdb*="334025021645127682"] ~ span::after,
-.avatar-1BDn8e[user_by_bdfdb*="236701839888744449"] ~ span::after,
-.avatar-1BDn8e[user_by_bdfdb*="218048901167579137"] ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="334025021645127682"]:hover ~ span::after,
+.avatar-1BDn8e[user_by_bdfdb*="236701839888744449"]:hover ~ span::after,
+.avatar-1BDn8e[user_by_bdfdb*="218048901167579137"]:hover ~ span::after {
   animation-name: tagFadeRight;
   animation-duration: .2s;
   animation-iteration-count: 1;
 }
 
-.avatar-1BDn8e[user_by_bdfdb*="266406986235510786"] ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="266406986235510786"]:hover ~ span::after {
   animation-name: scaleSpin;
   animation-duration: .4s;
 }
 
-.avatar-1BDn8e[user_by_bdfdb*="236421510108020736"] ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="236421510108020736"]:hover ~ span::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
-.avatar-1BDn8e[user_by_bdfdb*="220643828963606534"] ~ span::after,
-.avatar-1BDn8e[user_by_bdfdb*="594351674366099456"] ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="220643828963606534"]:hover ~ span::after,
+.avatar-1BDn8e[user_by_bdfdb*="594351674366099456"]:hover ~ span::after {
   animation-name: growIn;
   animation-duration: .2s;
 }
