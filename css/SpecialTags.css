@@ -9,13 +9,13 @@
 /* ========= START OF USER TAGS ============== */
 
   /* after hover */
-.avatar-1BDn8e[src*="277988285513596928"] ~ span::after {
+.avatar-1BDn8e[src*="277988285513596928"] + span::after {
   content: "}";
 }
 
 
   /* on hover */
-.avatar-1BDn8e[src*="277988285513596928"]:hover ~ span::after {
+.avatar-1BDn8e[src*="277988285513596928"]:hover + span::after {
   content: "AHHHHHHHHHHHHHHHHHHHHHHH";
   --main-color: #7f0000; 
   color: #fff;
@@ -30,15 +30,15 @@
 
 
 /* badges */
-.avatar-1BDn8e[src*="312782599439515650"] ~ span::after,
-.avatar-1BDn8e[src*="266406986235510786"] ~ span::after,
-.avatar-1BDn8e[src*="220643828963606534"] ~ span::after,
-.avatar-1BDn8e[src*="218048901167579137"] ~ span::after,
-.avatar-1BDn8e[src*="236701839888744449"] ~ span::after,
-.avatar-1BDn8e[src*="334025021645127682"] ~ span::after,
-.avatar-1BDn8e[src*="236421510108020736"] ~ span::after,
-.avatar-1BDn8e[src*="594351674366099456"] ~ span::after,
-.avatar-1BDn8e[src*="168274283414421504"] ~ span::after {
+.avatar-1BDn8e[src*="312782599439515650"] + span::after,
+.avatar-1BDn8e[src*="266406986235510786"] + span::after,
+.avatar-1BDn8e[src*="220643828963606534"] + span::after,
+.avatar-1BDn8e[src*="218048901167579137"] + span::after,
+.avatar-1BDn8e[src*="236701839888744449"] + span::after,
+.avatar-1BDn8e[src*="334025021645127682"] + span::after,
+.avatar-1BDn8e[src*="236421510108020736"] + span::after,
+.avatar-1BDn8e[src*="594351674366099456"] + span::after,
+.avatar-1BDn8e[src*="168274283414421504"] + span::after {
   content: '';
   color: transparent;
   height: 15px;
@@ -55,43 +55,43 @@
 
 
 /* icons */
-.avatar-1BDn8e[src*="312782599439515650"] ~ span::after {
+.avatar-1BDn8e[src*="312782599439515650"] + span::after {
   background-image: url(https://i.imgur.com/NKuhfAl.png);
 }
 
-.avatar-1BDn8e[src*="266406986235510786"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_692a25865a7d454f8ed2f7cf61cc6b40~mv2_d_1385_1385_s_2.png);
+.avatar-1BDn8e[src*="266406986235510786"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_692a25865a7d454f8ed2f7cf61cc6b40+mv2_d_1385_1385_s_2.png);
 }
 
-.avatar-1BDn8e[src*="220643828963606534"] ~ span::after {
+.avatar-1BDn8e[src*="220643828963606534"] + span::after {
   background-image: url(https://i.imgur.com/2S5afkk.gif);
 }
 
-.avatar-1BDn8e[src*="218048901167579137"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_bd265f873e6b4e2d987dc24a53de9e57~mv2.gif);
+.avatar-1BDn8e[src*="218048901167579137"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_bd265f873e6b4e2d987dc24a53de9e57+mv2.gif);
 }
 
-.avatar-1BDn8e[src*="236701839888744449"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_6dae36e261b84d8aa0dbd26e4bbff50c~mv2.gif);
+.avatar-1BDn8e[src*="236701839888744449"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_6dae36e261b84d8aa0dbd26e4bbff50c+mv2.gif);
 }
 
-.avatar-1BDn8e[src*="334025021645127682"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_49c0ae16fe8344e9b80102a1bbc82944~mv2.gif);
+.avatar-1BDn8e[src*="334025021645127682"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_49c0ae16fe8344e9b80102a1bbc82944+mv2.gif);
 }
 
-.avatar-1BDn8e[src*="236421510108020736"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_e66f7713b32b476c9f0eae1c0a8b2fee~mv2.gif);
+.avatar-1BDn8e[src*="236421510108020736"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_e66f7713b32b476c9f0eae1c0a8b2fee+mv2.gif);
   -webkit-filter: hue-rotate(360deg) invert();
   animation: hue-rotate 1.5s linear infinite;
   color: var(--main-color);
 }
 
-.avatar-1BDn8e[src*="594351674366099456"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_a306cdaa55734fb894d0c9b3ac323a2d~mv2.gif);
+.avatar-1BDn8e[src*="594351674366099456"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_a306cdaa55734fb894d0c9b3ac323a2d+mv2.gif);
 }
 
-.avatar-1BDn8e[src*="168274283414421504"] ~ span::after {
-  background-image: url(https://static.wixstatic.com/media/06469d_e17c344066e0480bbddabad93aac1dec~mv2.gif);
+.avatar-1BDn8e[src*="168274283414421504"] + span::after {
+  background-image: url(https://static.wixstatic.com/media/06469d_e17c344066e0480bbddabad93aac1dec+mv2.gif);
 }
 
 
@@ -101,15 +101,15 @@
 
 
 /* badges on hover */
-.avatar-1BDn8e[src*="312782599439515650"]:hover ~ span::after,
-.avatar-1BDn8e[src*="266406986235510786"]:hover ~ span::after,
-.avatar-1BDn8e[src*="220643828963606534"]:hover ~ span::after,
-.avatar-1BDn8e[src*="218048901167579137"]:hover ~ span::after,
-.avatar-1BDn8e[src*="236701839888744449"]:hover ~ span::after,
-.avatar-1BDn8e[src*="334025021645127682"]:hover ~ span::after,
-.avatar-1BDn8e[src*="236421510108020736"]:hover ~ span::after,
-.avatar-1BDn8e[src*="594351674366099456"]:hover ~ span::after,
-.avatar-1BDn8e[src*="168274283414421504"]:hover ~ span::after {
+.avatar-1BDn8e[src*="312782599439515650"]:hover + span::after,
+.avatar-1BDn8e[src*="266406986235510786"]:hover + span::after,
+.avatar-1BDn8e[src*="220643828963606534"]:hover + span::after,
+.avatar-1BDn8e[src*="218048901167579137"]:hover + span::after,
+.avatar-1BDn8e[src*="236701839888744449"]:hover + span::after,
+.avatar-1BDn8e[src*="334025021645127682"]:hover + span::after,
+.avatar-1BDn8e[src*="236421510108020736"]:hover + span::after,
+.avatar-1BDn8e[src*="594351674366099456"]:hover + span::after,
+.avatar-1BDn8e[src*="168274283414421504"]:hover + span::after {
   color: white;
   transform: none;
   background-size: cover;
@@ -132,58 +132,58 @@
 
 
 /* content */
-.avatar-1BDn8e[src*="312782599439515650"]:hover ~ span::after {
+.avatar-1BDn8e[src*="312782599439515650"]:hover + span::after {
   content: "Keeper of Lolis";
   color: #b591d4;
   background-image: url(https://i.imgur.com/n0r9mnG.gif);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.avatar-1BDn8e[src*="266406986235510786"]:hover ~ span::after {
+.avatar-1BDn8e[src*="266406986235510786"]:hover + span::after {
   content: "Zurana Suki's Waifu";
-  background-image: url(https://static.wixstatic.com/media/06469d_08b42652ff4e40ca990a0358cee431d9~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_08b42652ff4e40ca990a0358cee431d9+mv2.gif);
   color: #fff;
 }
 
-.avatar-1BDn8e[src*="220643828963606534"]:hover ~ span::after {
+.avatar-1BDn8e[src*="220643828963606534"]:hover + span::after {
   content: "Birb Mother";
   background-image: url(https://i.imgur.com/kDbAHfF.png);
   color: #ffd0cf;
 }
 
-.avatar-1BDn8e[src*="218048901167579137"]:hover ~ span::after {
+.avatar-1BDn8e[src*="218048901167579137"]:hover + span::after {
   content: "Organization XIII";
-  background-image: url(https://static.wixstatic.com/media/06469d_bec6a4b4e0a74e55ba412847152e5224~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_bec6a4b4e0a74e55ba412847152e5224+mv2.gif);
   color: #fff;
 }
 
-.avatar-1BDn8e[src*="236701839888744449"]:hover ~ span::after {
+.avatar-1BDn8e[src*="236701839888744449"]:hover + span::after {
   content: "Big Fox";
-  background-image: url(https://static.wixstatic.com/media/06469d_4b1eeca9e4054592b4c67fe8ebfa1a81~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_4b1eeca9e4054592b4c67fe8ebfa1a81+mv2.gif);
   color: white;
 }
 
-.avatar-1BDn8e[src*="334025021645127682"]:hover ~ span::after {
+.avatar-1BDn8e[src*="334025021645127682"]:hover + span::after {
   content: "Little Fox";
   color: white;
-  background-image: url(https://static.wixstatic.com/media/06469d_4b1eeca9e4054592b4c67fe8ebfa1a81~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_4b1eeca9e4054592b4c67fe8ebfa1a81+mv2.gif);
 }
 
-.avatar-1BDn8e[src*="236421510108020736"]:hover ~ span::after {
+.avatar-1BDn8e[src*="236421510108020736"]:hover + span::after {
   content: "Forever Alone";
   color: #fff;
-  background-image: url(https://static.wixstatic.com/media/06469d_4681bfef3263455ba309be643830a23f~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_4681bfef3263455ba309be643830a23f+mv2.gif);
   background-size: cover;
   background-position: center;
 }
 
-.avatar-1BDn8e[src*="594351674366099456"]:hover ~ span::after {
+.avatar-1BDn8e[src*="594351674366099456"]:hover + span::after {
   content: "Meow";
-  background-image: url(https://static.wixstatic.com/media/06469d_78ae128c080f4477b0a3fd5e0078cfdc~mv2.gif);
+  background-image: url(https://static.wixstatic.com/media/06469d_78ae128c080f4477b0a3fd5e0078cfdc+mv2.gif);
   color: #fff;
 }
 
-.avatar-1BDn8e[src*="168274283414421504"]:hover ~ span::after {
+.avatar-1BDn8e[src*="168274283414421504"]:hover + span::after {
   content: "PREMIUM!";
   background-image: url(https://zuranasuki.github.io/assets/rainbow2.gif);
   -webkit-filter: hue-rotate(360deg) invert();
@@ -203,25 +203,25 @@
 
 
 /* Tag Animations */
-.avatar-1BDn8e[user_by_bdfdb*="334025021645127682"]:hover ~ span::after,
-.avatar-1BDn8e[user_by_bdfdb*="236701839888744449"]:hover ~ span::after,
-.avatar-1BDn8e[user_by_bdfdb*="218048901167579137"]:hover ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="334025021645127682"]:hover + span::after,
+.avatar-1BDn8e[user_by_bdfdb*="236701839888744449"]:hover + span::after,
+.avatar-1BDn8e[user_by_bdfdb*="218048901167579137"]:hover + span::after {
   animation-name: tagFadeRight;
   animation-duration: .2s;
   animation-iteration-count: 1;
 }
 
-.avatar-1BDn8e[user_by_bdfdb*="266406986235510786"]:hover ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="266406986235510786"]:hover + span::after {
   animation-name: scaleSpin;
   animation-duration: .4s;
 }
 
-.avatar-1BDn8e[user_by_bdfdb*="236421510108020736"]:hover ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="236421510108020736"]:hover + span::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
-.avatar-1BDn8e[user_by_bdfdb*="220643828963606534"]:hover ~ span::after,
-.avatar-1BDn8e[user_by_bdfdb*="594351674366099456"]:hover ~ span::after {
+.avatar-1BDn8e[user_by_bdfdb*="220643828963606534"]:hover + span::after,
+.avatar-1BDn8e[user_by_bdfdb*="594351674366099456"]:hover + span::after {
   animation-name: growIn;
   animation-duration: .2s;
 }
