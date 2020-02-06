@@ -12,15 +12,13 @@
 
  @keyframes growInPulse { /* 0.8s */
   0% {
-    transform: scale(0);
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
   }
-  25% {
-    transform: scale(1);
-    -webkit-box-shadow: 0 0 .1vh var(--main-color);
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
   }
   100% {
-    transform: scale(1);
-    -webkit-box-shadow: 0 0 .1vh 1vh transparent;
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
 
