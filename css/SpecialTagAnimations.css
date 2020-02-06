@@ -16,11 +16,11 @@
   }
   25% {
     transform: scale(1);
-    box-shadow: 0 0 .1vh var(--main-color);
+    -webkit-box-shadow: 0 0 .1vh var(--main-color);
   }
   100% {
     transform: scale(1);
-    box-shadow: 0 0 .1vh 1vh transparent;
+    -webkit-box-shadow: 0 0 .1vh 1vh transparent;
   }
 }
 
