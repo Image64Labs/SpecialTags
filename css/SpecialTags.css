@@ -172,6 +172,7 @@
 .avatar-1BDn8e[src*="236421510108020736"]:hover + span::after {
   content: "Forever Alone";
   color: #fff;
+  --main-color: #0567E1;
   background-image: url(https://i.imgur.com/Ds9cuDe.gif);
   background-size: cover;
   background-position: center;
